@@ -1,0 +1,6 @@
+{
+  "name": "GEAR PRO STORE",
+  "description": "ร้านอุปกรณ์คอมพิวเตอร์และเกมมิ่งเกียร์ของแท้ — เมาส์ คีย์บอร์ด หูฟัง ไมโครโฟน และอุปกรณ์จัดโต๊ะคอม ณ วิทยาลัยอาชีวศึกษาเอเซีย",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #0B192C;
+    --bg-card: #152A42;
+    --accent-gold: #D6B45A;
+    --accent-blue: #2196F3;
+    --accent-cyan: #00E5FF;
+    --accent-magenta: #D946EF;
+    --text-primary: #FFFFFF;
+    --text-secondary: #CBD5E1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #0B192C;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans Thai", "Outfit", system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: "Outfit", "IBM Plex Sans Thai", system-ui, sans-serif;
+  }
+
+  .font-mono-num {
+    font-family: "JetBrains Mono", "IBM Plex Sans Thai", monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom subtle scrollbar matching navy & gold aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B192C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E3A5A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D6B45A;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
