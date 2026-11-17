@@ -7,18 +7,20 @@ import { useEffect, useState } from 'react';
 import { CartDrawer } from './components/CartDrawer';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
+import { PrivacyPolicyModal } from './components/PrivacyPolicyModal';
 import { ProductModal } from './components/ProductModal';
 import { PRODUCTS } from './data/catalog';
 import { CatalogPage } from './pages/CatalogPage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { ContactPage } from './pages/ContactPage';
+import { HomePage } from './pages/HomePage';
 import { PromotionsPage } from './pages/PromotionsPage';
 import { CartItem, CategoryId, PageId, Product } from './types';
 
 const CART_STORAGE_KEY = 'gear_pro_store_cart_v1';
 
 export default function App() {
-  const [activePage, setActivePage] = useState<PageId>(PageId.Catalog);
+  const [activePage, setActivePage] = useState<PageId>(PageId.Home);
   const [selectedCategory, setSelectedCategory] = useState<CategoryId>(CategoryId.All);
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
@@ -33,6 +35,7 @@ export default function App() {
   });
   const [cartOpen, setCartOpen] = useState(false);
   const [modalProduct, setModalProduct] = useState<Product | null>(null);
+  const [privacyOpen, setPrivacyOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -54,6 +57,11 @@ export default function App() {
       }
       return [...prev, { product, quantity }];
     });
+  };
+
+  const handleAddItemsToCart = (items: CartItem[]) => {
+    items.forEach((item) => handleAddToCart(item.product, item.quantity));
+    setCartOpen(true);
   };
 
   const handleAddBundle = () => {
@@ -105,6 +113,19 @@ export default function App() {
       />
 
       <main className="flex-1">
+        {activePage === PageId.Home && (
+          <HomePage
+            onNavigate={(page) => {
+              setActivePage(page);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            onBrowseCategory={handleBrowseCategory}
+            onSelectProduct={setModalProduct}
+            onAddItemsToCart={handleAddItemsToCart}
+            onOpenPrivacyPolicy={() => setPrivacyOpen(true)}
+          />
+        )}
+
         {activePage === PageId.Catalog && (
           <CatalogPage
             selectedCategory={selectedCategory}
@@ -138,7 +159,10 @@ export default function App() {
         {activePage === PageId.Contact && <ContactPage />}
       </main>
 
-      <Footer onNavigate={setActivePage} />
+      <Footer
+        onNavigate={setActivePage}
+        onOpenPrivacyPolicy={() => setPrivacyOpen(true)}
+      />
 
       <CartDrawer
         isOpen={cartOpen}
@@ -154,6 +178,11 @@ export default function App() {
         product={modalProduct}
         onClose={() => setModalProduct(null)}
         onAddToCart={handleAddToCart}
+      />
+
+      <PrivacyPolicyModal
+        isOpen={privacyOpen}
+        onClose={() => setPrivacyOpen(false)}
       />
     </div>
   );

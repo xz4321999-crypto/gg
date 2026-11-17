@@ -3,16 +3,15 @@ import {
   ArrowRight,
   Check,
   Eye,
-  Package,
   Search,
   ShoppingCart,
   SlidersHorizontal,
-  Star,
 } from 'lucide-react';
-import { BESTSELLERS, CATEGORIES, PRODUCTS } from '../data/catalog';
+import { CATEGORIES, PRODUCTS } from '../data/catalog';
 import { CategoryId, PageId, Product } from '../types';
 import { formatThb } from '../utils/promotions';
 import { BestsellerCarousel } from '../components/BestsellerCarousel';
+import { BestsellersSection } from '../components/BestsellersSection';
 import { ProductVisual } from '../components/ProductVisual';
 
 interface CatalogPageProps {
@@ -145,150 +144,12 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
         </div>
       </section>
 
-      {/* Featured / Bestsellers Section (5 items, each with 3 distinct content blocks) */}
-      <section className="border-b border-[#D6B45A]/30 bg-[#0B192C] py-12">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
-            <div>
-              <p className="text-xs font-semibold tracking-wider text-[#D6B45A]">
-                FEATURED BESTSELLERS · สินค้าขายดีประจำร้าน
-              </p>
-              <h2 className="mt-1.5 font-display text-2xl font-bold text-white sm:text-3xl">
-                สินค้าขายดี 5 อันดับยอดนิยม
-              </h2>
-            </div>
-            <p className="max-w-md text-xs leading-relaxed text-[#CBD5E1] sm:text-sm">
-              เจาะลึกข้อมูลสินค้า สเปกเทคนิค และอุปกรณ์ภายในกล่องของ 5 รุ่นที่ได้รับความนิยมสูงสุด
-            </p>
-          </div>
-
-          <div className="mt-8 space-y-6">
-            {BESTSELLERS.map((bestseller) => {
-              const product = PRODUCTS.find((p) => p.id === bestseller.productId);
-              if (!product) return null;
-              const isAdded = !!addedMap[product.id];
-
-              return (
-                <article
-                  key={product.id}
-                  className="rounded-xl border border-[#D6B45A] bg-[#152A42] p-5 transition-all duration-150 hover:shadow-[0_0_24px_rgba(33,150,243,0.18)] sm:p-6"
-                >
-                  <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
-                    {/* Content Block 1: Visual, Identity, Price & Purchase */}
-                    <div className="flex flex-col justify-between gap-4 lg:col-span-4 lg:border-r lg:border-white/10 lg:pr-6">
-                      <div className="flex gap-4 sm:items-center">
-                        <div className="h-24 w-28 shrink-0 overflow-hidden rounded-lg border border-[#D6B45A]/50 bg-[#0B192C]">
-                          <ProductVisual
-                            src={product.image}
-                            alt={product.name}
-                            category={product.category}
-                            className="h-full w-full object-cover"
-                          />
-                        </div>
-                        <div className="min-w-0">
-                          <div className="flex items-center gap-2 text-xs text-[#D6B45A]">
-                            <Star className="h-3.5 w-3.5 fill-[#D6B45A]" />
-                            <span className="font-mono-num font-bold">
-                              อันดับ #{bestseller.rank}
-                            </span>
-                            <span aria-hidden="true">·</span>
-                            <span className="text-[#CBD5E1]">{product.brand}</span>
-                          </div>
-                          <h3 className="mt-1 font-display text-base font-bold leading-snug text-white">
-                            {product.name}
-                          </h3>
-                          <p className="mt-1 text-xs text-[#00E5FF]">{bestseller.taglineTh}</p>
-                        </div>
-                      </div>
-
-                      <p className="text-xs leading-relaxed text-[#CBD5E1]">
-                        {bestseller.block1Highlight}
-                      </p>
-
-                      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-3">
-                        <span className="font-mono-num text-xl font-bold text-[#D6B45A]">
-                          ฿{formatThb(product.price)}
-                        </span>
-                        <div className="flex items-center gap-2">
-                          <button
-                            type="button"
-                            onClick={() => onSelectProduct(product)}
-                            className="inline-flex min-h-[38px] items-center gap-1.5 rounded-lg border border-white/20 bg-[#0B192C] px-3 py-1.5 text-xs font-medium text-[#CBD5E1] hover:border-[#D6B45A] hover:text-white"
-                          >
-                            <Eye className="h-3.5 w-3.5" />
-                            <span>ดูสเปก</span>
-                          </button>
-                          <button
-                            type="button"
-                            onClick={() => handleQuickAdd(product)}
-                            className="inline-flex min-h-[38px] items-center gap-1.5 rounded-lg border border-[#D6B45A] bg-gradient-to-r from-[#2196F3] to-[#D946EF] px-4 py-1.5 text-xs font-semibold text-white hover:brightness-110"
-                          >
-                            {isAdded ? (
-                              <>
-                                <Check className="h-3.5 w-3.5" />
-                                <span>เพิ่มแล้ว</span>
-                              </>
-                            ) : (
-                              <>
-                                <ShoppingCart className="h-3.5 w-3.5" />
-                                <span>ใส่ตะกร้า</span>
-                              </>
-                            )}
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Content Block 2: Core Technical Specifications */}
-                    <div className="flex flex-col justify-between lg:col-span-4 lg:border-r lg:border-white/10 lg:pr-6">
-                      <div>
-                        <p className="text-xs font-semibold text-[#D6B45A]">
-                          02. สเปกเทคนิคสำคัญ (Core Specifications)
-                        </p>
-                        <dl className="mt-3 grid grid-cols-2 gap-2.5">
-                          {bestseller.block2Specs.map((spec) => (
-                            <div
-                              key={spec.label}
-                              className="rounded-lg border border-white/10 bg-[#0B192C]/75 px-3 py-2"
-                            >
-                              <dt className="text-[11px] text-[#CBD5E1]">{spec.label}</dt>
-                              <dd className="font-mono-num mt-0.5 text-xs font-semibold text-white">
-                                {spec.value}
-                              </dd>
-                            </div>
-                          ))}
-                        </dl>
-                      </div>
-                      <p className="mt-3 text-xs text-[#CBD5E1]">
-                        การเชื่อมต่อ: <span className="text-white">{product.connectivity}</span>
-                      </p>
-                    </div>
-
-                    {/* Content Block 3: Real-World Use Case & Box Contents */}
-                    <div className="flex flex-col justify-between lg:col-span-4">
-                      <div>
-                        <p className="text-xs font-semibold text-[#D6B45A]">
-                          03. การใช้งานจริงและอุปกรณ์ในกล่อง
-                        </p>
-                        <p className="mt-2.5 text-xs leading-relaxed text-white">
-                          {bestseller.block3UseCase}
-                        </p>
-                        <div className="mt-3 flex items-start gap-2 rounded-lg border border-white/10 bg-[#0B192C]/65 px-3 py-2.5 text-xs text-[#CBD5E1]">
-                          <Package className="mt-0.5 h-4 w-4 shrink-0 text-[#00E5FF]" />
-                          <span>{bestseller.block3BoxIncluded}</span>
-                        </div>
-                      </div>
-                      <p className="mt-3 text-xs font-medium text-[#D6B45A]">
-                        {product.warranty} · พร้อมจัดส่งหรือรับที่โรงเรียน
-                      </p>
-                    </div>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      {/* Auto-Sliding Featured Bestsellers Section (5 items, 3 content blocks each) */}
+      <BestsellersSection
+        addedMap={addedMap}
+        onQuickAdd={handleQuickAdd}
+        onSelectProduct={onSelectProduct}
+      />
 
       {/* Full Catalog Section (4 Sub-Categories, 10 items each = 40 items) */}
       <section id="catalog-browser" className="py-12">

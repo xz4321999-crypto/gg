@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { ChevronLeft, ChevronRight, Eye, ShoppingCart } from 'lucide-react';
+import { AnimatePresence, motion } from 'motion/react';
+import { ChevronLeft, ChevronRight, Eye, Pause, Play, ShoppingCart } from 'lucide-react';
 import { BESTSELLERS, PRODUCTS } from '../data/catalog';
 import { Product } from '../types';
 import { formatThb } from '../utils/promotions';
@@ -17,149 +18,176 @@ export const BestsellerCarousel: React.FC<BestsellerCarouselProps> = ({
   const slides = BESTSELLERS.map((b) => ({
     bestseller: b,
     product: PRODUCTS.find((p) => p.id === b.productId),
-  })).filter((entry): entry is { bestseller: (typeof BESTSELLERS)[number]; product: Product } =>
-    Boolean(entry.product)
+  })).filter(
+    (entry): entry is { bestseller: (typeof BESTSELLERS)[number]; product: Product } =>
+      Boolean(entry.product)
   );
 
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
+  const [direction, setDirection] = useState(1);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    if (slides.length <= 1 || isPaused) return;
-    const prefersReduced =
-      typeof window !== 'undefined' &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (prefersReduced) return;
+    if (slides.length <= 1 || !isAutoPlaying || isHovered) return;
 
     const timer = window.setInterval(() => {
+      setDirection(1);
       setActiveIndex((prev) => (prev + 1) % slides.length);
     }, 3500);
 
     return () => window.clearInterval(timer);
-  }, [slides.length, isPaused]);
+  }, [slides.length, isAutoPlaying, isHovered, activeIndex]);
 
   if (slides.length === 0) return null;
 
   const activeSlide = slides[activeIndex];
+  const { bestseller, product } = activeSlide;
 
-  const handlePrev = () => {
+  const handlePrev = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setDirection(-1);
     setActiveIndex((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
-  const handleNext = () => {
+  const handleNext = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setDirection(1);
     setActiveIndex((prev) => (prev + 1) % slides.length);
+  };
+
+  const handleSelectSlide = (idx: number) => {
+    setDirection(idx >= activeIndex ? 1 : -1);
+    setActiveIndex(idx);
   };
 
   return (
     <div
       className="flex h-full flex-col overflow-hidden rounded-xl border border-[#D6B45A] bg-[#152A42]"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-      onFocus={() => setIsPaused(true)}
-      onBlur={() => setIsPaused(false)}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
       aria-roledescription="carousel"
       aria-label="พรีวิวสินค้าขายดี 5 อันดับยอดนิยม"
     >
       {/* Main Auto-Sliding Viewport */}
-      <div className="relative min-h-[288px] flex-1 overflow-hidden bg-[#0B192C] sm:min-h-[320px]">
-        <div
-          className="flex h-full transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
-          style={{ transform: `translateX(-${activeIndex * 100}%)` }}
-        >
-          {slides.map(({ bestseller, product }) => (
+      <div className="relative h-72 flex-1 overflow-hidden bg-[#0B192C] sm:h-80 lg:min-h-[340px]">
+        <AnimatePresence mode="wait" initial={false}>
+          <motion.div
+            key={product.id}
+            initial={{ opacity: 0, x: direction * 24 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: direction * -24 }}
+            transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
+            className="relative h-72 w-full sm:h-80 lg:h-[340px]"
+          >
+            <ProductVisual
+              src={product.image}
+              alt={product.name}
+              category={product.category}
+              loading="eager"
+              className="h-full w-full object-cover"
+            />
+            {/* Measured Contrast Scrim */}
             <div
-              key={product.id}
-              className="relative h-72 w-full shrink-0 sm:h-80 lg:h-full"
-            >
-              <ProductVisual
-                src={product.image}
-                alt={product.name}
-                category={product.category}
-                loading="eager"
-                className="h-full w-full object-cover"
-              />
-              {/* Measured Contrast Scrim */}
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 bg-gradient-to-t from-[#0B192C] via-[#0B192C]/35 to-transparent"
-              />
-              {/* Slide Overlay Details */}
-              <div className="absolute right-0 bottom-0 left-0 flex flex-col justify-end p-5 sm:p-6">
-                <div className="flex items-center gap-2 text-xs font-medium text-[#D6B45A]">
-                  <span>สินค้าขายดีอันดับ #{bestseller.rank}</span>
-                  <span aria-hidden="true">·</span>
-                  <span className="text-[#CBD5E1]">{product.brand}</span>
-                  <span aria-hidden="true">·</span>
-                  <span className="font-mono-num text-[#00E5FF]">
-                    {bestseller.rank}/{slides.length}
-                  </span>
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0B192C] via-[#0B192C]/35 to-transparent"
+            />
+            {/* Slide Overlay Details */}
+            <div className="absolute right-0 bottom-0 left-0 z-10 flex flex-col justify-end p-5 sm:p-6">
+              <div className="flex items-center gap-2 text-xs font-medium text-[#D6B45A]">
+                <span>สินค้าขายดีอันดับ #{bestseller.rank}</span>
+                <span aria-hidden="true">·</span>
+                <span className="text-[#CBD5E1]">{product.brand}</span>
+                <span aria-hidden="true">·</span>
+                <span className="font-mono-num text-[#00E5FF]">
+                  {bestseller.rank}/{slides.length}
+                </span>
+              </div>
+
+              <div className="mt-1 flex flex-wrap items-end justify-between gap-3">
+                <div className="min-w-0 flex-1">
+                  <h2 className="truncate font-display text-lg font-bold text-white sm:text-xl">
+                    {product.name}
+                  </h2>
+                  <p className="font-mono-num mt-0.5 text-base font-bold text-[#D6B45A]">
+                    ฿{formatThb(product.price)}
+                  </p>
                 </div>
 
-                <div className="mt-1 flex flex-wrap items-end justify-between gap-3">
-                  <div className="min-w-0 flex-1">
-                    <h2 className="truncate font-display text-lg font-bold text-white sm:text-xl">
-                      {product.name}
-                    </h2>
-                    <p className="font-mono-num mt-0.5 text-base font-bold text-[#D6B45A]">
-                      ฿{formatThb(product.price)}
-                    </p>
-                  </div>
-
-                  <div className="flex shrink-0 items-center gap-2">
-                    <button
-                      type="button"
-                      onClick={() => onSelectProduct(product)}
-                      className="inline-flex min-h-[36px] items-center gap-1.5 rounded-lg border border-white/25 bg-[#0B192C]/85 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-sm hover:border-[#D6B45A]"
-                    >
-                      <Eye className="h-3.5 w-3.5" />
-                      <span>ดูสินค้า</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => onAddToCart(product, 1)}
-                      className="inline-flex min-h-[36px] items-center gap-1.5 rounded-lg border border-[#D6B45A] bg-gradient-to-r from-[#2196F3] to-[#D946EF] px-3.5 py-1.5 text-xs font-semibold text-white hover:brightness-110"
-                    >
-                      <ShoppingCart className="h-3.5 w-3.5" />
-                      <span>ใส่ตะกร้า</span>
-                    </button>
-                  </div>
+                <div className="flex shrink-0 items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => onSelectProduct(product)}
+                    className="inline-flex min-h-[36px] cursor-pointer items-center gap-1.5 rounded-lg border border-white/25 bg-[#0B192C]/85 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-sm hover:border-[#D6B45A]"
+                  >
+                    <Eye className="h-3.5 w-3.5" />
+                    <span>ดูสินค้า</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => onAddToCart(product, 1)}
+                    className="inline-flex min-h-[36px] cursor-pointer items-center gap-1.5 rounded-lg border border-[#D6B45A] bg-gradient-to-r from-[#2196F3] to-[#D946EF] px-3.5 py-1.5 text-xs font-semibold text-white hover:brightness-110"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" />
+                    <span>ใส่ตะกร้า</span>
+                  </button>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          </motion.div>
+        </AnimatePresence>
+
+        {/* Auto-play Toggle Top-Right */}
+        <button
+          type="button"
+          onClick={() => setIsAutoPlaying((prev) => !prev)}
+          aria-label={isAutoPlaying ? 'หยุดหมุนรูปอัตโนมัติ' : 'เปิดหมุนรูปอัตโนมัติ'}
+          className="absolute top-3 right-3 z-20 inline-flex h-8 cursor-pointer items-center gap-1 rounded-lg border border-[#D6B45A]/60 bg-[#0B192C]/85 px-2.5 text-[11px] font-medium text-white backdrop-blur-sm hover:border-[#00E5FF]"
+        >
+          {isAutoPlaying ? (
+            <>
+              <Pause className="h-3 w-3 text-[#D6B45A]" />
+              <span>Auto</span>
+            </>
+          ) : (
+            <>
+              <Play className="h-3 w-3 text-[#00E5FF]" />
+              <span>Paused</span>
+            </>
+          )}
+        </button>
 
         {/* Prev / Next Controls */}
         <button
           type="button"
           onClick={handlePrev}
           aria-label="สินค้าขายดีก่อนหน้า"
-          className="absolute top-1/2 left-3 inline-flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-lg border border-[#D6B45A]/60 bg-[#0B192C]/80 text-white backdrop-blur-sm transition-colors hover:border-[#00E5FF] hover:text-[#00E5FF]"
+          className="absolute top-1/2 left-3 z-20 inline-flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-lg border border-[#D6B45A]/75 bg-[#0B192C]/85 text-white backdrop-blur-sm transition-colors hover:border-[#00E5FF] hover:text-[#00E5FF]"
         >
-          <ChevronLeft className="h-4 w-4" />
+          <ChevronLeft className="h-5 w-5" />
         </button>
         <button
           type="button"
           onClick={handleNext}
           aria-label="สินค้าขายดีถัดไป"
-          className="absolute top-1/2 right-3 inline-flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-lg border border-[#D6B45A]/60 bg-[#0B192C]/80 text-white backdrop-blur-sm transition-colors hover:border-[#00E5FF] hover:text-[#00E5FF]"
+          className="absolute top-1/2 right-3 z-20 inline-flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-lg border border-[#D6B45A]/75 bg-[#0B192C]/85 text-white backdrop-blur-sm transition-colors hover:border-[#00E5FF] hover:text-[#00E5FF]"
         >
-          <ChevronRight className="h-4 w-4" />
+          <ChevronRight className="h-5 w-5" />
         </button>
       </div>
 
       {/* 5-Thumbnail Selector Strip for the 5 Bestsellers */}
       <div className="grid grid-cols-5 gap-2 border-t border-[#D6B45A]/40 bg-[#0B192C] p-2.5">
-        {slides.map(({ bestseller, product }, idx) => {
+        {slides.map(({ bestseller: b, product: p }, idx) => {
           const isActive = idx === activeIndex;
           return (
             <button
-              key={product.id}
+              key={p.id}
               type="button"
-              onClick={() => setActiveIndex(idx)}
-              aria-label={`ดูพรีวิวอันดับ ${bestseller.rank}: ${product.name}`}
+              onClick={() => handleSelectSlide(idx)}
+              aria-label={`ดูพรีวิวอันดับ ${b.rank}: ${p.name}`}
               aria-current={isActive ? 'true' : undefined}
-              className={`group relative overflow-hidden rounded-md border text-left transition-all ${
+              className={`group relative cursor-pointer overflow-hidden rounded-md border text-left transition-all ${
                 isActive
                   ? 'border-[#D6B45A] ring-1 ring-[#00E5FF]'
                   : 'border-white/15 opacity-70 hover:border-[#D6B45A]/60 hover:opacity-100'
@@ -167,15 +195,15 @@ export const BestsellerCarousel: React.FC<BestsellerCarouselProps> = ({
             >
               <div className="aspect-[4/3] w-full overflow-hidden bg-[#152A42]">
                 <ProductVisual
-                  src={product.image}
-                  alt={product.name}
-                  category={product.category}
+                  src={p.image}
+                  alt={p.name}
+                  category={p.category}
+                  loading="eager"
                   className="h-full w-full object-cover"
                 />
               </div>
               <div className="truncate bg-[#152A42] px-1.5 py-1 text-[10px] font-semibold text-white">
-                <span className="font-mono-num text-[#D6B45A]">#{bestseller.rank}</span>{' '}
-                {product.brand}
+                <span className="font-mono-num text-[#D6B45A]">#{b.rank}</span> {p.brand}
               </div>
               {isActive && (
                 <span
@@ -187,11 +215,6 @@ export const BestsellerCarousel: React.FC<BestsellerCarouselProps> = ({
           );
         })}
       </div>
-
-      {/* Hidden live announcement label for screen readers */}
-      <span className="sr-only">
-        กำลังแสดงสินค้าขายดีอันดับ {activeSlide.bestseller.rank}: {activeSlide.product.name}
-      </span>
     </div>
   );
 };

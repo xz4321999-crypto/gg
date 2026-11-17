@@ -1,13 +1,14 @@
 import React from 'react';
-import { Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
+import { Mail, MapPin, MessageCircle, Phone, ShieldCheck } from 'lucide-react';
 import { STORE_ASSETS, STORE_CONTACT } from '../data/catalog';
 import { PageId } from '../types';
 
 interface FooterProps {
   onNavigate: (page: PageId) => void;
+  onOpenPrivacyPolicy?: () => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
+export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPrivacyPolicy }) => {
   const handleNav = (page: PageId) => {
     onNavigate(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -49,6 +50,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="md:col-span-3">
             <h4 className="font-display text-sm font-bold text-[#D6B45A]">เมนูหน้าร้าน</h4>
             <ul className="mt-4 space-y-2.5 text-sm">
+              <li>
+                <button
+                  type="button"
+                  onClick={() => handleNav(PageId.Home)}
+                  className="hover:text-white transition-colors"
+                >
+                  หน้าแรก (ภาพรวมและจุดเด่นร้าน)
+                </button>
+              </li>
               <li>
                 <button
                   type="button"
@@ -94,15 +104,21 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="mt-4 space-y-2.5 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-[#00E5FF]" />
-                <span className="font-mono-num">{STORE_CONTACT.phones[0]} · {STORE_CONTACT.phones[1]}</span>
+                <span className="font-mono-num">
+                  {STORE_CONTACT.phones[0]} · {STORE_CONTACT.phones[1]}
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4 shrink-0 text-[#D946EF]" />
-                <span>LINE OA: {STORE_CONTACT.lineOa}</span>
+                <span>
+                  LINE: {STORE_CONTACT.lineOa} · FB: {STORE_CONTACT.facebook}
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0 text-[#D6B45A]" />
-                <span>{STORE_CONTACT.email}</span>
+                <span>
+                  {STORE_CONTACT.email} · IG: {STORE_CONTACT.instagram}
+                </span>
               </li>
             </ul>
             <p className="mt-4 border-t border-white/10 pt-3 text-xs text-[#CBD5E1]">
@@ -113,7 +129,19 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs text-[#CBD5E1] sm:flex-row">
           <span>© 2026 GEAR PRO STORE — วิทยาลัยอาชีวศึกษาเอเซีย (ร้านอยู่ภายในโรงเรียน)</span>
-          <span>Computer Accessories &amp; Gaming Peripherals Only</span>
+          <div className="flex flex-wrap items-center gap-4">
+            {onOpenPrivacyPolicy && (
+              <button
+                type="button"
+                onClick={onOpenPrivacyPolicy}
+                className="inline-flex items-center gap-1.5 font-medium text-[#D6B45A] hover:text-[#00E5FF]"
+              >
+                <ShieldCheck className="h-3.5 w-3.5" />
+                <span>นโยบายความเป็นส่วนตัว</span>
+              </button>
+            )}
+            <span>Computer Accessories &amp; Gaming Peripherals Only</span>
+          </div>
         </div>
       </div>
     </footer>
