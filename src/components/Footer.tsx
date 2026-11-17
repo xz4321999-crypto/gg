@@ -20,12 +20,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPrivacyPolicy 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-12">
           {/* Brand */}
           <div className="md:col-span-5">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <img
                 src={STORE_ASSETS.logo}
                 alt="GEAR PRO STORE"
                 referrerPolicy="no-referrer"
-                className="h-11 w-11 rounded-md border border-[#D6B45A] object-cover"
+                className="h-16 w-16 shrink-0 rounded-lg border-2 border-[#D6B45A] object-cover"
               />
               <div>
                 <h3 className="font-display text-lg font-bold text-[#D6B45A]">

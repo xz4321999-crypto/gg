@@ -36,12 +36,12 @@ const USAGE_PROFILES = [
   {
     id: 'stream',
     label: 'สตรีมมิ่ง และทำคอนเทนต์',
-    recommendedIds: ['elgato-stream-deck-mk2', 'hyperx-quadcast-s', 'shure-mv7-plus-usb-xlr'],
+    recommendedIds: ['elgato-stream-deck-mk2', 'hyperx-quadcast-s', 'elgato-wave-3'],
   },
   {
     id: 'desk',
     label: 'จัดโต๊ะคอมมินิมอล & Hub',
-    recommendedIds: ['ergotron-lx-desk-monitor-arm', 'anker-555-usbc-hub-8in1', 'benq-screenbar-halo-2'],
+    recommendedIds: ['ergotron-lx-monitor-arm', 'anker-555-usbc-hub-8in1', 'benq-screenbar-halo-2'],
   },
 ];
 

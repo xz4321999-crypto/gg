@@ -27,12 +27,14 @@ import { PRODUCTS, STORE_ASSETS, STORE_CONTACT } from '../data/catalog';
 import { CartItem, CategoryId, PageId, Product } from '../types';
 import { formatThb } from '../utils/promotions';
 import { ConsultationModal, QuotationModal } from '../components/HomepageModals';
+import { PeripheralsShowcaseCarousel } from '../components/PeripheralsShowcaseCarousel';
 import { ProductVisual } from '../components/ProductVisual';
 
 interface HomePageProps {
   onNavigate: (page: PageId) => void;
   onBrowseCategory: (category: CategoryId) => void;
   onSelectProduct: (product: Product) => void;
+  onAddToCart: (product: Product, quantity?: number) => void;
   onAddItemsToCart: (items: CartItem[]) => void;
   onOpenPrivacyPolicy: () => void;
 }
@@ -176,6 +178,7 @@ export const HomePage: React.FC<HomePageProps> = ({
   onNavigate,
   onBrowseCategory,
   onSelectProduct,
+  onAddToCart,
   onAddItemsToCart,
   onOpenPrivacyPolicy,
 }) => {
@@ -214,18 +217,18 @@ export const HomePage: React.FC<HomePageProps> = ({
             {/* Left Copy & Brand Identity */}
             <div className="flex flex-col justify-between rounded-xl border border-[#D6B45A] bg-[#152A42] p-7 sm:p-10 lg:col-span-6">
               <div>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-4">
                   <img
                     src={STORE_ASSETS.logo}
                     alt="GEAR PRO STORE Logo"
                     referrerPolicy="no-referrer"
-                    className="h-12 w-12 shrink-0 rounded-lg border border-[#D6B45A] object-cover"
+                    className="h-20 w-20 shrink-0 rounded-xl border-2 border-[#D6B45A] object-cover shadow-[0_0_22px_rgba(214,180,90,0.3)] sm:h-24 sm:w-24"
                   />
                   <div>
-                    <p className="font-display text-sm font-bold tracking-wider text-[#D6B45A]">
+                    <p className="font-display text-base font-bold tracking-wider text-[#D6B45A] sm:text-lg">
                       GEAR PRO STORE
                     </p>
-                    <p className="text-xs text-[#CBD5E1]">
+                    <p className="mt-0.5 text-xs text-[#CBD5E1] sm:text-sm">
                       ร้านอุปกรณ์คอมพิวเตอร์และเกมมิ่งเกียร์ · วิทยาลัยอาชีวศึกษาเอเซีย
                     </p>
                   </div>
@@ -437,6 +440,12 @@ export const HomePage: React.FC<HomePageProps> = ({
               <ArrowRight className="h-4 w-4" />
             </button>
           </div>
+
+          <PeripheralsShowcaseCarousel
+            onSelectProduct={onSelectProduct}
+            onAddToCart={onAddToCart}
+            onBrowseCategory={onBrowseCategory}
+          />
 
           <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {FEATURED_CATEGORIES.map((cat) => {

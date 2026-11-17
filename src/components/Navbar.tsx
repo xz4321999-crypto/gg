@@ -34,20 +34,20 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header className="sticky top-0 z-40 border-b border-[#D6B45A]/45 bg-[#0B192C]/95 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         {/* Zone 1: Single-line Brand Wordmark */}
         <button
           type="button"
           onClick={() => handleSelectPage(PageId.Home)}
-          className="flex shrink-0 items-center gap-3 whitespace-nowrap text-left focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D6B45A]"
+          className="flex shrink-0 items-center gap-3.5 whitespace-nowrap text-left focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D6B45A]"
         >
           <img
             src={STORE_ASSETS.logo}
             alt="GEAR PRO STORE"
             referrerPolicy="no-referrer"
-            className="h-10 w-10 shrink-0 rounded-md border border-[#D6B45A] object-cover"
+            className="h-14 w-14 shrink-0 rounded-lg border-2 border-[#D6B45A] object-cover shadow-[0_0_14px_rgba(214,180,90,0.28)]"
           />
-          <span className="font-display text-lg font-bold tracking-wide text-[#D6B45A] whitespace-nowrap">
+          <span className="font-display text-lg font-bold tracking-wide text-[#D6B45A] whitespace-nowrap sm:text-xl">
             GEAR PRO STORE
           </span>
         </button>

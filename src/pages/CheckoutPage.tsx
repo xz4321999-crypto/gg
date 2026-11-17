@@ -227,7 +227,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
             src={STORE_ASSETS.logo}
             alt="GEAR PRO STORE"
             referrerPolicy="no-referrer"
-            className="h-14 w-14 rounded-lg border border-[#D6B45A] object-cover"
+            className="h-20 w-20 shrink-0 rounded-xl border-2 border-[#D6B45A] object-cover"
           />
           <div>
             <p className="text-xs font-semibold tracking-wider text-[#D6B45A]">

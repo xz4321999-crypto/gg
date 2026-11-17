@@ -874,7 +874,7 @@ export const FESTIVE_CALENDAR: FestiveDateEvent[] = [
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 'owner',
-    nameTh: 'คุณธนกร วิริยะกิจ',
+    nameTh: 'คุณฐิตินันท์ ชูอำไพ',
     roleTh: 'เจ้าของร้าน (Founder & Owner)',
     roleEn: 'Store Owner',
     department: 'ผู้บริหาร',
@@ -883,7 +883,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     id: 'manager',
-    nameTh: 'คุณพิชญธิดา สุขสวัสดิ์',
+    nameTh: 'คุณณัชพล อินทะนะ',
     roleTh: 'ผู้จัดการร้าน (Store Manager)',
     roleEn: 'Store Manager',
     department: 'บริหารจัดการหน้าร้านและโปรโมชั่น',

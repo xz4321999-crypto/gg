@@ -121,6 +121,7 @@ export default function App() {
             }}
             onBrowseCategory={handleBrowseCategory}
             onSelectProduct={setModalProduct}
+            onAddToCart={handleAddToCart}
             onAddItemsToCart={handleAddItemsToCart}
             onOpenPrivacyPolicy={() => setPrivacyOpen(true)}
           />
