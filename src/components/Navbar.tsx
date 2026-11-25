@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, ShoppingBag, X } from 'lucide-react';
 import { STORE_ASSETS } from '../data/catalog';
 import { PageId } from '../types';
+import { StoreImage } from './ProductVisual';
 
 interface NavbarProps {
   activePage: PageId;
@@ -42,11 +43,11 @@ export const Navbar: React.FC<NavbarProps> = ({
           onClick={() => handleSelectPage(PageId.Home)}
           className="flex shrink-0 items-center gap-3.5 whitespace-nowrap text-left focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D6B45A]"
         >
-          <img
+          <StoreImage
             src={STORE_ASSETS.logo}
             alt="GEAR PRO STORE"
             loading="eager"
-            decoding="async"
+            compact
             className="h-14 w-14 shrink-0 rounded-lg border-2 border-[#D6B45A] object-cover shadow-[0_0_14px_rgba(214,180,90,0.28)]"
           />
           <span className="font-display text-lg font-bold tracking-wide text-[#D6B45A] whitespace-nowrap sm:text-xl">

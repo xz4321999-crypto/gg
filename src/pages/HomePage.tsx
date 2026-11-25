@@ -28,7 +28,7 @@ import { CartItem, CategoryId, PageId, Product } from '../types';
 import { formatThb } from '../utils/promotions';
 import { ConsultationModal, QuotationModal } from '../components/HomepageModals';
 import { PeripheralsShowcaseCarousel } from '../components/PeripheralsShowcaseCarousel';
-import { ProductVisual } from '../components/ProductVisual';
+import { ProductVisual, StoreImage } from '../components/ProductVisual';
 
 interface HomePageProps {
   onNavigate: (page: PageId) => void;
@@ -126,13 +126,13 @@ const DESK_SETUPS = [
     title: 'Night Coder & Designer Studio',
     owner: 'ผลงานจัดโต๊ะทำงานและเรียนออนไลน์ถนอมสายตา',
     gearSummary: 'BenQ ScreenBar Halo 2 + Ergotron LX Arm + Logitech MX Master 3S',
-    image: '/images/store/setup-lightbar.jpg',
+    image: STORE_ASSETS.setupLightbar,
   },
   {
     title: 'Creator & Streaming Command Station',
     owner: 'ผลงานจัดชุดสตรีมมิ่งเสียงใสระดับสตูดิโอ',
     gearSummary: 'Elgato Stream Deck MK.2 + HyperX QuadCast S + HyperX Cloud III',
-    image: '/images/store/setup-streamdeck.jpg',
+    image: STORE_ASSETS.setupStreamdeck,
   },
 ];
 
@@ -218,11 +218,11 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="flex flex-col justify-between rounded-xl border border-[#D6B45A] bg-[#152A42] p-7 sm:p-10 lg:col-span-6">
               <div>
                 <div className="flex items-center gap-4">
-                  <img
+                  <StoreImage
                     src={STORE_ASSETS.logo}
                     alt="GEAR PRO STORE Logo"
                     loading="eager"
-                    decoding="async"
+                    compact
                     className="h-20 w-20 shrink-0 rounded-xl border-2 border-[#D6B45A] object-cover shadow-[0_0_22px_rgba(214,180,90,0.3)] sm:h-24 sm:w-24"
                   />
                   <div>
@@ -292,11 +292,10 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="flex flex-col justify-between gap-4 lg:col-span-6">
               <div className="relative overflow-hidden rounded-xl border border-[#D6B45A] bg-[#152A42]">
                 <div className="aspect-[16/10] w-full overflow-hidden">
-                  <img
+                  <StoreImage
                     src={STORE_ASSETS.hero}
                     alt="โปรโมชั่นอุปกรณ์เกมมิ่งเกียร์และอุปกรณ์จัดโต๊ะคอม GEAR PRO STORE"
                     loading="eager"
-                    decoding="async"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -462,11 +461,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                 >
                   <div>
                     <div className="aspect-[4/3] w-full overflow-hidden border-b border-[#D6B45A]/35 bg-[#0B192C]">
-                      <img
+                      <StoreImage
                         src={cat.image}
                         alt={cat.titleTh}
-                        loading="lazy"
-                        decoding="async"
+                        loading="eager"
                         className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
                       />
                     </div>
@@ -577,11 +575,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                   className="overflow-hidden rounded-xl border border-[#D6B45A]/60 bg-[#152A42]"
                 >
                   <div className="aspect-[16/10] w-full overflow-hidden border-b border-[#D6B45A]/30 bg-[#0B192C]">
-                    <img
+                    <StoreImage
                       src={setup.image}
                       alt={setup.title}
                       loading="lazy"
-                      decoding="async"
                       className="h-full w-full object-cover"
                     />
                   </div>
@@ -806,11 +803,10 @@ export const HomePage: React.FC<HomePageProps> = ({
             {/* Storefront Pin & Campus Location Card */}
             <div className="flex flex-col justify-between overflow-hidden rounded-xl border border-[#D6B45A] bg-[#152A42] lg:col-span-6">
               <div className="relative h-56 overflow-hidden border-b border-[#D6B45A]/45 bg-[#0B192C] sm:h-64">
-                <img
+                <StoreImage
                   src={STORE_ASSETS.storefront}
                   alt="หน้าร้าน GEAR PRO STORE วิทยาลัยอาชีวศึกษาเอเซีย"
                   loading="lazy"
-                  decoding="async"
                   className="h-full w-full object-cover"
                 />
                 <div className="absolute right-3 bottom-3 left-3 rounded-lg border border-[#D6B45A] bg-[#0B192C]/90 px-4 py-2.5 backdrop-blur-sm">

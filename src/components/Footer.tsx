@@ -2,6 +2,7 @@ import React from 'react';
 import { Mail, MapPin, MessageCircle, Phone, ShieldCheck } from 'lucide-react';
 import { STORE_ASSETS, STORE_CONTACT } from '../data/catalog';
 import { PageId } from '../types';
+import { StoreImage } from './ProductVisual';
 
 interface FooterProps {
   onNavigate: (page: PageId) => void;
@@ -21,11 +22,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPrivacyPolicy 
           {/* Brand */}
           <div className="md:col-span-5">
             <div className="flex items-center gap-4">
-              <img
+              <StoreImage
                 src={STORE_ASSETS.logo}
                 alt="GEAR PRO STORE"
-                loading="lazy"
-                decoding="async"
+                loading="eager"
+                compact
                 className="h-16 w-16 shrink-0 rounded-lg border-2 border-[#D6B45A] object-cover"
               />
               <div>

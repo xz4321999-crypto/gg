@@ -23,7 +23,7 @@ import {
   formatThb,
   generatePromptPayPayload,
 } from '../utils/promotions';
-import { ProductVisual } from '../components/ProductVisual';
+import { ProductVisual, StoreImage } from '../components/ProductVisual';
 
 interface CheckoutPageProps {
   cart: CartItem[];
@@ -223,11 +223,11 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
       {/* Checkout Header matching Brand & Theme */}
       <div className="flex flex-col justify-between gap-4 rounded-xl border border-[#D6B45A] bg-[#152A42] p-6 sm:flex-row sm:items-center sm:p-8">
         <div className="flex items-center gap-4">
-          <img
+          <StoreImage
             src={STORE_ASSETS.logo}
             alt="GEAR PRO STORE"
             loading="eager"
-            decoding="async"
+            compact
             className="h-20 w-20 shrink-0 rounded-xl border-2 border-[#D6B45A] object-cover"
           />
           <div>

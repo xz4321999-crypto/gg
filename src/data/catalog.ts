@@ -10,15 +10,26 @@ import { AUDIO_AND_MICS_PRODUCTS } from './products/audioAndMics';
 import { DESK_AND_CABLES_PRODUCTS } from './products/deskAndCables';
 import { KEYBOARDS_AND_CAPS_PRODUCTS } from './products/keyboardsAndCaps';
 import { MICE_AND_PADS_PRODUCTS } from './products/miceAndPads';
+import logoImg from '../assets/store/logo.jpg';
+import heroImg from '../assets/store/hero.jpg';
+import micePadsImg from '../assets/store/cat-mice-pads.jpg';
+import keyboardsCapsImg from '../assets/store/cat-keyboards-caps.jpg';
+import headsetsAudioImg from '../assets/store/cat-headsets-audio.jpg';
+import deskSetupHubsImg from '../assets/store/cat-desk-hubs.jpg';
+import storefrontImg from '../assets/store/storefront.jpg';
+import setupLightbarImg from '../assets/store/setup-lightbar.jpg';
+import setupStreamdeckImg from '../assets/store/setup-streamdeck.jpg';
 
 export const STORE_ASSETS = {
-  logo: '/images/logo.jpg',
-  hero: '/images/store/hero.jpg',
-  micePads: '/images/store/cat-mice-pads.jpg',
-  keyboardsCaps: '/images/store/cat-keyboards-caps.jpg',
-  headsetsAudio: '/images/store/cat-headsets-audio.jpg',
-  deskSetupHubs: '/images/store/cat-desk-hubs.jpg',
-  storefront: '/images/store/storefront.jpg',
+  logo: logoImg,
+  hero: heroImg,
+  micePads: micePadsImg,
+  keyboardsCaps: keyboardsCapsImg,
+  headsetsAudio: headsetsAudioImg,
+  deskSetupHubs: deskSetupHubsImg,
+  storefront: storefrontImg,
+  setupLightbar: setupLightbarImg,
+  setupStreamdeck: setupStreamdeckImg,
 };
 
 export const PRODUCTS: Product[] = [

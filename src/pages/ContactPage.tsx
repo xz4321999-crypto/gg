@@ -12,6 +12,7 @@ import {
   Users,
 } from 'lucide-react';
 import { STORE_ASSETS, STORE_CONTACT, TEAM_MEMBERS } from '../data/catalog';
+import { StoreImage } from '../components/ProductVisual';
 
 export const ContactPage: React.FC = () => {
   const [formPlatform, setFormPlatform] = useState<'google-forms' | 'typeform'>('google-forms');
@@ -44,11 +45,10 @@ export const ContactPage: React.FC = () => {
       <section className="rounded-xl border border-[#D6B45A] bg-[#152A42] p-6 sm:p-8">
         <div className="grid grid-cols-1 items-stretch gap-8 lg:grid-cols-12">
           <div className="overflow-hidden rounded-xl border border-[#D6B45A] bg-[#0B192C] lg:col-span-7">
-            <img
+            <StoreImage
               src={STORE_ASSETS.storefront}
               alt="หน้าร้าน GEAR PRO STORE ที่วิทยาลัยอาชีวศึกษาเอเซีย"
               loading="eager"
-              decoding="async"
               className="h-64 w-full object-cover sm:h-80 lg:h-full"
             />
           </div>
