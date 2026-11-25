@@ -52,9 +52,11 @@ export const ProductModal: React.FC<ProductModalProps> = ({
           <div className="border-b border-[#D6B45A]/30 bg-[#0B192C] p-6 lg:col-span-5 lg:border-r lg:border-b-0">
             <div className="aspect-[4/3] overflow-hidden rounded-lg border border-[#D6B45A]/40 bg-[#0B192C]">
               <ProductVisual
+                key={product.id}
                 src={product.image}
                 alt={product.name}
                 category={product.category}
+                loading="eager"
                 className="h-full w-full object-cover"
               />
             </div>

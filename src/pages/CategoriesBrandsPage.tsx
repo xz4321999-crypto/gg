@@ -381,9 +381,11 @@ export const CategoriesBrandsPage: React.FC<CategoriesBrandsPageProps> = ({
 
             <div className="relative aspect-[16/10] w-full bg-[#0B192C]">
               <ProductVisual
+                key={activeLightboxPhoto.image}
                 src={activeLightboxPhoto.image}
                 alt={activeLightboxPhoto.titleTh}
                 category={activeLightboxPhoto.product.category}
+                loading="eager"
                 className="h-full w-full object-contain"
               />
               {brandPhotos.length > 1 && (

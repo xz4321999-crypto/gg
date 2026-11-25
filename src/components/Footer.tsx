@@ -24,7 +24,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPrivacyPolicy 
               <img
                 src={STORE_ASSETS.logo}
                 alt="GEAR PRO STORE"
-                referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
                 className="h-16 w-16 shrink-0 rounded-lg border-2 border-[#D6B45A] object-cover"
               />
               <div>

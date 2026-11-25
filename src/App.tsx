@@ -27,7 +27,15 @@ export default function App() {
     try {
       const saved = localStorage.getItem(CART_STORAGE_KEY);
       if (saved) {
-        return JSON.parse(saved) as CartItem[];
+        const parsed = JSON.parse(saved) as CartItem[];
+        return parsed
+          .map((item) => {
+            const fresh = PRODUCTS.find((p) => p.id === item?.product?.id);
+            return fresh
+              ? { product: fresh, quantity: Math.max(1, Number(item.quantity) || 1) }
+              : null;
+          })
+          .filter((item): item is CartItem => Boolean(item));
       }
     } catch {
       // Ignore storage read errors

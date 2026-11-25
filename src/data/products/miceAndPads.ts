@@ -22,7 +22,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์เกมมิ่งไร้สายระดับ Esports พร้อมสวิตช์ LIGHTFORCE Hybrid Optical-Mechanical ตอบสนองเฉียบคมและแม่นยำสูงสุด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, ตัวรับสัญญาณ LIGHTSPEED, สายชาร์จ USB-C, เทปกันลื่น Grip Tape, ฝาปิด PTFE',
-    image: '/src/assets/images/catalog/logitech-g-pro-x-superlight-2.jpg',
+    image: '/images/catalog/logitech-g-pro-x-superlight-2.jpg',
     isBestseller: true,
   },
   {
@@ -38,7 +38,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เวอร์ชันทรง Ergonomic อสมมาตรของตระกูล Superlight 2 ออกแบบเพื่อจับกระชับอุ้งมือขวาโดยยังคงความเบาเพียง 60 กรัม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, LIGHTSPEED Receiver, สายชาร์จ USB-C, Grip Tape',
-    image: '/src/assets/images/catalog/logitech-g-pro-x-superlight-2-dex.jpg',
+    image: '/images/catalog/logitech-g-pro-x-superlight-2-dex.jpg',
   },
   {
     id: 'logitech-g502-x-plus',
@@ -53,7 +53,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'ตำนาน G502 ที่อัปเกรดใหม่ด้วยสวิตช์ LIGHTFORCE และไฟ RGB เต็มรูปแบบ พร้อมปุ่มมาโคร 13 ปุ่ม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, ปุ่ม DPI เสริม, ตัวรับ LIGHTSPEED, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-g502-x-plus.jpg',
+    image: '/images/catalog/logitech-g502-x-plus.jpg',
   },
   {
     id: 'logitech-g502-x-lightspeed',
@@ -68,7 +68,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นไร้สายแบบไม่มีไฟ RGB ของตระกูล G502 X เน้นความเบาและแบตเตอรี่อึดขึ้นถึง 140 ชั่วโมง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, LIGHTSPEED Receiver, สาย USB-C, ปุ่ม DPI-Shift',
-    image: '/src/assets/images/catalog/logitech-g502-x-lightspeed.jpg',
+    image: '/images/catalog/logitech-g502-x-lightspeed.jpg',
   },
   {
     id: 'logitech-g502-hero',
@@ -83,7 +83,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์มีสายรุ่นยอดนิยมตลอดกาล ปรับน้ำหนักได้ตามถนัดมือพร้อมปุ่มมาโครครบเครื่องทั้งเกม FPS และ MOBA',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, กล่องตุ้มน้ำหนัก 5x 3.6g, คู่มือ',
-    image: '/src/assets/images/catalog/logitech-g502-hero.jpg',
+    image: '/images/catalog/logitech-g502-hero.jpg',
   },
   {
     id: 'logitech-g305-lightspeed',
@@ -98,7 +98,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายเกมมิ่งสุดคุ้มยอดฮิตของนักศึกษาและเกมเมอร์ เชื่อมต่อ LIGHTSPEED ความหน่วงต่ำ 1ms',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ G305, ตัวรับ Nano Receiver, สายต่อเพิ่มระยะ, ถ่าน AA',
-    image: '/src/assets/images/catalog/logitech-g305-lightspeed.jpg',
+    image: '/images/catalog/logitech-g305-lightspeed.jpg',
   },
   {
     id: 'logitech-g705-aurora',
@@ -113,7 +113,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายโทนขาวมินิมอลจาก Aurora Collection จับถนัดมือและสลับเชื่อมต่อโน้ตบุ๊กได้ทันทีผ่าน Bluetooth',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ G705, ตัวรับ LIGHTSPEED, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-g705-aurora.jpg',
+    image: '/images/catalog/logitech-g705-aurora.jpg',
   },
   {
     id: 'logitech-g840-xl',
@@ -128,7 +128,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองโต๊ะขนาดใหญ่จูนผิวสัมผัสมาเพื่อเซ็นเซอร์เมาส์ Logitech G โดยเฉพาะ ให้แรงเสียดทานสม่ำเสมอทั่วทั้งแผ่น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ Logitech G840 XL และกระบอกเก็บพกพา',
-    image: '/src/assets/images/catalog/logitech-g840-xl.jpg',
+    image: '/images/catalog/logitech-g840-xl.jpg',
   },
   {
     id: 'logitech-g640-large',
@@ -143,7 +143,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์ไซส์มาตรฐานแข่งขันของ Logitech G ให้ผิวสัมผัสเรียบสม่ำเสมอเหมาะกับเกม Low-DPI',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ Logitech G640 Large',
-    image: '/src/assets/images/catalog/logitech-g640-large.jpg',
+    image: '/images/catalog/logitech-g640-large.jpg',
   },
   {
     id: 'logitech-g-powerplay',
@@ -158,7 +158,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'ระบบแผ่นรองเมาส์ชาร์จไร้สายตลอดเวลา ไม่ต้องเสียบสายชาร์จให้ G PRO X Superlight 2 หรือ G502 X อีกต่อไป',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ฐาน POWERPLAY, โมดูล POWERCORE, แผ่นผ้าและแผ่นแข็งอย่างละ 1 ชิ้น, สาย USB',
-    image: '/src/assets/images/catalog/logitech-g-powerplay.jpg',
+    image: '/images/catalog/logitech-g-powerplay.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -177,7 +177,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายทรงจับถนัดมือระดับโปร พัฒนาร่วมกับนักแข่ง Esports ลดความเมื่อยล้าระหว่างเล่นต่อเนื่องยาวนาน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, HyperSpeed Dongle, สาย Speedflex USB-C, แผ่นกันลื่น',
-    image: '/src/assets/images/catalog/razer-deathadder-v3-pro.jpg',
+    image: '/images/catalog/razer-deathadder-v3-pro.jpg',
   },
   {
     id: 'razer-deathadder-v3-hyperspeed',
@@ -192,7 +192,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายทรง Ergonomic ขนาดกระชับมือขึ้น 55 กรัม ตอบโจทย์คนมือกลางถึงเล็กที่ชอบทรง DeathAdder',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, HyperSpeed Dongle, สาย Speedflex USB-C',
-    image: '/src/assets/images/catalog/razer-deathadder-v3-hyperspeed.jpg',
+    image: '/images/catalog/razer-deathadder-v3-hyperspeed.jpg',
   },
   {
     id: 'razer-viper-v3-pro',
@@ -207,7 +207,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ Esports เรือธงของ Razer ที่นักแข่งระดับโลกเลือกใช้ มาพร้อม HyperPolling Dongle 8,000Hz ในชุด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ Viper V3 Pro, HyperPolling Wireless Dongle, สาย USB-C, Grip Tape',
-    image: '/src/assets/images/catalog/razer-viper-v3-pro.jpg',
+    image: '/images/catalog/razer-viper-v3-pro.jpg',
   },
   {
     id: 'razer-viper-v2-pro',
@@ -222,7 +222,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายทรงแบนสมมาตรสำหรับสาย Claw Grip และ Fingertip น้ำหนักเบาคล่องตัวสูง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Dongle + Adapter, สาย Speedflex USB-C, Grip Tape',
-    image: '/src/assets/images/catalog/razer-viper-v2-pro.jpg',
+    image: '/images/catalog/razer-viper-v2-pro.jpg',
   },
   {
     id: 'razer-basilisk-v3',
@@ -237,7 +237,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์มีสายทรง Ergonomic พร้อมลูกกลิ้ง 4 ทิศทางปรับโหมดหมุนอิสระได้ เหมาะทั้งเล่นเกมและงานตัดต่อ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์สาย Speedflex ถักนุ่ม, คู่มือการใช้งาน',
-    image: '/src/assets/images/catalog/razer-basilisk-v3.jpg',
+    image: '/images/catalog/razer-basilisk-v3.jpg',
   },
   {
     id: 'razer-basilisk-v3-pro',
@@ -252,7 +252,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายอเนกประสงค์ตัวท็อปของ Razer มีปุ่มตั้งค่าครบครันและไฟ Chroma RGB สว่างรอบฐาน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Wireless Dongle, สาย USB-C Speedflex',
-    image: '/src/assets/images/catalog/razer-basilisk-v3-pro.jpg',
+    image: '/images/catalog/razer-basilisk-v3-pro.jpg',
   },
   {
     id: 'razer-cobra-pro',
@@ -267,7 +267,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายขนาดกะทัดรัดที่ให้ไฟ Chroma RGB รอบฐานเต็มอิ่ม พร้อมเซ็นเซอร์ระดับเรือธง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Wireless Dongle, สาย Speedflex USB-C',
-    image: '/src/assets/images/catalog/razer-cobra-pro.jpg',
+    image: '/images/catalog/razer-cobra-pro.jpg',
   },
   {
     id: 'razer-naga-v2-pro',
@@ -282,7 +282,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายสาย MMO/MOBA และงานกราฟิกที่ถอดเปลี่ยนแผงปุ่มด้านข้างได้ถึง 3 แบบตามเกมและโปรแกรมที่ใช้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, แผงปุ่มข้าง 3 ชิ้น (2/6/12 ปุ่ม), Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-naga-v2-pro.jpg',
+    image: '/images/catalog/razer-naga-v2-pro.jpg',
   },
   {
     id: 'razer-gigantus-v2-xxl',
@@ -297,7 +297,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์ขนาดเต็มโต๊ะ XXL ให้พื้นที่ลากเมาส์กว้างขวางสำหรับคนเล่น Sensitivity ต่ำ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ Razer Gigantus V2 XXL',
-    image: '/src/assets/images/catalog/razer-gigantus-v2-xxl.jpg',
+    image: '/images/catalog/razer-gigantus-v2-xxl.jpg',
   },
   {
     id: 'razer-atlas-tempered-glass',
@@ -312,7 +312,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์กระจกนิรภัยระดับพรีเมียม ลากเมาส์ลื่นปรื๊ดไร้แรงต้านเริ่มต้น และเช็ดทำความสะอาดง่ายมาก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์กระจก Razer Atlas, ผ้าเช็ดไมโครไฟเบอร์',
-    image: '/src/assets/images/catalog/razer-atlas-tempered-glass.jpg',
+    image: '/images/catalog/razer-atlas-tempered-glass.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -331,7 +331,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายดีไซน์สมมาตรน้ำหนักเบา รองรับทั้งโหมด 2.4GHz สำหรับเกมแข่งและ Bluetooth สำหรับพกพา',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, สายถัก Ascended USB-C, Dongle และอะแดปเตอร์ขยายระยะ',
-    image: '/src/assets/images/catalog/glorious-model-o-2-wireless.jpg',
+    image: '/images/catalog/glorious-model-o-2-wireless.jpg',
   },
   {
     id: 'glorious-model-o-2-pro',
@@ -346,7 +346,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่น PRO บอดี้ปิดทึบน้ำหนักเบาพิเศษสำหรับสาย Esports พร้อมสวิตช์ Optical และ Polling Rate 4,000Hz',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, 4K Wireless Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/glorious-model-o-2-pro.jpg',
+    image: '/images/catalog/glorious-model-o-2-pro.jpg',
   },
   {
     id: 'glorious-model-d-2-wireless',
@@ -361,7 +361,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายทรงรับอุ้งมือขวาจาก Glorious เบาเพียง 66 กรัม เชื่อมต่อได้ 3 โหมดทั้งทำงานและเล่นเกม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Dongle, สายถัก Ascended USB-C',
-    image: '/src/assets/images/catalog/glorious-model-d-2-wireless.jpg',
+    image: '/images/catalog/glorious-model-d-2-wireless.jpg',
   },
   {
     id: 'glorious-model-d-2-pro',
@@ -376,7 +376,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่น PRO ของ Model D 2 ทรงมือขวาจับเต็มมือ ไม่มีรูรังผึ้ง น้ำหนักเบาระดับ Pro Esports',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, 4K Wireless Dongle, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/glorious-model-d-2-pro.jpg',
+    image: '/images/catalog/glorious-model-d-2-pro.jpg',
   },
   {
     id: 'glorious-model-i-2-wireless',
@@ -391,7 +391,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายสำหรับสาย Battle Royale, MMO และงานตัดต่อที่มีปุ่มด้านข้างถอดเปลี่ยนทรงแม่เหล็กได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, ชุดปุ่มแม่เหล็กเสริม, Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/glorious-model-i-2-wireless.jpg',
+    image: '/images/catalog/glorious-model-i-2-wireless.jpg',
   },
   {
     id: 'glorious-model-o-minus-wireless',
@@ -406,7 +406,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายทรงสมมาตรไซส์มินิ เหมาะมากสำหรับเกมเมอร์มือเล็กหรือคนจับเมาส์แบบ Fingertip Grip',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Dongle + Extender, สาย Ascended USB-C',
-    image: '/src/assets/images/catalog/glorious-model-o-minus-wireless.jpg',
+    image: '/images/catalog/glorious-model-o-minus-wireless.jpg',
   },
   {
     id: 'glorious-series-one-pro',
@@ -421,7 +421,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายรุ่นน้ำหนักเบาเพียง 50 กรัมในตระกูล Forge ของ Glorious ออกแบบมาเพื่อความคล่องตัวสูงสุด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Wireless Dongle, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/glorious-series-one-pro.jpg',
+    image: '/images/catalog/glorious-series-one-pro.jpg',
   },
   {
     id: 'glorious-elements-ice-mousepad',
@@ -436,7 +436,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์ซีรีส์ Elements ผิว ICE ให้ความลื่นระดับ Speed สูงสุดสำหรับเกม Tracking ต่อเนื่อง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ Glorious Elements ICE',
-    image: '/src/assets/images/catalog/glorious-elements-ice-mousepad.jpg',
+    image: '/images/catalog/glorious-elements-ice-mousepad.jpg',
   },
   {
     id: 'glorious-elements-fire-mousepad',
@@ -451,7 +451,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์สาย Hybrid ที่รวมความเร็วและความแม่นยำไว้ด้วยกัน พร้อมพื้นผิวทนความชื้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ Glorious Elements FIRE',
-    image: '/src/assets/images/catalog/glorious-elements-fire-mousepad.jpg',
+    image: '/images/catalog/glorious-elements-fire-mousepad.jpg',
   },
   {
     id: 'glorious-stitch-cloth-3xl',
@@ -466,7 +466,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองโต๊ะขนาด 3XL ครอบคลุมพื้นที่โต๊ะกว้างขวางทั้งคีย์บอร์ดและเมาส์อย่างเป็นระเบียบ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ Glorious 3XL',
-    image: '/src/assets/images/catalog/glorious-stitch-cloth-3xl.jpg',
+    image: '/images/catalog/glorious-stitch-cloth-3xl.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -485,7 +485,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ทำงานระดับเรือธง ออกแบบตามหลักสรีรศาสตร์ คลิกนุ่มเงียบ ใช้งานบนกระจกได้ พร้อมชาร์จไว USB-C',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ MX Master 3S, ตัวรับ Logi Bolt USB, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-mx-master-3s.jpg',
+    image: '/images/catalog/logitech-mx-master-3s.jpg',
   },
   {
     id: 'logitech-mx-anywhere-3s',
@@ -500,7 +500,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ทำงานไร้สายไซส์พกพาสำหรับคนใช้โน้ตบุ๊ก ลากบนโต๊ะกระจกหรือโต๊ะคาเฟ่ได้แม่นยำ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ MX Anywhere 3S, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-mx-anywhere-3s.jpg',
+    image: '/images/catalog/logitech-mx-anywhere-3s.jpg',
   },
   {
     id: 'logitech-mx-vertical',
@@ -515,7 +515,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ทรงแนวตั้งเพื่อสุขภาพข้อมือ ช่วยลดอาการปวดข้อมือและอาการ Office Syndrome จากการใช้งานต่อเนื่อง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ MX Vertical, ตัวรับ Unifying, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-mx-vertical.jpg',
+    image: '/images/catalog/logitech-mx-vertical.jpg',
   },
   {
     id: 'logitech-lift-vertical',
@@ -530,7 +530,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์แนวตั้งขนาดกะทัดรัดกว่า MX Vertical ออกแบบให้เข้ากับขนาดมือคนเอเชีย พิมพ์และทำงานสบายขึ้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ Lift, ตัวรับ Logi Bolt, ถ่าน AA 1 ก้อน',
-    image: '/src/assets/images/catalog/logitech-lift-vertical.jpg',
+    image: '/images/catalog/logitech-lift-vertical.jpg',
   },
   {
     id: 'logitech-mx-ergo-s',
@@ -545,7 +545,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์แทร็กบอลระดับโปร ช่วยประหยัดพื้นที่โต๊ะทำงานและลดการเคลื่อนไหวของข้อมือและหัวไหล่',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ MX Ergo S, ตัวรับ Logi Bolt',
-    image: '/src/assets/images/catalog/logitech-mx-ergo-s.jpg',
+    image: '/images/catalog/logitech-mx-ergo-s.jpg',
   },
   {
     id: 'logitech-signature-m650-l',
@@ -560,7 +560,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ทำงานไร้สายยอดนิยม คลิกเงียบสนิทเหมาะกับห้องเรียน ห้องสมุด และออฟฟิศ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M650 L, ตัวรับ Logi Bolt, ถ่าน AA',
-    image: '/src/assets/images/catalog/logitech-signature-m650-l.jpg',
+    image: '/images/catalog/logitech-signature-m650-l.jpg',
   },
   {
     id: 'logitech-pebble-mouse-2-m350s',
@@ -575,7 +575,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายทรงบางมินิมอลพกพาไปเรียนหรือทำงานนอกสถานที่สะดวก เชื่อมต่อบลูทูธได้สูงสุด 3 เครื่อง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ Pebble 2 M350s, ถ่าน AA 1 ก้อน',
-    image: '/src/assets/images/catalog/logitech-pebble-mouse-2-m350s.jpg',
+    image: '/images/catalog/logitech-pebble-mouse-2-m350s.jpg',
   },
   {
     id: 'logitech-m720-triathlon',
@@ -590,7 +590,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ Multi-Device สุดคุ้มสำหรับคนที่ใช้คอมพิวเตอร์และโน้ตบุ๊กหลายเครื่องพร้อมกัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M720, ตัวรับ Unifying, ถ่าน AA',
-    image: '/src/assets/images/catalog/logitech-m720-triathlon.jpg',
+    image: '/images/catalog/logitech-m720-triathlon.jpg',
   },
   {
     id: 'logitech-desk-mat-studio',
@@ -605,7 +605,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองโต๊ะทำงานสไตล์มินิมอลจาก Logitech ป้องกันรอยขีดข่วนบนโต๊ะและกันน้ำหกซึมได้ดีเยี่ยม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองโต๊ะ Logitech Desk Mat Studio Series',
-    image: '/src/assets/images/catalog/logitech-desk-mat-studio.jpg',
+    image: '/images/catalog/logitech-desk-mat-studio.jpg',
   },
   {
     id: 'logitech-mouse-pad-studio',
@@ -620,7 +620,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์ขนาดพกพาสีเรียบหรู เข้าคู่กับเมาส์ Logitech Pebble และ MX Anywhere ได้อย่างลงตัว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ Logitech Mouse Pad Studio Series',
-    image: '/src/assets/images/catalog/logitech-mouse-pad-studio.jpg',
+    image: '/images/catalog/logitech-mouse-pad-studio.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -639,7 +639,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์รุ่นยอดนิยมของโปรเพลเยอร์ทั่วโลก ความหนา 6 มม. ช่วยซับแรงกดข้อมือและให้ผิวสัมผัสควบคุมแม่นยำ',
     warranty: 'รับประกันความพึงพอใจ 7 วัน',
     boxContents: 'แผ่นรองเมาส์ SteelSeries QcK Heavy (Large)',
-    image: '/src/assets/images/catalog/steelseries-qck-heavy-large.jpg',
+    image: '/images/catalog/steelseries-qck-heavy-large.jpg',
   },
   {
     id: 'steelseries-qck-edge-xl',
@@ -654,7 +654,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์ QcK รุ่นเย็บขอบขนาด XL ให้ความทนทานสูงและคุมจังหวะเมาส์ได้แม่นยำ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ SteelSeries QcK Edge XL',
-    image: '/src/assets/images/catalog/steelseries-qck-edge-xl.jpg',
+    image: '/images/catalog/steelseries-qck-edge-xl.jpg',
   },
   {
     id: 'steelseries-qck-prism-cloth-xl',
@@ -669,7 +669,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์มีไฟ RGB รอบแผ่นที่เชื่อมเอฟเฟกต์แจ้งเตือนในเกมผ่าน SteelSeries Engine ได้',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ SteelSeries QcK Prism Cloth XL',
-    image: '/src/assets/images/catalog/steelseries-qck-prism-cloth-xl.jpg',
+    image: '/images/catalog/steelseries-qck-prism-cloth-xl.jpg',
   },
   {
     id: 'steelseries-aerox-3-wireless',
@@ -684,7 +684,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายน้ำหนักเบา 68 กรัม เคลือบแผงวงจรมาตรฐาน AquaBarrier IP54 กันฝุ่นและน้ำหกได้',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์, USB-C Wireless Dongle, สาย USB-C Super Mesh',
-    image: '/src/assets/images/catalog/steelseries-aerox-3-wireless.jpg',
+    image: '/images/catalog/steelseries-aerox-3-wireless.jpg',
   },
   {
     id: 'steelseries-aerox-5-wireless',
@@ -699,7 +699,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายมัลติฟังก์ชันน้ำหนักเบา 9 ปุ่มสำหรับเกม FPS, Battle Royale และ MOBA',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์, USB-C Dongle, สายชาร์จ Super Mesh USB-C',
-    image: '/src/assets/images/catalog/steelseries-aerox-5-wireless.jpg',
+    image: '/images/catalog/steelseries-aerox-5-wireless.jpg',
   },
   {
     id: 'steelseries-aerox-9-wireless',
@@ -714,7 +714,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ MMO 18 ปุ่มแต่น้ำหนักเบาเพียง 89 กรัม สะดวกทั้งกดสกิลและเคลื่อนไหวเร็ว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์, USB-C Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/steelseries-aerox-9-wireless.jpg',
+    image: '/images/catalog/steelseries-aerox-9-wireless.jpg',
   },
   {
     id: 'steelseries-prime-wireless',
@@ -729,7 +729,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ Esports สวิตช์แม่เหล็กเสียงคลิกคมชัดไม่หลอนแม้ใช้งานหนักต่อเนื่องหลายปี',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์, USB-C Dongle, สาย Super Mesh USB-C',
-    image: '/src/assets/images/catalog/steelseries-prime-wireless.jpg',
+    image: '/images/catalog/steelseries-prime-wireless.jpg',
   },
   {
     id: 'steelseries-prime-mini-wireless',
@@ -744,7 +744,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นย่อส่วนของตระกูล Prime Wireless ที่ออกแบบให้คล่องตัวและกระชับอุ้งมือขนาดเล็กถึงกลาง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์, USB-C Dongle, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/steelseries-prime-mini-wireless.jpg',
+    image: '/images/catalog/steelseries-prime-mini-wireless.jpg',
   },
   {
     id: 'steelseries-rival-3-wireless',
@@ -759,7 +759,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายราคาย่อมเยาที่ประหยัดพลังงานสูงถึง 400 ชั่วโมง เชื่อมต่อได้ทั้ง 2.4GHz และ Bluetooth',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ Rival 3 Wireless, Nano Receiver, ถ่าน AAA 2 ก้อน',
-    image: '/src/assets/images/catalog/steelseries-rival-3-wireless.jpg',
+    image: '/images/catalog/steelseries-rival-3-wireless.jpg',
   },
   {
     id: 'steelseries-rival-5-wired',
@@ -774,7 +774,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์มีสาย 9 ปุ่มน้ำหนักเบา เหมาะกับผู้เล่นที่เล่นเกมหลายแนวทั้ง FPS, MOBA และ Action RPG',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ SteelSeries Rival 5, คู่มือ',
-    image: '/src/assets/images/catalog/steelseries-rival-5-wired.jpg',
+    image: '/images/catalog/steelseries-rival-5-wired.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -793,7 +793,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์ระดับพรีเมียมนำเข้าจากญี่ปุ่น พื้นโฟม PORON ยึดเกาะโต๊ะแน่นสนิท คุมจังหวะสะบัดเมาส์ได้เนียนกริบ',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Zero Soft บรรจุกล่องแบนกันงอ',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-zero-soft.jpg',
+    image: '/images/catalog/artisan-ninja-fx-zero-soft.jpg',
   },
   {
     id: 'artisan-ninja-fx-zero-xsoft',
@@ -808,7 +808,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่น XSoft ที่โปร Valorant เลือกใช้มากที่สุด ช่วยเพิ่มแรงหยุดเมาส์เมื่อกดน้ำหนักนิ้วลงเล็กน้อย',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Zero XSoft (XL)',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-zero-xsoft.jpg',
+    image: '/images/catalog/artisan-ninja-fx-zero-xsoft.jpg',
   },
   {
     id: 'artisan-ninja-fx-zero-mid',
@@ -823,7 +823,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นฐาน Mid หนา 3 มม. สำหรับคนที่ชอบแรงเสียดทานคงที่ตลอดทั้งแผ่นโดยไม่ยุบตัวตามแรงกดมือ',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Zero Mid (XL)',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-zero-mid.jpg',
+    image: '/images/catalog/artisan-ninja-fx-zero-mid.jpg',
   },
   {
     id: 'artisan-ninja-fx-hien-soft',
@@ -838,7 +838,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองสาย Speed-Hybrid ระดับตำนานของ ARTISAN ผิวผ้าทนทานสูงมากและไม่ได้รับผลกระทบจากความชื้น',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Hien Soft (XL)',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-hien-soft.jpg',
+    image: '/images/catalog/artisan-ninja-fx-hien-soft.jpg',
   },
   {
     id: 'artisan-ninja-fx-hien-mid',
@@ -853,7 +853,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'Hien รุ่นฐาน Mid เพิ่มความเร็วในการลาก Tracking สำหรับเกม Apex Legends และ Overwatch 2',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Hien Mid (XL)',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-hien-mid.jpg',
+    image: '/images/catalog/artisan-ninja-fx-hien-mid.jpg',
   },
   {
     id: 'artisan-ninja-fx-hayate-otsu-v2-soft',
@@ -868,7 +868,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองสาย Hybrid รุ่นท็อปที่พัฒนาลวดลายถักใหม่ให้คุมทั้งเกมสะบัดยิงและเกมติดตามเป้าหมายได้ดีเยี่ยม',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Hayate Otsu V2 Soft',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-hayate-otsu-v2-soft.jpg',
+    image: '/images/catalog/artisan-ninja-fx-hayate-otsu-v2-soft.jpg',
   },
   {
     id: 'artisan-ninja-fx-hayate-kou-mid',
@@ -883,7 +883,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองดีไซน์เฉพาะทางที่ช่วยควบคุมความนิ่งในการลากแนวตั้งและแนวนอนได้อย่างมีเอกลักษณ์',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Hayate Kou Mid',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-hayate-kou-mid.jpg',
+    image: '/images/catalog/artisan-ninja-fx-hayate-kou-mid.jpg',
   },
   {
     id: 'artisan-ninja-fx-raiden-xsoft',
@@ -898,7 +898,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองสาย Speed ผ้าละเอียดนุ่มข้อมือ ให้ความเร็วในการลากเมาส์สูงสุดในบรรดาแผ่นผ้าของ ARTISAN',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Raiden XSoft (XL)',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-raiden-xsoft.jpg',
+    image: '/images/catalog/artisan-ninja-fx-raiden-xsoft.jpg',
   },
   {
     id: 'artisan-ninja-fx-type-99-soft',
@@ -913,7 +913,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองรุ่นใหม่ของ ARTISAN ที่เน้นแรงหยุดสูงที่สุดสำหรับสาย Tactical FPS เช่น CS2 และ Valorant',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Type-99 Soft (XL)',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-type-99-soft.jpg',
+    image: '/images/catalog/artisan-ninja-fx-type-99-soft.jpg',
   },
   {
     id: 'artisan-ninja-fx-key-83-soft',
@@ -928,7 +928,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองรุ่นใหม่ล่าสุดถักลายหกเหลี่ยมพร้อมเส้นใยลดไฟฟ้าสถิต ให้ความสมูทเท่ากันทั้งแนวทแยงและแนวตรง',
     warranty: 'รับประกันของแท้ 100%',
     boxContents: 'แผ่นรองเมาส์ Artisan Ninja FX Key-83 Soft (XL)',
-    image: '/src/assets/images/catalog/artisan-ninja-fx-key-83-soft.jpg',
+    image: '/images/catalog/artisan-ninja-fx-key-83-soft.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -947,7 +947,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายน้ำหนักเบา 61 กรัมยอดฮิตจาก HyperX ดีไซน์สมมาตรจับถนัดทั้ง Claw และ Palm Grip พร้อมเทปกันลื่นในกล่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, USB Receiver, Extension Adapter, สายชาร์จ USB-C, Grip Tape, Skates สำรอง',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-haste-2-wireless.jpg',
+    image: '/images/catalog/hyperx-pulsefire-haste-2-wireless.jpg',
   },
   {
     id: 'hyperx-pulsefire-haste-2-wired',
@@ -962,7 +962,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์มีสาย 8K Polling น้ำหนัก 53 กรัมที่ตอบสนองไวกว่าเมาส์ทั่วไปถึง 8 เท่าในราคาคุ้มค่า',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Grip Tape, แผ่น PTFE Skates สำรอง',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-haste-2-wired.jpg',
+    image: '/images/catalog/hyperx-pulsefire-haste-2-wired.jpg',
   },
   {
     id: 'hyperx-pulsefire-haste-2-mini-wireless',
@@ -977,7 +977,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายไซส์มินิสำหรับคนมือเล็กหรือสาย Fingertip น้ำหนัก 59 กรัมคุมทิศทางคล่องแคล่ว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ Mini, Wireless Receiver, สาย USB-C, Grip Tape, Skates สำรอง',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-haste-2-mini-wireless.jpg',
+    image: '/images/catalog/hyperx-pulsefire-haste-2-mini-wireless.jpg',
   },
   {
     id: 'hyperx-pulsefire-haste-2-core-wireless',
@@ -992,7 +992,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายซีรีส์ Haste 2 รุ่นประหยัด ใช้งานได้ทั้ง 2.4GHz และ Bluetooth เปลี่ยนถ่าน AAA สะดวกไม่รอชาร์จ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, USB Receiver, ถ่านอัลคาไลน์ AAA 1 ก้อน',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-haste-2-core-wireless.jpg',
+    image: '/images/catalog/hyperx-pulsefire-haste-2-core-wireless.jpg',
   },
   {
     id: 'hyperx-pulsefire-fuse-wireless',
@@ -1007,7 +1007,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายราคาเข้าถึงง่ายพร้อมลายกันลื่น Micro-Pattern ที่ด้านข้าง ช่วยจับมั่นคงระหว่างเล่นเกม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ Pulsefire Fuse, USB Receiver, ถ่าน AAA 1 ก้อน',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-fuse-wireless.jpg',
+    image: '/images/catalog/hyperx-pulsefire-fuse-wireless.jpg',
   },
   {
     id: 'hyperx-pulsefire-raid',
@@ -1022,7 +1022,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์สาย MOBA/MMO และสายทำงานที่มีปุ่มด้านข้างถึง 5 ปุ่มพร้อม Scroll เอียงซ้าย-ขวาตั้งคำสั่งลัดได้ครบ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ HyperX Pulsefire Raid',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-raid.jpg',
+    image: '/images/catalog/hyperx-pulsefire-raid.jpg',
   },
   {
     id: 'hyperx-pulsefire-surge',
@@ -1037,7 +1037,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์มีสายโดดเด่นด้วยวงแหวนไฟ RGB 360 องศา พร้อมเซ็นเซอร์ Pixart 3389 ระดับเกมแข่งขัน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ HyperX Pulsefire Surge',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-surge.jpg',
+    image: '/images/catalog/hyperx-pulsefire-surge.jpg',
   },
   {
     id: 'hyperx-pulsefire-core',
@@ -1052,7 +1052,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์เกมมิ่งรุ่นเริ่มต้นสุดคุ้มของ HyperX จับสบายและเซ็นเซอร์นิ่งเหมาะสำหรับเกมเมอร์มือใหม่และนักศึกษา',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ HyperX Pulsefire Core',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-core.jpg',
+    image: '/images/catalog/hyperx-pulsefire-core.jpg',
   },
   {
     id: 'hyperx-pulsefire-mat-xl',
@@ -1067,7 +1067,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์ผ้าทอแน่นขนาด XL ของ HyperX เย็บขอบเรียบไม่รุ่ยและซักทำความสะอาดง่าย',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'แผ่นรองเมาส์ HyperX Pulsefire Mat (XL)',
-    image: '/src/assets/images/catalog/hyperx-pulsefire-mat-xl.jpg',
+    image: '/images/catalog/hyperx-pulsefire-mat-xl.jpg',
   },
   {
     id: 'hyperx-fury-s-pro-large',
@@ -1082,7 +1082,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์รุ่นคลาสสิกของ HyperX ที่ผู้เล่น CS2 และ Valorant นิยมใช้เพราะความหนึบของฐานและความนุ่มข้อมือ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'แผ่นรองเมาส์ HyperX FURY S Pro (Large)',
-    image: '/src/assets/images/catalog/hyperx-fury-s-pro-large.jpg',
+    image: '/images/catalog/hyperx-fury-s-pro-large.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -1101,7 +1101,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายระดับ Esports ที่ออกแบบรูปทรงร่วมกับ Aim Lab เพื่อให้จับถนัดและเล็งเป้าหมายได้แม่นยำสูงสุด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, ROG Omni Receiver, สาย ROG Paracord USB-C, Grip Tape ลาย ROG, PTFE Feet',
-    image: '/src/assets/images/catalog/asus-rog-harpe-ace-aim-lab.jpg',
+    image: '/images/catalog/asus-rog-harpe-ace-aim-lab.jpg',
   },
   {
     id: 'asus-rog-harpe-ace-mini',
@@ -1116,7 +1116,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไซส์เล็กน้ำหนักเพียง 49 กรัม พร้อมเซ็นเซอร์ 42K Track-on-Glass และสวิตช์ Optical สุดคม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, Omni Receiver, สาย ROG Paracord, Grip Tape, แผ่น PTFE สำรอง',
-    image: '/src/assets/images/catalog/asus-rog-harpe-ace-mini.jpg',
+    image: '/images/catalog/asus-rog-harpe-ace-mini.jpg',
   },
   {
     id: 'asus-rog-harpe-ace-extreme',
@@ -1131,7 +1131,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายคาร์บอนไฟเบอร์ระดับ Ultra-Flagship หนัก 47 กรัมพร้อม Glass Skates และตัวรับ 8,000Hz ครบในกล่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์ Carbon Fiber, ROG Polling Rate Booster, Glass Mouse Feet, Hard Case, Grip Tape',
-    image: '/src/assets/images/catalog/asus-rog-harpe-ace-extreme.jpg',
+    image: '/images/catalog/asus-rog-harpe-ace-extreme.jpg',
   },
   {
     id: 'asus-rog-keris-ii-ace',
@@ -1146,7 +1146,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ทรง Ergonomic มือขวาที่เบาระดับ 54 กรัมพร้อม Booster รองรับ Polling Rate สูงสุดถึง 4K ไร้สาย / 8K มีสาย',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, ROG Polling Rate Booster, Omni Receiver, สาย Paracord, Grip Tape',
-    image: '/src/assets/images/catalog/asus-rog-keris-ii-ace.jpg',
+    image: '/images/catalog/asus-rog-keris-ii-ace.jpg',
   },
   {
     id: 'asus-rog-gladius-iii-wireless-aimpoint',
@@ -1161,7 +1161,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ทรง Ergonomic ที่ถอดเปลี่ยนสวิตช์คลิกเองได้ง่ายโดยไม่ต้องบัดกรี แบตอึดถึง 119 ชม.',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, สวิตช์สำรอง 2 ตัว + ที่คีบสวิตช์, ROG Receiver, Grip Tape, สาย Paracord',
-    image: '/src/assets/images/catalog/asus-rog-gladius-iii-wireless-aimpoint.jpg',
+    image: '/images/catalog/asus-rog-gladius-iii-wireless-aimpoint.jpg',
   },
   {
     id: 'asus-rog-chakram-x-origin',
@@ -1176,7 +1176,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์สารพัดประโยชน์ที่มีก้าน Analog Joystick ด้านข้างและรองรับชาร์จไร้สาย Qi พร้อมเปลี่ยนสวิตช์ได้ทันที',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, ก้าน Joystick 2 ขนาด + ฝาปิด, สวิตช์สำรอง 2 ตัว, กระเป๋าผ้า, สาย Paracord',
-    image: '/src/assets/images/catalog/asus-rog-chakram-x-origin.jpg',
+    image: '/images/catalog/asus-rog-chakram-x-origin.jpg',
   },
   {
     id: 'asus-rog-spatha-x',
@@ -1191,7 +1191,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์สาย MMO และตัดต่อระดับเรือธงที่มี 12 ปุ่มมาโครและแท่นชาร์จแม่เหล็กตั้งโชว์บนโต๊ะสุดอลังการ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, แท่นชาร์จแม่เหล็ก, สาย Paracord 2 เส้น, สวิตช์สำรอง 2 ตัว, กล่องพกพา',
-    image: '/src/assets/images/catalog/asus-rog-spatha-x.jpg',
+    image: '/images/catalog/asus-rog-spatha-x.jpg',
   },
   {
     id: 'asus-rog-strix-impact-iii-wireless',
@@ -1206,7 +1206,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายราคาคุ้มค่าจาก ROG ที่ได้เซ็นเซอร์ 36K ระดับเรือธงและเปลี่ยนสวิตช์เองได้ พร้อมถ่าน AA/AAA นาน 450 ชม.',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวเมาส์, ตัวแปลงถ่าน AAA-to-AA, ROG Omni Receiver, ถ่าน AA 1 ก้อน',
-    image: '/src/assets/images/catalog/asus-rog-strix-impact-iii-wireless.jpg',
+    image: '/images/catalog/asus-rog-strix-impact-iii-wireless.jpg',
   },
   {
     id: 'asus-rog-moonstone-ace-l',
@@ -1221,7 +1221,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองเมาส์กระจก Tempered Glass ระดับโปร ให้ความลื่นไหลสม่ำเสมอ 100% ไม่อมฝุ่นและความชื้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์กระจก ROG Moonstone Ace L ในกล่องกันกระแทก',
-    image: '/src/assets/images/catalog/asus-rog-moonstone-ace-l.jpg',
+    image: '/images/catalog/asus-rog-moonstone-ace-l.jpg',
   },
   {
     id: 'asus-rog-scabbard-ii-xxl',
@@ -1236,7 +1236,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองโต๊ะไซส์ XXL ของ ROG เคลือบสารกันน้ำหกและคราบเปื้อน เช็ดออกง่ายมาก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แผ่นรองเมาส์ ROG Scabbard II (XXL)',
-    image: '/src/assets/images/catalog/asus-rog-scabbard-ii-xxl.jpg',
+    image: '/images/catalog/asus-rog-scabbard-ii-xxl.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -1255,7 +1255,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายทรงสมดุลที่ใช้ได้ดีทั้งทำงานออฟฟิศและเล่นเกม มาพร้อมเซ็นเซอร์ PAW3395 ระดับเรือธงและหัวต่อ Mac/Win ครบ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M3, Type-C Receiver, Type-A Receiver, สายถัก USB-C, อะแดปเตอร์',
-    image: '/src/assets/images/catalog/keychron-m3-wireless.jpg',
+    image: '/images/catalog/keychron-m3-wireless.jpg',
   },
   {
     id: 'keychron-m3-mini',
@@ -1270,7 +1270,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายน้ำหนัก 55 กรัมที่ตั้งปุ่มผ่านเว็บเบราว์เซอร์ได้ทั้งบน Mac และ Windows โดยไม่ต้องลงโปรแกรมหนักเครื่อง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M3 Mini, 4K/1K Wireless Receiver, สายถัก USB-C',
-    image: '/src/assets/images/catalog/keychron-m3-mini.jpg',
+    image: '/images/catalog/keychron-m3-mini.jpg',
   },
   {
     id: 'keychron-m3-mini-metal',
@@ -1285,7 +1285,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายบอดี้แมกนีเซียมอัลลอยผิวสัมผัสพรีเมียม แถมตัวรับ 4K Polling มาพร้อมใช้ทันที',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M3 Mini Metal, 4K Receiver, สายถัก USB-C, แผ่น PTFE สำรอง',
-    image: '/src/assets/images/catalog/keychron-m3-mini-metal.jpg',
+    image: '/images/catalog/keychron-m3-mini-metal.jpg',
   },
   {
     id: 'keychron-m4-wireless',
@@ -1300,7 +1300,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ไร้สายขนาด Micro-Sized เบาเพียง 35 กรัม สำหรับสายจับปลายนิ้ว Fingertip หรือพกใส่กระเป๋าโน้ตบุ๊กขนาดเล็ก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ Keychron M4, Type-C & Type-A Receiver, สายถัก USB-C',
-    image: '/src/assets/images/catalog/keychron-m4-wireless.jpg',
+    image: '/images/catalog/keychron-m4-wireless.jpg',
   },
   {
     id: 'keychron-m2-wireless',
@@ -1315,7 +1315,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์ทรงหลังนูนกลางจับเต็มอุ้งมือแต่น้ำหนักเบา 53 กรัม ให้ความสมดุลระหว่างการเล่นเกมและงานเอกสาร',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M2, Type-C Receiver, Type-A Adapter, สาย USB-C',
-    image: '/src/assets/images/catalog/keychron-m2-wireless.jpg',
+    image: '/images/catalog/keychron-m2-wireless.jpg',
   },
   {
     id: 'keychron-m2-mini',
@@ -1330,7 +1330,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นย่อส่วนของ M2 ที่น้ำหนักลดเหลือเพียง 50 กรัม คล่องตัวมากสำหรับผู้ที่ถนัดเมาส์ไซส์เล็ก-กลาง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M2 Mini, Wireless Receivers, สายถัก USB-C',
-    image: '/src/assets/images/catalog/keychron-m2-mini.jpg',
+    image: '/images/catalog/keychron-m2-mini.jpg',
   },
   {
     id: 'keychron-m1-wireless',
@@ -1345,7 +1345,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์สมมาตรทรงเพรียวพร้อมไฟ RGB ข้างบอดี้และตัวรับสัญญาณ USB-C ในกล่อง เสียบใช้งานกับ MacBook ได้ทันที',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ M1, Type-C Receiver, Type-A Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/keychron-m1-wireless.jpg',
+    image: '/images/catalog/keychron-m1-wireless.jpg',
   },
   {
     id: 'keychron-m6-wireless',
@@ -1360,7 +1360,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์สายทำงานและตัดต่อที่มีทั้งลูกกลิ้งปลดล็อกหมุนอิสระและ Thumb Wheel เลื่อนไทม์ไลน์ แต่เบาเพียง 78 กรัม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ Keychron M6, Type-C & Type-A Receivers, สาย USB-C',
-    image: '/src/assets/images/catalog/keychron-m6-wireless.jpg',
+    image: '/images/catalog/keychron-m6-wireless.jpg',
   },
   {
     id: 'keychron-m7-wireless',
@@ -1375,7 +1375,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'เมาส์เกมมิ่งไร้สายทรง Ergonomic ที่มีที่พักนิ้วโป้งสไตล์ G502 แต่หนักเพียง 63 กรัม ลากเมาส์สบายตลอดวัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวเมาส์ Keychron M7, Wireless Receivers, สายถัก USB-C',
-    image: '/src/assets/images/catalog/keychron-m7-wireless.jpg',
+    image: '/images/catalog/keychron-m7-wireless.jpg',
   },
   {
     id: 'keychron-desk-mat',
@@ -1390,7 +1390,7 @@ export const MICE_AND_PADS_PRODUCTS: Product[] = [
     descriptionTh: 'แผ่นรองโต๊ะและแผ่นรองเมาส์ดีไซน์มินิมอลของ Keychron ช่วยซับเสียงพิมพ์คีย์บอร์ดให้นุ่มขึ้นและลากเมาส์ได้ลื่นไหล',
     warranty: 'รับประกันความพึงพอใจ 7 วัน',
     boxContents: 'แผ่นรองเมาส์ Keychron Desk Mat (XL)',
-    image: '/src/assets/images/catalog/keychron-desk-mat.jpg',
+    image: '/images/catalog/keychron-desk-mat.jpg',
   },
 ];
 

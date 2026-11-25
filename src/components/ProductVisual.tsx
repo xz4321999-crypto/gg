@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Headphones, Keyboard, Monitor, Mouse } from 'lucide-react';
 import { CategoryId } from '../types';
 
@@ -18,6 +18,12 @@ export const ProductVisual: React.FC<ProductVisualProps> = ({
   loading = 'lazy',
 }) => {
   const [failed, setFailed] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
+
+  useEffect(() => {
+    setFailed(false);
+    setRetryCount(0);
+  }, [src]);
 
   const renderFallbackIcon = () => {
     switch (category) {
@@ -43,13 +49,24 @@ export const ProductVisual: React.FC<ProductVisualProps> = ({
     );
   }
 
+  const isExternal = /^https?:\/\//i.test(src);
+  const effectiveSrc =
+    retryCount > 0 ? `${src}${src.includes('?') ? '&' : '?'}r=${retryCount}` : src;
+
   return (
     <img
-      src={src}
+      src={effectiveSrc}
       alt={alt}
-      referrerPolicy="no-referrer"
+      referrerPolicy={isExternal ? 'no-referrer' : undefined}
       loading={loading}
-      onError={() => setFailed(true)}
+      decoding="async"
+      onError={() => {
+        if (retryCount < 1) {
+          setRetryCount((prev) => prev + 1);
+        } else {
+          setFailed(true);
+        }
+      }}
       className={className}
     />
   );

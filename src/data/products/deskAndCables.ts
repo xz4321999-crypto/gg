@@ -22,7 +22,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟแขวนจอระดับพรีเมียม ช่วยถนอมสายตายามค่ำคืนโดยไม่เกิดแสงสะท้อนบนหน้าจอ พร้อมไฟส่องผนังด้านหลังลดความล้าตา',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ ScreenBar Halo 2, รีโมทหมุนไร้สาย, ตัวถ่วงน้ำหนักจอโค้ง, สาย USB',
-    image: '/src/assets/images/catalog/benq-screenbar-halo-2.jpg',
+    image: '/images/catalog/benq-screenbar-halo-2.jpg',
     isBestseller: true,
   },
   {
@@ -38,7 +38,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟแขวนจอรุ่นยอดนิยมที่มีไฟ Backlight หลังจอและรีโมทหมุนไร้สายวางบนโต๊ะ ช่วยลดแสงจ้าในห้องมืด',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ ScreenBar Halo, รีโมทไร้สาย, อุปกรณ์เสริมจอโค้ง',
-    image: '/src/assets/images/catalog/benq-screenbar-halo.jpg',
+    image: '/images/catalog/benq-screenbar-halo.jpg',
   },
   {
     id: 'benq-screenbar-pro',
@@ -53,7 +53,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ไฟแขวนจอ BenQ รุ่น Pro ที่เพิ่มเซ็นเซอร์ตรวจจับการนั่งโต๊ะอัตโนมัติและหัวหนีบรองรับจอได้หนาเป็นพิเศษ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ ScreenBar Pro, อะแดปเตอร์ไฟ USB-C, ฝาแม่เหล็กติดเว็บแคม',
-    image: '/src/assets/images/catalog/benq-screenbar-pro.jpg',
+    image: '/images/catalog/benq-screenbar-pro.jpg',
   },
   {
     id: 'benq-screenbar',
@@ -68,7 +68,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟแขวนหน้าจอรุ่นต้นตำรับของ BenQ ใช้งานง่ายด้วยปุ่มสัมผัสบนแท่งไฟและประหยัดพื้นที่โต๊ะ 100%',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ BenQ ScreenBar, สายไฟ USB ยาว 1.5 เมตร',
-    image: '/src/assets/images/catalog/benq-screenbar.jpg',
+    image: '/images/catalog/benq-screenbar.jpg',
   },
   {
     id: 'benq-screenbar-plus',
@@ -83,7 +83,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นยอดนิยมสำหรับคนชอบปุ่มหมุนวางบนโต๊ะแบบไม่ต้องคอยเปลี่ยนถ่าน ปรับความสว่างและโทนแสงอุ่น-เย็นได้แม่นยำ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ ScreenBar Plus และชุดสายต่อ Desktop Dial',
-    image: '/src/assets/images/catalog/benq-screenbar-plus.jpg',
+    image: '/images/catalog/benq-screenbar-plus.jpg',
   },
   {
     id: 'benq-screenbar-max',
@@ -98,7 +98,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สุดยอดโคมไฟส่องสว่างระดับสตูดิโอที่ออกแบบมาเพื่อโต๊ะจอคู่และจอ Ultrawide โดยเฉพาะ ความสว่างสูงสุดถึง 1400 Lux',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'BenQ ScreenBar Max, ชุดขาหนีบ Desk Clamp, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/benq-screenbar-max.jpg',
+    image: '/images/catalog/benq-screenbar-max.jpg',
   },
   {
     id: 'benq-laptopbar',
@@ -113,7 +113,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟส่องคีย์บอร์ดและพื้นที่โต๊ะสำหรับชาว MacBook/Notebook พกใส่กระเป๋าไปทำงานร้านกาแฟหรือห้องสมุดได้ทุกที่',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'BenQ LaptopBar, แผ่นแม่เหล็กติดฝาเครื่อง 2 ชิ้น, ถุงผ้า, สาย USB-C',
-    image: '/src/assets/images/catalog/benq-laptopbar.jpg',
+    image: '/images/catalog/benq-laptopbar.jpg',
   },
   {
     id: 'benq-wit-desk-lamp',
@@ -128,7 +128,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟตั้งโต๊ะระดับรางวัล Red Dot ออกแบบมาเพื่อคนที่ต้องใช้ทั้งหน้าจอคอมพิวเตอร์และอ่านหนังสือบนโต๊ะเดียวกัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ BenQ WiT e-Reading, ฐานตั้งหนักมั่นคง, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/benq-wit-desk-lamp.jpg',
+    image: '/images/catalog/benq-wit-desk-lamp.jpg',
   },
   {
     id: 'benq-wit-genie-lamp',
@@ -143,7 +143,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟตั้งโต๊ะขนาดกะทัดรัดสำหรับหอพักและโต๊ะทำงานที่ต้องการแสงสีตรงมาตรฐาน CRI สูงและไม่มีแสงจ้า',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ BenQ WiT Genie, ฐานตั้งโต๊ะ, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/benq-wit-genie-lamp.jpg',
+    image: '/images/catalog/benq-wit-genie-lamp.jpg',
   },
   {
     id: 'benq-becreatus-dp1310-dock',
@@ -158,7 +158,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'Docking Station ระดับสตูดิโอที่รวมฟังก์ชันสลับจอเกมคอนโซล/PC กับโน้ตบุ๊กทำงานไว้ในแท่นอะลูมิเนียมเดียว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Dock DP1310, อะแดปเตอร์ไฟ 180W, สาย USB-C 10Gbps, สาย HDMI 2.1',
-    image: '/src/assets/images/catalog/benq-becreatus-dp1310-dock.jpg',
+    image: '/images/catalog/benq-becreatus-dp1310-dock.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -177,7 +177,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ไฟติดหน้าจอสุดคุ้มค่า ดีไซน์มินิมอล พร้อมรีโมทหมุนไร้สายวางบนโต๊ะ ปรับโทนแสงอุ่น-ขาวได้สะดวก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แท่งไฟ Light Bar, ฐานหนีบแม่เหล็ก, รีโมทไร้สาย, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/xiaomi-mi-monitor-light-bar.jpg',
+    image: '/images/catalog/xiaomi-mi-monitor-light-bar.jpg',
   },
   {
     id: 'xiaomi-monitor-light-bar-1s',
@@ -192,7 +192,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นอัปเกรด 1S ที่สามารถเชื่อมแอป Xiaomi Home ตั้งซีนไฟร่วมกับอุปกรณ์ Smart Home อื่นๆ ภายในห้องได้',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แท่งไฟ Light Bar 1S, ขาหนีบแม่เหล็ก, รีโมทไร้สาย, สาย USB-C',
-    image: '/src/assets/images/catalog/xiaomi-monitor-light-bar-1s.jpg',
+    image: '/images/catalog/xiaomi-monitor-light-bar-1s.jpg',
   },
   {
     id: 'xiaomi-mijia-monitor-light-bar-2',
@@ -207,7 +207,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟติดหน้าจอ Xiaomi รุ่นใหม่ล่าสุด มาพร้อมค่าความถูกต้องสี Ra97 และไฟด้านหลังจอครบจบในงบไม่เกินสองพัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แท่งไฟ Light Bar 2, ฐานหนีบ, รีโมทไร้สาย, สาย USB-C',
-    image: '/src/assets/images/catalog/xiaomi-mijia-monitor-light-bar-2.jpg',
+    image: '/images/catalog/xiaomi-mijia-monitor-light-bar-2.jpg',
   },
   {
     id: 'xiaomi-led-desk-lamp-1s',
@@ -222,7 +222,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟตั้งโต๊ะมินิมอลในตำนาน ควบคุมผ่านปุ่มหมุนหรือสั่งงานเสียง Siri/HomeKit ได้สะดวกมาก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ Xiaomi LED Desk Lamp 1S, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/xiaomi-led-desk-lamp-1s.jpg',
+    image: '/images/catalog/xiaomi-led-desk-lamp-1s.jpg',
   },
   {
     id: 'xiaomi-desk-lamp-2',
@@ -237,7 +237,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟตั้งโต๊ะรุ่นใหม่ที่ให้หัวไฟกว้าง 60 ซม. สว่างสม่ำเสมอทั้งโต๊ะทำงานพร้อมค่าความตรงสี Ra97',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'โคมไฟ Desk Lamp 2, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/xiaomi-desk-lamp-2.jpg',
+    image: '/images/catalog/xiaomi-desk-lamp-2.jpg',
   },
   {
     id: 'xiaomi-magnetic-reading-light-bar',
@@ -252,7 +252,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ไฟบาร์แม่เหล็กไร้สายสารพัดประโยชน์ ติดใต้ชั้นวางจอหรือข้างโต๊ะคอมเพื่อเพิ่มแสงสว่างเฉพาะจุดได้สวยสะอาดตา',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แท่งไฟแม่เหล็ก, ฐานแม่เหล็ก 3M, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/xiaomi-magnetic-reading-light-bar.jpg',
+    image: '/images/catalog/xiaomi-magnetic-reading-light-bar.jpg',
   },
   {
     id: 'xiaomi-5in1-type-c-hub',
@@ -267,7 +267,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ USB-C 5 พอร์ตขนาดเล็กกะทัดรัด ดีไซน์เรียบหรูเก็บหัวปลั๊กซ่อนในตัวบอดี้ได้พกใส่กระเป๋าไม่เป็นรอย',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Xiaomi 5-in-1 Type-C Hub',
-    image: '/src/assets/images/catalog/xiaomi-5in1-type-c-hub.jpg',
+    image: '/images/catalog/xiaomi-5in1-type-c-hub.jpg',
   },
   {
     id: 'xiaomi-10in1-type-c-hub',
@@ -282,7 +282,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ USB-C 10 พอร์ตสำหรับเชื่อมต่อจอ 4K สายแลน เมมโมรีการ์ด และชาร์จไฟ PD 100W ครบจบในอันเดียว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Xiaomi 10-in-1 Type-C Hub',
-    image: '/src/assets/images/catalog/xiaomi-10in1-type-c-hub.jpg',
+    image: '/images/catalog/xiaomi-10in1-type-c-hub.jpg',
   },
   {
     id: 'xiaomi-67w-gan-charger',
@@ -297,7 +297,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'อะแดปเตอร์ชาร์จเร็ว GaN 3 พอร์ต จ่ายไฟชาร์จโน้ตบุ๊ก เมาส์ คีย์บอร์ดไร้สาย และมือถือได้พร้อมกันบนโต๊ะทำงาน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หัวชาร์จ Xiaomi 67W GaN, สาย USB-C to USB-C 6A (1.5m)',
-    image: '/src/assets/images/catalog/xiaomi-67w-gan-charger.jpg',
+    image: '/images/catalog/xiaomi-67w-gan-charger.jpg',
   },
   {
     id: 'xiaomi-6a-type-c-cable',
@@ -312,7 +312,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สายชาร์จ Type-C to Type-C แท้จาก Xiaomi รองรับกำลังไฟสูงสุดถึง 120W ความยาว 1.5 เมตรใช้งานบนโต๊ะได้สะดวก',
     warranty: 'รับประกันศูนย์ไทย 6 เดือน',
     boxContents: 'สาย Xiaomi 6A Type-C to Type-C ยาว 1.5 เมตร',
-    image: '/src/assets/images/catalog/xiaomi-6a-type-c-cable.jpg',
+    image: '/images/catalog/xiaomi-6a-type-c-cable.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -331,7 +331,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ขาจับจอมาตรฐานโลก แข็งแรงทนทาน ปรับระดับหน้าจอได้ทุกองศาอย่างนุ่มนวล เพิ่มพื้นที่ใช้สอยบนโต๊ะทำงาน',
     warranty: 'รับประกันศูนย์ 10 ปี',
     boxContents: 'ชุดแขนจับจอ Ergotron LX, ชุดหนีบโต๊ะ C-Clamp & Grommet, น็อต VESA',
-    image: '/src/assets/images/catalog/ergotron-lx-monitor-arm.jpg',
+    image: '/images/catalog/ergotron-lx-monitor-arm.jpg',
   },
   {
     id: 'ergotron-lx-dual-stacking',
@@ -346,7 +346,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ขาจับจอคู่แบบวางซ้อนบน-ล่างหรือวางข้างกันได้ รองรับจอใหญ่พร้อมเสาหลักแข็งแรงมากเหมาะสำหรับสายสตรีมและเทรด/โค้ด',
     warranty: 'รับประกันศูนย์ 10 ปี',
     boxContents: 'เสาหลัก 13 นิ้ว, แขนจับ 2 ชุด, Desk Clamp & Grommet Mount, น็อต VESA',
-    image: '/src/assets/images/catalog/ergotron-lx-dual-stacking.jpg',
+    image: '/images/catalog/ergotron-lx-dual-stacking.jpg',
   },
   {
     id: 'ergotron-lx-dual-side-by-side',
@@ -361,7 +361,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ขาจับจอคู่มาตรฐานที่ออกแบบสำหรับวางจอคู่ระดับสายตาเดียวกัน ดันชิดผนังเมื่อไม่ใช้งานได้ง่าย',
     warranty: 'รับประกันศูนย์ 10 ปี',
     boxContents: 'ฐานจับคู่, แขนจับจอ LX 2 ชุด, C-Clamp & Grommet Kit',
-    image: '/src/assets/images/catalog/ergotron-lx-dual-side-by-side.jpg',
+    image: '/images/catalog/ergotron-lx-dual-side-by-side.jpg',
   },
   {
     id: 'ergotron-lx-pro',
@@ -376,7 +376,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แขนจับจอรุ่นอัปเกรดใหม่ล่าสุดจาก Ergotron ปรับแต่งแรงตึงง่ายและมีตัวกั้นองศาหมุนป้องกันจอชนผนัง',
     warranty: 'รับประกันศูนย์ 10 ปี',
     boxContents: 'แขนจับ Ergotron LX Pro, Desk Clamp, ชุดประกอบ VESA Quick-Release',
-    image: '/src/assets/images/catalog/ergotron-lx-pro.jpg',
+    image: '/images/catalog/ergotron-lx-pro.jpg',
   },
   {
     id: 'ergotron-hx-heavy-duty',
@@ -391,7 +391,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ขาจับจอไซส์ยักษ์ที่สร้างมาเพื่อจอ Ultrawide 49 นิ้วและจอทำงานหนักๆ โดยเฉพาะ แข็งแกร่งที่สุดในตลาด',
     warranty: 'รับประกันศูนย์ 10 ปี',
     boxContents: 'แขนจับจอ Ergotron HX, Clamp & Grommet Mount, น็อต VESA',
-    image: '/src/assets/images/catalog/ergotron-hx-heavy-duty.jpg',
+    image: '/images/catalog/ergotron-hx-heavy-duty.jpg',
   },
   {
     id: 'ergotron-hx-dual',
@@ -406,7 +406,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แขนจับจอคู่แบบคานขวาง Heavy-Duty เหมาะสำหรับโต๊ะทำงานที่ต้องขยับปรับจอ 2 จอขนาดใหญ่พร้อมกันอย่างสมดุล',
     warranty: 'รับประกันศูนย์ 10 ปี',
     boxContents: 'แขนจับ Ergotron HX Dual, Dual Bow Crossbar, มือจับ, Clamp Mount',
-    image: '/src/assets/images/catalog/ergotron-hx-dual.jpg',
+    image: '/images/catalog/ergotron-hx-dual.jpg',
   },
   {
     id: 'ergotron-mxv-single',
@@ -421,7 +421,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แขนจับจอสไตล์โมเดิร์นทรงเพรียวบาง ออกแบบมาเพื่อโต๊ะที่วางชิดผนังหรือมีพื้นที่ด้านหลังจำกัด',
     warranty: 'รับประกันศูนย์ 10 ปี',
     boxContents: 'แขนจับจอ MXV, ฐานหนีบ Slim Clamp, ชุดน็อต VESA',
-    image: '/src/assets/images/catalog/ergotron-mxv-single.jpg',
+    image: '/images/catalog/ergotron-mxv-single.jpg',
   },
   {
     id: 'ergotron-trace-single',
@@ -436,7 +436,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ขาจับจอรุ่นเรือธงที่รวมเสาตั้งและการสไลด์จอเข้า-ออกไว้บนแกนสมมาตร ดูเรียบหรูแม้ตั้งโต๊ะกลางห้อง',
     warranty: 'รับประกันศูนย์ 15 ปี',
     boxContents: 'ชุดขาตั้ง Ergotron TRACE, Desk Clamp & Grommet Kit',
-    image: '/src/assets/images/catalog/ergotron-trace-single.jpg',
+    image: '/images/catalog/ergotron-trace-single.jpg',
   },
   {
     id: 'ergotron-trace-dual',
@@ -451,7 +451,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แท่นจับจอคู่ดีไซน์ระดับสถาปัตยกรรม ยืด-หดและจัดเรียง 2 หน้าจอให้อยู่ในระนาบสมดุลตลอดเวลา',
     warranty: 'รับประกันศูนย์ 15 ปี',
     boxContents: 'ชุดขาตั้ง Ergotron TRACE Dual, คานขวาง Dual Bow, อุปกรณ์ติดตั้งโต๊ะ',
-    image: '/src/assets/images/catalog/ergotron-trace-dual.jpg',
+    image: '/images/catalog/ergotron-trace-dual.jpg',
   },
   {
     id: 'ergotron-notebook-tray',
@@ -466,7 +466,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'อุปกรณ์เสริมเปลี่ยนแขนจับจอ VESA ให้กลายเป็นแท่นวางโน้ตบุ๊กยกระดับสายตา ช่วยคืนพื้นที่บนโต๊ะทำงานเต็มที่',
     warranty: 'รับประกันศูนย์ 5 ปี',
     boxContents: 'ถาดวางโน้ตบุ๊ก, แถบกันลื่น Velcro Strap, ชุดน็อต VESA',
-    image: '/src/assets/images/catalog/ergotron-notebook-tray.jpg',
+    image: '/images/catalog/ergotron-notebook-tray.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -485,7 +485,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'เครื่องควบคุมอัจฉริยะ 15 ปุ่ม LCD สั่งเปิดแอป สลับฉากไลฟ์สตรีม หรือรันคีย์ลัดงานตัดต่อได้ในคลิกเดียว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Stream Deck MK.2, ขาตั้ง Desktop Stand, สาย USB-C to USB-A',
-    image: '/src/assets/images/catalog/elgato-stream-deck-mk2.jpg',
+    image: '/images/catalog/elgato-stream-deck-mk2.jpg',
     isBestseller: true,
   },
   {
@@ -501,7 +501,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ตัวควบคุมอเนกประสงค์ที่เพิ่มปุ่มหมุน 4 ลูกและจอ Touch Strip ช่วยปรับระดับเสียง ไฟส่องสว่าง และงานตัดต่อได้ลื่นไหล',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Elgato Stream Deck +, สาย USB-C to USB-A, คู่มือ',
-    image: '/src/assets/images/catalog/elgato-stream-deck-plus.jpg',
+    image: '/images/catalog/elgato-stream-deck-plus.jpg',
   },
   {
     id: 'elgato-stream-deck-xl',
@@ -516,7 +516,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นพี่ใหญ่ 32 ปุ่มสำหรับสตรีมเมอร์และสายงานตัดต่อระดับโปรที่ไม่ต้องการเสียเวลากดเปลี่ยนโฟลเดอร์บ่อยๆ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Stream Deck XL, ฐานตั้งแม่เหล็ก, สาย USB-C to USB-A',
-    image: '/src/assets/images/catalog/elgato-stream-deck-xl.jpg',
+    image: '/images/catalog/elgato-stream-deck-xl.jpg',
   },
   {
     id: 'elgato-stream-deck-mini',
@@ -531,7 +531,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'Stream Deck รุ่นเริ่มต้น 6 ปุ่มไซส์มินิ วางหน้าจอมอนิเตอร์ได้ทุกโต๊ะและใช้สร้างโฟลเดอร์ย่อยได้ไม่จำกัด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Elgato Stream Deck Mini',
-    image: '/src/assets/images/catalog/elgato-stream-deck-mini.jpg',
+    image: '/images/catalog/elgato-stream-deck-mini.jpg',
   },
   {
     id: 'elgato-stream-deck-neo',
@@ -546,7 +546,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'Stream Deck ตระกูล Neo สีขาวมินิมอล ออกแบบเพื่อการทำงานประจำวัน ประชุม Zoom และควบคุม Spotify/OBS ได้ง่ายดาย',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Elgato Stream Deck Neo',
-    image: '/src/assets/images/catalog/elgato-stream-deck-neo.jpg',
+    image: '/images/catalog/elgato-stream-deck-neo.jpg',
   },
   {
     id: 'elgato-key-light',
@@ -561,7 +561,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ไฟสตูดิโอตัวท็อปสำหรับไลฟ์สตรีมและถ่ายวิดีโอ แสงนุ่มนวลไม่แสบตาพร้อมเสาหนีบขอบโต๊ะประหยัดที่วางขาตั้ง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'แผงไฟ Elgato Key Light, เสา Telescopic Pole Clamp, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/elgato-key-light.jpg',
+    image: '/images/catalog/elgato-key-light.jpg',
   },
   {
     id: 'elgato-key-light-air',
@@ -576,7 +576,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ไฟสตูดิโอขนาดพกพาพร้อมฐานตั้งโต๊ะในตัว เหมาะสำหรับโต๊ะประชุม วิดีโอคอล และสตรีมเมอร์พื้นที่จำกัด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Key Light Air, ขาตั้ง Telescopic + ฐานถ่วงน้ำหนัก, อะแดปเตอร์',
-    image: '/src/assets/images/catalog/elgato-key-light-air.jpg',
+    image: '/images/catalog/elgato-key-light-air.jpg',
   },
   {
     id: 'elgato-key-light-neo',
@@ -591,7 +591,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ไฟหน้าสตรีมขนาดเล็กติดขอบจอมอนิเตอร์ เสียบสาย USB-C ใช้งานได้ทันทีช่วยให้หน้าสว่างใสขณะประชุมหรือไลฟ์',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Elgato Key Light Neo, คลิปหนีบมอนิเตอร์, สาย USB-C',
-    image: '/src/assets/images/catalog/elgato-key-light-neo.jpg',
+    image: '/images/catalog/elgato-key-light-neo.jpg',
   },
   {
     id: 'elgato-wave-mic-arm-lp',
@@ -606,7 +606,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แขนจับไมค์แบบ Low-Profile ยอดนิยมทั่วโลก ยื่นไมค์จากด้านข้างใต้หน้าจอช่วยให้มองจอเต็มตาไม่เกะกะสายตา',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Wave Mic Arm LP, ตัวหนีบ Padded Desk Clamp, หัวแปลง 1/4" & 3/8" to 5/8"',
-    image: '/src/assets/images/catalog/elgato-wave-mic-arm-lp.jpg',
+    image: '/images/catalog/elgato-wave-mic-arm-lp.jpg',
   },
   {
     id: 'elgato-multi-mount-master-l',
@@ -621,7 +621,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'เสาหนีบขอบโต๊ะสารพัดประโยชน์สำหรับตั้งกล้องถ่ายมุมบน (Top-down), กล้องเว็บแคม หรือไฟสตูดิโอบนโต๊ะคอม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Master Mount L, หัวบอล Ball Head 1/4", Padded Desk Clamp',
-    image: '/src/assets/images/catalog/elgato-multi-mount-master-l.jpg',
+    image: '/images/catalog/elgato-multi-mount-master-l.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -640,7 +640,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ USB-C 7 พอร์ตครบครัน บอดี้อะลูมิเนียมระบายความร้อนดี ต่อจอนอก 4K พร้อมชาร์จไฟและเสียบสายแลนได้พร้อมกัน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'UGREEN Revodok 7-in-1 USB-C Hub',
-    image: '/src/assets/images/catalog/ugreen-revodok-7in1-hub.jpg',
+    image: '/images/catalog/ugreen-revodok-7in1-hub.jpg',
   },
   {
     id: 'ugreen-revodok-pro-9in1',
@@ -655,7 +655,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ USB-C ระดับ Pro ความเร็วพอร์ต USB 3.2 Gen 2 10Gbps ช่วยโอนไฟล์วิดีโอจาก External SSD ได้เร็วเต็มสปีด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'UGREEN Revodok Pro 9-in-1 Hub',
-    image: '/src/assets/images/catalog/ugreen-revodok-pro-9in1.jpg',
+    image: '/images/catalog/ugreen-revodok-pro-9in1.jpg',
   },
   {
     id: 'ugreen-revodok-pro-11in1-dock',
@@ -670,7 +670,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ด็อกกิ้งพกพา 11 พอร์ตสำหรับคนที่ต้องการต่อจอมอนิเตอร์พร้อมกัน 2 จอผ่าน USB-C เส้นเดียว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'UGREEN Revodok Pro 11-in-1 Hub',
-    image: '/src/assets/images/catalog/ugreen-revodok-pro-11in1-dock.jpg',
+    image: '/images/catalog/ugreen-revodok-pro-11in1-dock.jpg',
   },
   {
     id: 'ugreen-nexode-100w-gan',
@@ -685,7 +685,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'หัวชาร์จ GaN 100W รุ่นขายดี จ่ายไฟชาร์จโน้ตบุ๊ก มือถือ แท็บเล็ต และหูฟังไร้สายบนโต๊ะพร้อมกันได้ 4 เครื่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'UGREEN Nexode 100W 4-Port GaN Charger',
-    image: '/src/assets/images/catalog/ugreen-nexode-100w-gan.jpg',
+    image: '/images/catalog/ugreen-nexode-100w-gan.jpg',
   },
   {
     id: 'ugreen-nexode-140w-gan',
@@ -700,7 +700,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'อะแดปเตอร์ PD 3.1 กำลังไฟสูง 140W ที่ชาร์จโน้ตบุ๊กสายทำงานหนัก 2 เครื่องพร้อมกันได้อย่างเสถียรและแถมสาย 240W ในกล่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'UGREEN Nexode 140W Charger, สายถัก USB-C 240W ยาว 1.5 ม.',
-    image: '/src/assets/images/catalog/ugreen-nexode-140w-gan.jpg',
+    image: '/images/catalog/ugreen-nexode-140w-gan.jpg',
   },
   {
     id: 'ugreen-hdmi-21-cable-2m',
@@ -715,7 +715,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สาย HDMI 2.1 แบนด์วิดท์เต็ม 48Gbps สำหรับต่อจอเกมมิ่งรีเฟรชเรตสูงหรือเครื่องคอนโซล ภาพคมชัดไร้สัญญาณรบกวน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'สาย UGREEN HDMI 2.1 ยาว 2 เมตร',
-    image: '/src/assets/images/catalog/ugreen-hdmi-21-cable-2m.jpg',
+    image: '/images/catalog/ugreen-hdmi-21-cable-2m.jpg',
   },
   {
     id: 'ugreen-cat8-ethernet-3m',
@@ -730,7 +730,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สายแลน Cat 8 ลดค่า Ping และอาการ Packet Loss สำหรับการแข่งเกมออนไลน์และสตรีมมิ่งความละเอียดสูง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'สายแลน UGREEN Cat 8 ยาว 3 เมตร พร้อมฝาครอบหัว RJ45',
-    image: '/src/assets/images/catalog/ugreen-cat8-ethernet-3m.jpg',
+    image: '/images/catalog/ugreen-cat8-ethernet-3m.jpg',
   },
   {
     id: 'ugreen-dp-14-cable-2m',
@@ -745,7 +745,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สาย DisplayPort 1.4 แบนด์วิดท์ 32.4Gbps สำหรับรีดเฟรมเรตจอเกมมิ่ง 144Hz-240Hz และรองรับ G-Sync/FreeSync เต็มระบบ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'สาย UGREEN DisplayPort 1.4 ยาว 2 เมตร',
-    image: '/src/assets/images/catalog/ugreen-dp-14-cable-2m.jpg',
+    image: '/images/catalog/ugreen-dp-14-cable-2m.jpg',
   },
   {
     id: 'ugreen-240w-usbc-cable-2m',
@@ -760,7 +760,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สาย USB-C to USB-C สายถักพรีเมียมยาว 2 เมตร รองรับกำลังไฟสูงสุด 240W ใช้ชาร์จและต่ออุปกรณ์บนโต๊ะได้อย่างมั่นใจ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'สาย UGREEN 240W USB-C to USB-C ยาว 2 เมตร',
-    image: '/src/assets/images/catalog/ugreen-240w-usbc-cable-2m.jpg',
+    image: '/images/catalog/ugreen-240w-usbc-cable-2m.jpg',
   },
   {
     id: 'ugreen-vertical-laptop-stand',
@@ -775,7 +775,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แท่นวางโน้ตบุ๊กแนวตั้งอะลูมิเนียม ช่วยให้โต๊ะคอมดูโล่งสะอาดขึ้นทันทีเมื่อต่อสาย USB-C ออกจอนอก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'แท่นวาง UGREEN Vertical Laptop Stand',
-    image: '/src/assets/images/catalog/ugreen-vertical-laptop-stand.jpg',
+    image: '/images/catalog/ugreen-vertical-laptop-stand.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -794,7 +794,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ USB-C ความเร็วสูง 10Gbps สำหรับโอนไฟล์ใหญ่และต่อจอ 4K เสถียรไม่หลุดง่าย เหมาะกับ MacBook และโน้ตบุ๊กทำงาน',
     warranty: 'รับประกันศูนย์ไทย 18 เดือน',
     boxContents: 'Anker 555 USB-C Hub (8-in-1) และซองผ้าพกพา',
-    image: '/src/assets/images/catalog/anker-555-usbc-hub-8in1.jpg',
+    image: '/images/catalog/anker-555-usbc-hub-8in1.jpg',
   },
   {
     id: 'anker-341-usbc-hub-7in1',
@@ -809,7 +809,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ USB-C 7 พอร์ตราคาคุ้มค่าจาก Anker เหมาะสำหรับนักศึกษาและผู้ใช้ MacBook ที่ต้องการพอร์ต USB-A, HDMI และตัวอ่านการ์ดครบ',
     warranty: 'รับประกันศูนย์ไทย 18 เดือน',
     boxContents: 'Anker 341 USB-C Hub (7-in-1)',
-    image: '/src/assets/images/catalog/anker-341-usbc-hub-7in1.jpg',
+    image: '/images/catalog/anker-341-usbc-hub-7in1.jpg',
   },
   {
     id: 'anker-565-usbc-hub-11in1',
@@ -824,7 +824,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ 11-in-1 ที่รวมทั้ง HDMI และ DisplayPort พร้อมพอร์ต 10Gbps และช่องต่อเสียง AUX ครบชุดในตัวเดียว',
     warranty: 'รับประกันศูนย์ไทย 18 เดือน',
     boxContents: 'Anker 565 USB-C Hub (11-in-1), ซองผ้าพกพา',
-    image: '/src/assets/images/catalog/anker-565-usbc-hub-11in1.jpg',
+    image: '/images/catalog/anker-565-usbc-hub-11in1.jpg',
   },
   {
     id: 'anker-575-usbc-dock-13in1',
@@ -839,7 +839,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'Desktop Docking Station เสียบสาย USB-C เส้นเดียวเชื่อมทุกอย่างบนโต๊ะทำงาน ทั้งจอนอก 3 จอ อินเทอร์เน็ต และระบบชาร์จ',
     warranty: 'รับประกันศูนย์ไทย 18 เดือน',
     boxContents: 'Anker 575 Dock, อะแดปเตอร์ไฟ 135W, สาย USB-C 3.2 Gen 2',
-    image: '/src/assets/images/catalog/anker-575-usbc-dock-13in1.jpg',
+    image: '/images/catalog/anker-575-usbc-dock-13in1.jpg',
   },
   {
     id: 'anker-675-dock-monitor-stand',
@@ -854,7 +854,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แท่นวางจอมอนิเตอร์อะลูมิเนียมที่มี USB-C Dock 12 พอร์ตและแท่นชาร์จไร้สายซ่อนอยู่ด้านใต้ จัดโต๊ะได้เนียบมาก',
     warranty: 'รับประกันศูนย์ไทย 18 เดือน',
     boxContents: 'Anker 675 Monitor Stand Dock, อะแดปเตอร์ไฟ 180W, สาย USB-C 3.2',
-    image: '/src/assets/images/catalog/anker-675-dock-monitor-stand.jpg',
+    image: '/images/catalog/anker-675-dock-monitor-stand.jpg',
   },
   {
     id: 'anker-prime-tb4-dock-14in1',
@@ -869,7 +869,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ด็อก Thunderbolt 4 รุ่นเรือธงดีไซน์ Built-in Power ใช้สาย AC เส้นเดียวไม่ต้องซ่อนหม้อแปลงใหญ่ใต้โต๊ะ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Anker Prime TB4 Dock, สาย Thunderbolt 4 ยาว 1 ม., สายไฟ AC',
-    image: '/src/assets/images/catalog/anker-prime-tb4-dock-14in1.jpg',
+    image: '/images/catalog/anker-prime-tb4-dock-14in1.jpg',
   },
   {
     id: 'anker-prime-100w-gan',
@@ -884,7 +884,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'หัวชาร์จ GaN พกพาเกรดเรือธงซีรีส์ Prime น้ำหนักสมดุลเสียบปลั๊กผนังแน่นไม่หลุดง่าย',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Anker Prime 100W GaN Charger',
-    image: '/src/assets/images/catalog/anker-prime-100w-gan.jpg',
+    image: '/images/catalog/anker-prime-100w-gan.jpg',
   },
   {
     id: 'anker-prime-250w-desktop',
@@ -899,7 +899,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สถานีชาร์จไฟตั้งโต๊ะระดับโปร 250W 6 พอร์ตพร้อมหน้าจอแสดงผลวัตต์ไฟและการ์ดป้องกันกระแสไฟครบวงจร',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'Anker Prime 250W Charger, สายไฟ AC',
-    image: '/src/assets/images/catalog/anker-prime-250w-desktop.jpg',
+    image: '/images/catalog/anker-prime-250w-desktop.jpg',
   },
   {
     id: 'anker-zolo-240w-cable',
@@ -914,7 +914,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สายชาร์จ 240W รุ่นใหม่ของ Anker น้ำหนักเบานุ่มมือแต่แข็งแรงสูง หัวบางเสียบชาร์จสะดวก',
     warranty: 'รับประกันศูนย์ไทย 18 เดือน',
     boxContents: 'สาย Anker Zolo 240W USB-C to USB-C ยาว 1.8 เมตร',
-    image: '/src/assets/images/catalog/anker-zolo-240w-cable.jpg',
+    image: '/images/catalog/anker-zolo-240w-cable.jpg',
   },
   {
     id: 'anker-hdmi-21-cable',
@@ -929,7 +929,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'สาย HDMI 2.1 แท้ผ่านการรับรองแบนด์วิดท์ 48Gbps เชื่อมต่อจอเกมมิ่ง 4K@120Hz/144Hz และ PS5/Xbox ได้ไม่มีภาพดับ',
     warranty: 'รับประกันศูนย์ไทย 18 เดือน',
     boxContents: 'สาย Anker Ultra-High Speed HDMI 2.1 ยาว 2 เมตร',
-    image: '/src/assets/images/catalog/anker-hdmi-21-cable.jpg',
+    image: '/images/catalog/anker-hdmi-21-cable.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -948,7 +948,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แท่นวางหูฟังอะลูมิเนียมที่รวม USB Hub และ Soundcard 7.1 ไว้ในฐานเดียว ช่วยจัดโต๊ะเกมมิ่งให้เป็นระเบียบ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Base Station V2 Chroma',
-    image: '/src/assets/images/catalog/razer-base-station-v2-chroma.jpg',
+    image: '/images/catalog/razer-base-station-v2-chroma.jpg',
   },
   {
     id: 'razer-monitor-stand-chroma',
@@ -963,7 +963,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แท่นยกระดับหน้าจออะลูมิเนียมที่ซ่อนพอร์ตเชื่อมต่อ 4 พอร์ตและแถบไฟ Chroma RGB ไว้ด้านหน้าอย่างลงตัว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Monitor Stand Chroma, สายเชื่อมต่อ USB-C',
-    image: '/src/assets/images/catalog/razer-monitor-stand-chroma.jpg',
+    image: '/images/catalog/razer-monitor-stand-chroma.jpg',
   },
   {
     id: 'razer-laptop-stand-chroma-v2',
@@ -978,7 +978,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'แท่นวางโน้ตบุ๊กที่รวมพอร์ต HDMI และ USB Hub ไว้ด้านหลังให้เสียบสายจอนอกเพียงเส้นเดียวเมื่อยกโน้ตบุ๊กมาวางที่โต๊ะ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Laptop Stand Chroma V2, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-laptop-stand-chroma-v2.jpg',
+    image: '/images/catalog/razer-laptop-stand-chroma-v2.jpg',
   },
   {
     id: 'razer-thunderbolt-4-dock-chroma',
@@ -993,7 +993,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ด็อกกิ้งสเตชัน Thunderbolt 4 สำหรับผู้ใช้งานสาย Pro ทั้ง Windows และ Mac ที่ต้องการความเร็วโอนไฟล์สูงสุดและไฟ Chroma',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Thunderbolt 4 Dock Chroma, อะแดปเตอร์ไฟ 135W, สาย TB4',
-    image: '/src/assets/images/catalog/razer-thunderbolt-4-dock-chroma.jpg',
+    image: '/images/catalog/razer-thunderbolt-4-dock-chroma.jpg',
   },
   {
     id: 'razer-usbc-dock-11-port',
@@ -1008,7 +1008,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ฮับ USB-C 11 พอร์ตดีไซน์พรีเมียมบางเฉียบจาก Razer เชื่อมต่อจอ 4K และชุดเสียงเกมมิ่ง 7.1 ได้ครบในตัวเดียว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer USB-C Dock 11-Port',
-    image: '/src/assets/images/catalog/razer-usbc-dock-11-port.jpg',
+    image: '/images/catalog/razer-usbc-dock-11-port.jpg',
   },
   {
     id: 'razer-aether-monitor-light-bar',
@@ -1023,7 +1023,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ไฟแขวนหน้าจอที่ให้ทั้งแสงสว่างทำงานสีตรง CRI 95 ด้านหน้าและแสงไฟ Chroma RGB สาดกำแพงด้านหลังจอ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Aether Monitor Light Bar, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-aether-monitor-light-bar.jpg',
+    image: '/images/catalog/razer-aether-monitor-light-bar.jpg',
   },
   {
     id: 'razer-aether-desk-lamp-pro',
@@ -1038,7 +1038,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'โคมไฟตั้งโต๊ะอัจฉริยะที่ปรับเป็นโคมอ่านหนังสือแสงขาวนวลหรือโคมไฟเกมมิ่งซิงค์ตามแสงเกมได้ผ่าน Razer Chroma',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Aether Desk Lamp Pro, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/razer-aether-desk-lamp-pro.jpg',
+    image: '/images/catalog/razer-aether-desk-lamp-pro.jpg',
   },
   {
     id: 'razer-mouse-bungee-v3-chroma',
@@ -1053,7 +1053,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ตัวจับสายเมาส์สำหรับผู้ใช้เมาส์มีสาย 8K ทำให้รู้สึกลากเมาส์เบาลื่นเหมือนเมาส์ไร้สายพร้อมไฟ Chroma RGB',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Mouse Bungee V3 Chroma',
-    image: '/src/assets/images/catalog/razer-mouse-bungee-v3-chroma.jpg',
+    image: '/images/catalog/razer-mouse-bungee-v3-chroma.jpg',
   },
   {
     id: 'razer-usbc-130w-gan-charger',
@@ -1068,7 +1068,7 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'หัวชาร์จ GaN 130W สีดำด้านดีไซน์ดุดันสไตล์ Razer ครบ 4 พอร์ตสำหรับโต๊ะเกมมิ่งและพกพาไปแข่งขัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer 130W GaN Charger, หัวปลั๊กอะแดปเตอร์ 3 แบบ, สายถัก USB-C 2m',
-    image: '/src/assets/images/catalog/razer-usbc-130w-gan-charger.jpg',
+    image: '/images/catalog/razer-usbc-130w-gan-charger.jpg',
   },
   {
     id: 'razer-ergonomic-wrist-rest-pro',
@@ -1083,6 +1083,6 @@ export const DESK_AND_CABLES_PRODUCTS: Product[] = [
     descriptionTh: 'ที่รองข้อมือคีย์บอร์ด Full-Size ผสม Cooling Gel ช่วยให้วางข้อมือเย็นสบายไม่ปวดเมื่อยขณะพิมพ์งานหรือเล่นเกมนานๆ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'Razer Ergonomic Wrist Rest Pro',
-    image: '/src/assets/images/catalog/razer-ergonomic-wrist-rest-pro.jpg',
+    image: '/images/catalog/razer-ergonomic-wrist-rest-pro.jpg',
   },
 ];

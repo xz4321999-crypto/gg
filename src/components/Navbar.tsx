@@ -45,7 +45,8 @@ export const Navbar: React.FC<NavbarProps> = ({
           <img
             src={STORE_ASSETS.logo}
             alt="GEAR PRO STORE"
-            referrerPolicy="no-referrer"
+            loading="eager"
+            decoding="async"
             className="h-14 w-14 shrink-0 rounded-lg border-2 border-[#D6B45A] object-cover shadow-[0_0_14px_rgba(214,180,90,0.28)]"
           />
           <span className="font-display text-lg font-bold tracking-wide text-[#D6B45A] whitespace-nowrap sm:text-xl">

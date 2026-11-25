@@ -22,7 +22,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สาย 75% ยอดนิยมรุ่นอัปเกรด Max เชื่อมต่อ 2.4GHz 1000Hz ได้ เสียงพิมพ์แน่นนุ่ม ใช้งานได้ทั้ง macOS และ Windows',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, 2.4GHz Receiver, สาย USB-C, ที่ถอดคีย์แคปและสวิตช์, ปุ่มเสริม Mac/Win',
-    image: '/src/assets/images/catalog/keychron-k2-max.jpg',
+    image: '/images/catalog/keychron-k2-max.jpg',
     isBestseller: true,
   },
   {
@@ -38,7 +38,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สาย 75% รุ่น Pro ที่เปิดโอกาสให้ปรับแต่งคีย์ลัด Macro และไฟ RGB ผ่านเบราว์เซอร์ได้ทันที',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C, ตัวถอดคีย์แคป/สวิตช์, คีย์แคป Mac/Win',
-    image: '/src/assets/images/catalog/keychron-k2-pro.jpg',
+    image: '/images/catalog/keychron-k2-pro.jpg',
   },
   {
     id: 'keychron-k6-pro',
@@ -53,7 +53,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดขนาด 65% ประหยัดพื้นที่โต๊ะแต่ยังมีปุ่มลูกศรใช้งานสะดวก เหมาะสำหรับพกพาคู่โน้ตบุ๊ก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สายถัก USB-C, ที่ดึงคีย์แคปและสวิตช์',
-    image: '/src/assets/images/catalog/keychron-k6-pro.jpg',
+    image: '/images/catalog/keychron-k6-pro.jpg',
   },
   {
     id: 'keychron-k8-pro',
@@ -68,7 +68,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดทรง TKL มาตรฐานที่เพิ่มโฟมซับเสียงและเพลตเหล็กช่วยให้พิมพ์สนุกแน่นมือทั้ง Mac และ Windows',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C, ที่ดึงสวิตช์, ปุ่มเสริม Mac/Win',
-    image: '/src/assets/images/catalog/keychron-k8-pro.jpg',
+    image: '/images/catalog/keychron-k8-pro.jpg',
   },
   {
     id: 'keychron-q1-max',
@@ -83,7 +83,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดคัสตอมระดับเรือธงบอดี้อะลูมิเนียมหนักแน่น เสียงพิมพ์ทุ้มใสระดับพรีเมียมโดยไม่ต้องโมดิฟายเพิ่ม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, 2.4GHz Type-C & Type-A Receivers, สาย Coiled USB-C, เครื่องมือประกอบ',
-    image: '/src/assets/images/catalog/keychron-q1-max.jpg',
+    image: '/images/catalog/keychron-q1-max.jpg',
   },
   {
     id: 'keychron-q1-pro',
@@ -98,7 +98,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดอะลูมิเนียมไร้สายตระกูล Q Pro ให้สัมผัสการกดนุ่มนวลด้วย Polycarbonate Plate และโครงสร้าง Double-Gasket',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย Coiled Cable USB-C, เครื่องมือและสกรูสำรอง',
-    image: '/src/assets/images/catalog/keychron-q1-pro.jpg',
+    image: '/images/catalog/keychron-q1-pro.jpg',
   },
   {
     id: 'keychron-q3-max',
@@ -113,7 +113,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดทรง TKL อะลูมิเนียมระดับไฮเอนด์ที่ครบทั้งการเชื่อมต่อไร้สายความหน่วงต่ำและเสียงพิมพ์ที่ปรับจูนอย่างพิถีพิถัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, Receiver 2.4GHz, สาย USB-C, ชุดไขควงและคีย์แคปเสริม',
-    image: '/src/assets/images/catalog/keychron-q3-max.jpg',
+    image: '/images/catalog/keychron-q3-max.jpg',
   },
   {
     id: 'keychron-v1-max',
@@ -128,7 +128,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นคุ้มค่าที่ได้โครงสร้าง Gasket Mount และ 2.4GHz 1000Hz ครบจบในงบสามพันกลาง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, 2.4GHz Receiver (เก็บในช่องใต้เครื่อง), สาย USB-C, ที่ดึงปุ่ม/สวิตช์',
-    image: '/src/assets/images/catalog/keychron-v1-max.jpg',
+    image: '/images/catalog/keychron-v1-max.jpg',
   },
   {
     id: 'keychron-c3-pro',
@@ -143,7 +143,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเมคานิคอลเริ่มต้นสุดคุ้มจาก Keychron ได้โครงสร้าง Gasket Mount และ QMK/VIA ในราคาไม่ถึงสองพัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C, คู่มือ, ตัวถอดคีย์แคป',
-    image: '/src/assets/images/catalog/keychron-c3-pro.jpg',
+    image: '/images/catalog/keychron-c3-pro.jpg',
   },
   {
     id: 'keychron-cherry-pbt-keycaps',
@@ -158,7 +158,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคปทรงมาตรฐาน Cherry Profile วัสดุ PBT หนาไม่มันเงาง่าย เพิ่มเสียงพิมพ์แน่นให้คีย์บอร์ดคัสตอมทุกตัว',
     warranty: 'รับประกันความพึงพอใจ 7 วัน',
     boxContents: 'กล่องถาดจัดเก็บคีย์แคปครบชุด 130+ ปุ่ม',
-    image: '/src/assets/images/catalog/keychron-cherry-pbt-keycaps.jpg',
+    image: '/images/catalog/keychron-cherry-pbt-keycaps.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -177,7 +177,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเกมมิ่งสวิตช์แม่เหล็กรุ่นล่าสุด ปรับระยะตอบสนองได้อิสระทุกปุ่ม พร้อมฟีเจอร์ Rapid Trigger สำหรับเกม FPS',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือแม่เหล็ก, สายถัก USB-C, ตัวถอดคีย์แคป',
-    image: '/src/assets/images/catalog/steelseries-apex-pro-gen-3.jpg',
+    image: '/images/catalog/steelseries-apex-pro-gen-3.jpg',
   },
   {
     id: 'steelseries-apex-pro-tkl-gen-3',
@@ -192,7 +192,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่น TKL ยอดนิยมของโปรเพลเยอร์ อัปเกรดโฟมซับเสียงและโหมด Rapid Tap ช่วยหยุดตัวละครและ Counter-Strafe ได้คมกริบ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือแม่เหล็ก, สาย USB-C, ตัวถอดคีย์แคป',
-    image: '/src/assets/images/catalog/steelseries-apex-pro-tkl-gen-3.jpg',
+    image: '/images/catalog/steelseries-apex-pro-tkl-gen-3.jpg',
   },
   {
     id: 'steelseries-apex-pro-mini-wireless',
@@ -207,7 +207,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สาย 60% ที่พกสวิตช์แม่เหล็ก Rapid Trigger ไปแข่งได้ทุกที่โดยไม่มีสายเกะกะ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, USB-C Wireless Dongle, Extender Adapter, สาย USB-C',
-    image: '/src/assets/images/catalog/steelseries-apex-pro-mini-wireless.jpg',
+    image: '/images/catalog/steelseries-apex-pro-mini-wireless.jpg',
   },
   {
     id: 'steelseries-apex-9-tkl',
@@ -222,7 +222,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Optical Switch ตอบสนองด้วยแสง 0.2ms พร้อมคีย์แคป PBT ทนทานและบอดี้เฟรมอะลูมิเนียม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Apex 9 TKL, สายถัก USB-C, ตัวถอดคีย์แคป',
-    image: '/src/assets/images/catalog/steelseries-apex-9-tkl.jpg',
+    image: '/images/catalog/steelseries-apex-9-tkl.jpg',
   },
   {
     id: 'steelseries-apex-9-mini',
@@ -237,7 +237,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 60% แบบมีสายที่ตอบสนองไว 0.2ms เหมาะกับโต๊ะคอมขนาดเล็กหรือสายเอียงคีย์บอร์ดแข่ง FPS',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Apex 9 Mini, สาย USB-C',
-    image: '/src/assets/images/catalog/steelseries-apex-9-mini.jpg',
+    image: '/images/catalog/steelseries-apex-9-mini.jpg',
   },
   {
     id: 'steelseries-apex-7-tkl',
@@ -252,7 +252,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเมคานิคอลรุ่นคลาสสิกของ SteelSeries โดดเด่นด้วยหน้าจอ OLED และเฟรมอะลูมิเนียมแข็งแกร่ง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือแม่เหล็ก',
-    image: '/src/assets/images/catalog/steelseries-apex-7-tkl.jpg',
+    image: '/images/catalog/steelseries-apex-7-tkl.jpg',
   },
   {
     id: 'steelseries-apex-5',
@@ -267,7 +267,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดขนาด Full-Size ที่ให้ความรู้สึกคลิกแบบ Blue Switch ในราคาจับต้องได้ พร้อมจอ OLED ปรับแต่ง GIF ได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Apex 5, ที่รองข้อมือแม่เหล็ก',
-    image: '/src/assets/images/catalog/steelseries-apex-5.jpg',
+    image: '/images/catalog/steelseries-apex-5.jpg',
   },
   {
     id: 'steelseries-apex-3-tkl',
@@ -282,7 +282,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด TKL กันน้ำหกใส่ได้ ใช้งานเงียบไม่รบกวนคนข้างๆ เหมาะสำหรับหอพักและนักศึกษา',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Apex 3 TKL',
-    image: '/src/assets/images/catalog/steelseries-apex-3-tkl.jpg',
+    image: '/images/catalog/steelseries-apex-3-tkl.jpg',
   },
   {
     id: 'steelseries-apex-3-full',
@@ -297,7 +297,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Full-Size ราคาคุ้มค่าที่ได้ทั้งคุณสมบัติกันน้ำและที่รองข้อมือแม่เหล็กในกล่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Apex 3, ที่รองข้อมือแม่เหล็ก',
-    image: '/src/assets/images/catalog/steelseries-apex-3-full.jpg',
+    image: '/images/catalog/steelseries-apex-3-full.jpg',
   },
   {
     id: 'steelseries-prismcaps-pbt',
@@ -312,7 +312,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคป Pudding ของ SteelSeries ให้แสงไฟ RGB สว่างกระจายตัวสวยสม่ำเสมอ พร้อมปุ่มเสริมแถวล่างหลายขนาด',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ชุดคีย์แคป PrismCaps และตัวถอดคีย์แคป',
-    image: '/src/assets/images/catalog/steelseries-prismcaps-pbt.jpg',
+    image: '/images/catalog/steelseries-prismcaps-pbt.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -331,7 +331,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สายขนาดกะทัดรัดแต่ยังได้ชุดตัวเลข Numpad ครบครัน ฟีลลิ่งกดนุ่มลื่นโรงงานลูปสวิตช์มาแล้ว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือ, ROG Omni Receiver, คีย์แคป ROG Spacebar ลายพิเศษ',
-    image: '/src/assets/images/catalog/asus-rog-strix-scope-ii-96.jpg',
+    image: '/images/catalog/asus-rog-strix-scope-ii-96.jpg',
   },
   {
     id: 'asus-rog-azoth',
@@ -346,7 +346,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเกมมิ่ง Custom ระดับเรือธงที่มาพร้อมจอ OLED และชุดเครื่องมือลูปสวิตช์ Krytox GPL-205g0 ครบชุด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ชุดลูปสวิตช์ (Lube, Station, Brush, Opener), Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/asus-rog-azoth.jpg',
+    image: '/images/catalog/asus-rog-azoth.jpg',
   },
   {
     id: 'asus-rog-azoth-extreme',
@@ -361,7 +361,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'สุดยอดคีย์บอร์ด Custom ระดับ Ultra-Flagship จาก ROG พร้อมเพลต Carbon Fiber และหน้าจอสีสัมผัส OLED',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ROG Polling Rate Booster, ที่รองข้อมือซิลิโคน, กล่องเก็บอะลูมิเนียม',
-    image: '/src/assets/images/catalog/asus-rog-azoth-extreme.jpg',
+    image: '/images/catalog/asus-rog-azoth-extreme.jpg',
   },
   {
     id: 'asus-rog-falchion-rx-low-profile',
@@ -376,7 +376,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Low-Profile 65% บางเฉียบพกพาง่าย ใช้งานได้ทั้ง Windows และ macOS พร้อมฝาครอบแข็งในกล่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, Protective Cover Case, Omni Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/asus-rog-falchion-rx-low-profile.jpg',
+    image: '/images/catalog/asus-rog-falchion-rx-low-profile.jpg',
   },
   {
     id: 'asus-rog-falchion-ace-hfx',
@@ -391,7 +391,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 65% สวิตช์แม่เหล็ก 8K Polling พร้อมปุ่มฮาร์ดแวร์เปิดโหมด Rapid Trigger ได้ทันทีไม่ต้องเข้าโปรแกรม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, Protective Cover, สาย USB-C, คู่มือ',
-    image: '/src/assets/images/catalog/asus-rog-falchion-ace-hfx.jpg',
+    image: '/images/catalog/asus-rog-falchion-ace-hfx.jpg',
   },
   {
     id: 'asus-rog-strix-scope-ii-rx',
@@ -406,7 +406,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดมีสาย Full-Size ที่กันน้ำกันฝุ่นระดับ IP57 พร้อมสวิตช์ Optical กดนิ่งสม่ำเสมอทุกมุมปุ่ม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือถอดได้, สาย USB-C, Spacebar ROG',
-    image: '/src/assets/images/catalog/asus-rog-strix-scope-ii-rx.jpg',
+    image: '/images/catalog/asus-rog-strix-scope-ii-rx.jpg',
   },
   {
     id: 'asus-rog-strix-flare-ii-animate',
@@ -421,7 +421,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดฟูลไซส์ที่มาพร้อมจอ LED AniMe Matrix ปรับแต่งภาพพิกเซลบนตัวคีย์บอร์ดได้ตามสไตล์คุณ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือ, ตัวดึงคีย์แคป/สวิตช์',
-    image: '/src/assets/images/catalog/asus-rog-strix-flare-ii-animate.jpg',
+    image: '/images/catalog/asus-rog-strix-flare-ii-animate.jpg',
   },
   {
     id: 'asus-rog-claymore-ii',
@@ -436,7 +436,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Modular ที่เปลี่ยนจาก Full-Size เป็น TKL หรือย้ายชุดตัวเลขไปด้านซ้ายเพื่อเพิ่มพื้นที่ลากเมาส์ได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ชุด Numpad ถอดประกอบ, ที่รองข้อมือ, Dongle + Extender, สาย USB-C',
-    image: '/src/assets/images/catalog/asus-rog-claymore-ii.jpg',
+    image: '/images/catalog/asus-rog-claymore-ii.jpg',
   },
   {
     id: 'asus-rog-falchion-ace-65',
@@ -451,7 +451,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 65% แบบมีสายคู่ USB-C เสียบสายได้ทั้งซ้ายและขวาของตัวเครื่อง พร้อมคีย์แคป PBT คุณภาพสูง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ฝาครอบ Cover, สายถัก USB-C',
-    image: '/src/assets/images/catalog/asus-rog-falchion-ace-65.jpg',
+    image: '/images/catalog/asus-rog-falchion-ace-65.jpg',
   },
   {
     id: 'asus-rog-pbt-keycap-set',
@@ -466,7 +466,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคปแท้จาก ASUS ROG ออกแบบพิเศษให้ใช้ได้กับคีย์บอร์ดตระกูล ROG และแกน MX ทั่วไป',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ชุดคีย์แคป ROG PBT พร้อมตัวถอดคีย์แคปและอแดปเตอร์ Stabilizer',
-    image: '/src/assets/images/catalog/asus-rog-pbt-keycap-set.jpg',
+    image: '/images/catalog/asus-rog-pbt-keycap-set.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -485,7 +485,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สายทรง TKL ที่ออกแบบร่วมกับนักกีฬา Esports ระดับโลก เชื่อมต่อไร้สายความหน่วงต่ำ 1ms',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, กระเป๋าพกพา Hard Case, LIGHTSPEED Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g-pro-x-tkl.jpg',
+    image: '/images/catalog/logitech-g-pro-x-tkl.jpg',
   },
   {
     id: 'logitech-g-pro-x-60',
@@ -500,7 +500,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 60% ไร้สายระดับทัวร์นาเมนต์พร้อมฟีเจอร์ KEYCONTROL และลูกกลิ้งปรับเสียงด้านข้าง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, กระเป๋าแข็ง Carrying Case, LIGHTSPEED Adapter, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g-pro-x-60.jpg',
+    image: '/images/catalog/logitech-g-pro-x-60.jpg',
   },
   {
     id: 'logitech-g915-x-lightspeed',
@@ -515,7 +515,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'เจเนอเรชันใหม่ของ G915 Full-Size ที่อัปเกรดเป็นพอร์ต USB-C และคีย์แคป PBT แข็งแรงทนทาน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด G915 X, LIGHTSPEED Receiver, USB Extender, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g915-x-lightspeed.jpg',
+    image: '/images/catalog/logitech-g915-x-lightspeed.jpg',
   },
   {
     id: 'logitech-g915-x-lightspeed-tkl',
@@ -530,7 +530,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Low-Profile ไร้สายทรง TKL บางเฉียบเรียบหรู ตอบสนองไวทั้งเล่นเกมและพิมพ์งานยาวๆ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, LIGHTSPEED USB Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g915-x-lightspeed-tkl.jpg',
+    image: '/images/catalog/logitech-g915-x-lightspeed-tkl.jpg',
   },
   {
     id: 'logitech-g915-tkl',
@@ -545,7 +545,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Low-Profile ไร้สายยอดนิยมในตำนาน ตัวเครื่องบางเฉียบพร้อมปุ่มสลับ 2.4GHz กับ Bluetooth ทันที',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, LIGHTSPEED Receiver, สายชาร์จ Micro-USB',
-    image: '/src/assets/images/catalog/logitech-g915-tkl.jpg',
+    image: '/images/catalog/logitech-g915-tkl.jpg',
   },
   {
     id: 'logitech-g715-aurora',
@@ -560,7 +560,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สาย TKL สีขาวจาก Aurora Collection ที่มาพร้อมหมอนรองข้อมือรูปก้อนเมฆสุดน่ารัก',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, Cloud-Shaped Palm Rest, LIGHTSPEED Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g715-aurora.jpg',
+    image: '/images/catalog/logitech-g715-aurora.jpg',
   },
   {
     id: 'logitech-g713-aurora',
@@ -575,7 +575,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'เวอร์ชันมีสายของคีย์บอร์ด Aurora ดีไซน์โค้งมนละมุนพร้อมไฟ LED รอบฐานเครื่องและหมอนรองข้อมือ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด G713, Cloud Palm Rest, สายถัก USB-C',
-    image: '/src/assets/images/catalog/logitech-g713-aurora.jpg',
+    image: '/images/catalog/logitech-g713-aurora.jpg',
   },
   {
     id: 'logitech-g515-lightspeed-tkl',
@@ -590,7 +590,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สาย Low-Profile รุ่นใหม่ที่เน้นความเงียบและนุ่มนวลด้วยโฟมซับเสียงภายในตัวเครื่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, LIGHTSPEED Receiver, Extender, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g515-lightspeed-tkl.jpg',
+    image: '/images/catalog/logitech-g515-lightspeed-tkl.jpg',
   },
   {
     id: 'logitech-g413-tkl-se',
@@ -605,7 +605,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด TKL เน้นความเรียบหรูทนทานได้คีย์แคป PBT และฝาบนอะลูมิเนียมในราคาประหยัด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Logitech G413 TKL SE',
-    image: '/src/assets/images/catalog/logitech-g413-tkl-se.jpg',
+    image: '/images/catalog/logitech-g413-tkl-se.jpg',
   },
   {
     id: 'logitech-g213-prodigy',
@@ -620,7 +620,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเกมมิ่ง Full-Size ราคาคุ้มค่า กันน้ำหกได้และพิมพ์เงียบ เหมาะกับผู้เริ่มต้นและห้องเรียนคอมพิวเตอร์',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Logitech G213 Prodigy',
-    image: '/src/assets/images/catalog/logitech-g213-prodigy.jpg',
+    image: '/images/catalog/logitech-g213-prodigy.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -639,7 +639,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Analog Optical สำหรับสายแข่งขัน FPS กดซ้ำได้รวดเร็วทันทีเมื่อปล่อยนิ้วแม้เพียงเสี้ยวมิลลิเมตร',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือหนังเทียมแม่เหล็ก, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-huntsman-v3-pro-tkl.jpg',
+    image: '/images/catalog/razer-huntsman-v3-pro-tkl.jpg',
   },
   {
     id: 'razer-huntsman-v3-pro',
@@ -654,7 +654,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่น Full-Size สำหรับนักแข่งและผู้ใช้ที่ต้องการทั้งความเร็วระดับ Analog และชุดปุ่ม Numpad ครบถ้วน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือแม่เหล็ก, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-huntsman-v3-pro.jpg',
+    image: '/images/catalog/razer-huntsman-v3-pro.jpg',
   },
   {
     id: 'razer-huntsman-v3-pro-mini',
@@ -669,7 +669,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 60% สำหรับทัวร์นาเมนต์ที่ใช้เทคโนโลยี Rapid Trigger และปุ่ม Dual-Purpose แตะแทนลูกศรได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-huntsman-v3-pro-mini.jpg',
+    image: '/images/catalog/razer-huntsman-v3-pro-mini.jpg',
   },
   {
     id: 'razer-blackwidow-v4-pro',
@@ -684,7 +684,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดฟูลไซส์ที่อัดแน่นฟีเจอร์มากที่สุดของ Razer พร้อม Command Dial และไฟใต้ฐานล้อมรอบทั้ง 3 ด้าน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือหนังแม่เหล็กมีไฟ, สาย USB-C 2 เส้น',
-    image: '/src/assets/images/catalog/razer-blackwidow-v4-pro.jpg',
+    image: '/images/catalog/razer-blackwidow-v4-pro.jpg',
   },
   {
     id: 'razer-blackwidow-v4-75',
@@ -699,7 +699,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Custom 75% ของ Razer ที่ใส่โฟมและเทปม็อดมาให้จากโรงงาน เสียงพิมพ์นุ่มแน่นไม่ก้อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ที่รองข้อมือแม่เหล็ก, สายถัก USB-C, ตัวถอดคีย์แคป/สวิตช์',
-    image: '/src/assets/images/catalog/razer-blackwidow-v4-75.jpg',
+    image: '/images/catalog/razer-blackwidow-v4-75.jpg',
   },
   {
     id: 'razer-blackwidow-v4-x',
@@ -714,7 +714,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดฟูลไซส์ที่รวมปุ่มมาโคร 6 ปุ่มและโฟมซับเสียงในบอดี้สุดแข็งแรงในราคาคุ้มค่า',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด BlackWidow V4 X',
-    image: '/src/assets/images/catalog/razer-blackwidow-v4-x.jpg',
+    image: '/images/catalog/razer-blackwidow-v4-x.jpg',
   },
   {
     id: 'razer-deathstalker-v2-pro-tkl',
@@ -729,7 +729,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สาย Low-Profile ระดับโปรของ Razer ตัวบางพกพาสบายและกดไวไม่ติดขัด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด, HyperSpeed Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-deathstalker-v2-pro-tkl.jpg',
+    image: '/images/catalog/razer-deathstalker-v2-pro-tkl.jpg',
   },
   {
     id: 'razer-ornata-v3',
@@ -744,7 +744,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดพิมพ์สนุกทรงบางพร้อมที่รองข้อมือแม่เหล็กสำหรับสายทำงานและเล่นเกมราคาเบาๆ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Ornata V3, ที่รองข้อมือแม่เหล็ก',
-    image: '/src/assets/images/catalog/razer-ornata-v3.jpg',
+    image: '/images/catalog/razer-ornata-v3.jpg',
   },
   {
     id: 'razer-ornata-v3-tkl',
@@ -759,7 +759,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'เวอร์ชันตัด Numpad ของ Ornata V3 ขนาดกะทัดรัดขึ้น พิมพ์คล่องและได้ไฟ Chroma 8 โซน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Ornata V3 TKL, ที่รองข้อมือแม่เหล็ก',
-    image: '/src/assets/images/catalog/razer-ornata-v3-tkl.jpg',
+    image: '/images/catalog/razer-ornata-v3-tkl.jpg',
   },
   {
     id: 'razer-phantom-keycap-set',
@@ -774,7 +774,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคปสไตล์ Stealth Pudding เวลาปิดไฟดูเรียบดำสนิท เวลาเปิดไฟโชว์แสง RGB โดดเด่นมาก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ชุดคีย์แคป 128 ปุ่ม, ตัวถอดคีย์แคป, Mechanical & Optical Stabilizers',
-    image: '/src/assets/images/catalog/razer-phantom-keycap-set.jpg',
+    image: '/images/catalog/razer-phantom-keycap-set.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -793,7 +793,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดคัสตอมระดับเริ่มต้นที่คุ้มค่าที่สุด เสียงพิมพ์ทุ้มนุ่มสไตล์ Thocky พร้อมไฟ RGB รอบเคส',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, ตัวรับ 2.4GHz, สาย USB-C, คีย์แคปเสริม, ที่ดึงสวิตช์',
-    image: '/src/assets/images/catalog/akko-5075b-plus-v2.jpg',
+    image: '/images/catalog/akko-5075b-plus-v2.jpg',
   },
   {
     id: 'akko-5075s-via',
@@ -808,7 +808,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดมีสายขนาด 75% ที่ตั้งปุ่มผ่าน VIA ได้และตัดปัญหาแสงรบกวนเมื่อใช้คีย์แคป Cherry Profile',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย Coiled/Straight USB-C, ที่ดึงคีย์แคปและสวิตช์',
-    image: '/src/assets/images/catalog/akko-5075s-via.jpg',
+    image: '/images/catalog/akko-5075s-via.jpg',
   },
   {
     id: 'akko-3068b-plus',
@@ -823,7 +823,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สาย 65% สีสันคลาสสิกสไตล์ Black & Gold / Tokyo ใช้งานสะดวกบนโต๊ะขนาดกะทัดรัด',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด 3068B Plus, Receiver 2.4GHz, สาย USB-C, คีย์แคปเสริม',
-    image: '/src/assets/images/catalog/akko-3068b-plus.jpg',
+    image: '/images/catalog/akko-3068b-plus.jpg',
   },
   {
     id: 'akko-3087s',
@@ -838,7 +838,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด TKL สไตล์เรโทร/โมเดิร์นยอดนิยมของ Akko คุณภาพงานประกอบแน่นหนาและราคาจับต้องง่าย',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด 3087S, ฝาครอบกันฝุ่น, สาย USB-C, คีย์แคปเสริม',
-    image: '/src/assets/images/catalog/akko-3087s.jpg',
+    image: '/images/catalog/akko-3087s.jpg',
   },
   {
     id: 'akko-3098b-plus',
@@ -853,7 +853,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 98 ปุ่มที่มีชุดตัวเลขด้านขวาครบครันแต่ตัวสั้นกว่า Full-Size ปกติ ช่วยเหลือพื้นที่วางเมาส์มากขึ้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด 3098B Plus, Receiver 2.4GHz, สาย USB-C, คีย์แคปเสริม',
-    image: '/src/assets/images/catalog/akko-3098b-plus.jpg',
+    image: '/images/catalog/akko-3098b-plus.jpg',
   },
   {
     id: 'akko-mod-007b-he',
@@ -868,7 +868,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Hall Effect ที่ใช้งานได้ทั้งสวิตช์แม่เหล็ก Rapid Trigger และสวิตช์เมคานิคอลทั่วไปในบอร์ดเดียว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด MOD 007B HE, ตัวรับ 2.4GHz, สาย Coiled USB-C',
-    image: '/src/assets/images/catalog/akko-mod-007b-he.jpg',
+    image: '/images/catalog/akko-mod-007b-he.jpg',
   },
   {
     id: 'akko-mu01',
@@ -883,7 +883,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเคสไม้ Walnut แท้ 100% ให้เสียงพิมพ์ทุ้มละมุนและแต่งโต๊ะคอมสไตล์มินิมอลได้อย่างมีเอกลักษณ์',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด MU01, Receiver 2.4GHz, สาย USB-C, ผ้าเช็ดไม้และที่ถอดสวิตช์',
-    image: '/src/assets/images/catalog/akko-mu01.jpg',
+    image: '/images/catalog/akko-mu01.jpg',
   },
   {
     id: 'akko-acr-pro-75',
@@ -898,7 +898,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเคสอะคริลิกขุ่นแบบ CNC ให้แสง RGB กระจายเรืองรองรอบขอบเคส พร้อมเสียงพิมพ์ใสกังวาน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด ACR Pro 75, สาย Coiled USB-C, เพลตสำรองและ Gasket',
-    image: '/src/assets/images/catalog/akko-acr-pro-75.jpg',
+    image: '/images/catalog/akko-acr-pro-75.jpg',
   },
   {
     id: 'akko-monsgeek-m1w',
@@ -913,7 +913,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดอะลูมิเนียม 75% ในเครือ Akko ที่คุ้มค่าที่สุด เสียงพิมพ์สไตล์ Marble/Thocky แบตอึดถึง 6,000 mAh',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด MonsGeek M1W, 2.4GHz Receiver, สาย Coiled USB-C, Tape Mod ในชุด',
-    image: '/src/assets/images/catalog/akko-monsgeek-m1w.jpg',
+    image: '/images/catalog/akko-monsgeek-m1w.jpg',
   },
   {
     id: 'akko-black-gold-keycaps',
@@ -928,7 +928,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคป Akko สี Black & Gold สุดหรูครบ 158 ปุ่ม รองรับคีย์บอร์ดตั้งแต่ 60% จนถึง 100% มีภาษาไทย/อังกฤษให้เลือก',
     warranty: 'รับประกันความพึงพอใจ 7 วัน',
     boxContents: 'ชุดคีย์แคป 158 ปุ่มในกล่องจัดเก็บ Akko, ตัวถอดคีย์แคป',
-    image: '/src/assets/images/catalog/akko-black-gold-keycaps.jpg',
+    image: '/images/catalog/akko-black-gold-keycaps.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -947,7 +947,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดโทนสี Daybreak สุดคลาสสิกจาก Ducky งานประกอบแน่นหนา ฐานปรับความสูงได้ 3 ระดับ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C, คีย์แคปสีเหลืองเสริม, ที่ถอดคีย์แคป',
-    image: '/src/assets/images/catalog/ducky-one-3-sf-daybreak.jpg',
+    image: '/images/catalog/ducky-one-3-sf-daybreak.jpg',
   },
   {
     id: 'ducky-one-3-mini',
@@ -962,7 +962,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 60% รุ่นสานต่อความสำเร็จจาก One 2 Mini อัปเกรดเป็น Hot-Swap และใส่โฟมซับเสียงสองชั้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C, คีย์แคปเสริมสีสัน, ที่ถอดคีย์แคปและสวิตช์',
-    image: '/src/assets/images/catalog/ducky-one-3-mini.jpg',
+    image: '/images/catalog/ducky-one-3-mini.jpg',
   },
   {
     id: 'ducky-one-3-tkl',
@@ -977,7 +977,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด TKL ที่ขึ้นชื่อเรื่องความทนทานและ Stabilizer ที่จูนมานิ่งแน่นเป็นพิเศษ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C, ที่ดึงปุ่ม/สวิตช์, คีย์แคปเสริม',
-    image: '/src/assets/images/catalog/ducky-one-3-tkl.jpg',
+    image: '/images/catalog/ducky-one-3-tkl.jpg',
   },
   {
     id: 'ducky-one-3-full',
@@ -992,7 +992,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดขนาดเต็มสำหรับสายพิมพ์งานจริงจังและเกมเมอร์ที่ต้องการชุดตัวเลข Numpad พร้อมความทนระดับ Ducky',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C, ฝาครอบกันฝุ่น, คีย์แคปเสริม',
-    image: '/src/assets/images/catalog/ducky-one-3-full.jpg',
+    image: '/images/catalog/ducky-one-3-full.jpg',
   },
   {
     id: 'ducky-one-3-pro-nazca-8k',
@@ -1007,7 +1007,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Esports 8K Polling พร้อมสวิตช์ Cherry MX2A เจเนอเรชันใหม่ที่กดลื่นเงียบกว่าเดิมอย่างชัดเจน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด, สาย USB-C ชีลด์พิเศษสำหรับ 8K, คีย์แคปเสริม',
-    image: '/src/assets/images/catalog/ducky-one-3-pro-nazca-8k.jpg',
+    image: '/images/catalog/ducky-one-3-pro-nazca-8k.jpg',
   },
   {
     id: 'ducky-one-x-wireless',
@@ -1022,7 +1022,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'นวัตกรรมคีย์บอร์ดไร้สายรุ่นใหม่ของ Ducky ที่รวม Inductive Analog Switch เข้ากับโครงสร้างซับเสียง 7 ชั้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Ducky One X, Receiver 2.4GHz, สาย USB-C',
-    image: '/src/assets/images/catalog/ducky-one-x-wireless.jpg',
+    image: '/images/catalog/ducky-one-x-wireless.jpg',
   },
   {
     id: 'ducky-tinker-65',
@@ -1037,7 +1037,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดซีรีส์ Tinker สำหรับสายโมดิฟายที่ต้องการความอิสระในการปรับแต่งเฟิร์มแวร์ QMK/VIA',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Tinker 65, สาย USB-C, ตัวถอดสวิตช์และปุ่ม',
-    image: '/src/assets/images/catalog/ducky-tinker-65.jpg',
+    image: '/images/catalog/ducky-tinker-65.jpg',
   },
   {
     id: 'ducky-tinker-75',
@@ -1052,7 +1052,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Custom 75% พร้อมแถวปุ่มฟังก์ชัน F1-F12 ครบครัน เหมาะสำหรับโปรแกรมเมอร์และสายแต่งคีย์บอร์ด',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Tinker 75, สาย USB-C, ที่ดึงสวิตช์',
-    image: '/src/assets/images/catalog/ducky-tinker-75.jpg',
+    image: '/images/catalog/ducky-tinker-75.jpg',
   },
   {
     id: 'ducky-origin-vintage',
@@ -1067,7 +1067,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเรียบหรูกลิ่นอาย Retro ไม่มีไฟ RGB รบกวนสายตา เน้นสัมผัสการพิมพ์ที่แม่นยำทนทาน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Ducky Origin, สาย USB-C, คีย์แคปเสริมสีแดง',
-    image: '/src/assets/images/catalog/ducky-origin-vintage.jpg',
+    image: '/images/catalog/ducky-origin-vintage.jpg',
   },
   {
     id: 'ducky-good-in-blue-keycaps',
@@ -1082,7 +1082,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคปแท้จาก Ducky ผลิตด้วยวิธีฉีดพลาสติกสองชั้น Double-Shot PBT แข็งแรงและสากนิ้วพอดี',
     warranty: 'รับประกันความพึงพอใจ 7 วัน',
     boxContents: 'ชุดคีย์แคป Ducky Good in Blue พร้อมกล่องจัดเก็บและตัวถอดคีย์แคป',
-    image: '/src/assets/images/catalog/ducky-good-in-blue-keycaps.jpg',
+    image: '/images/catalog/ducky-good-in-blue-keycaps.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -1101,7 +1101,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สายสำหรับนักพัฒนาและสายทำงานออฟฟิศ พิมพ์นุ่มเงียบ ไฟสว่างอัตโนมัติในห้องมืด',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด MX Keys S, ตัวรับ Logi Bolt, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-mx-keys-s.jpg',
+    image: '/images/catalog/logitech-mx-keys-s.jpg',
   },
   {
     id: 'logitech-mx-keys-mini',
@@ -1116,7 +1116,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สายขนาดมินิมอลยอดฮิตของสาย MacBook และ iPad พิมพ์เงียบและสลับได้ 3 อุปกรณ์ในปุ่มเดียว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด MX Keys Mini, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-mx-keys-mini.jpg',
+    image: '/images/catalog/logitech-mx-keys-mini.jpg',
   },
   {
     id: 'logitech-mx-mechanical',
@@ -1131,7 +1131,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเมคานิคอลสายทำงานตัวท็อป รวมฟีลลิ่งปุ่มแมคานิคอลเข้ากับความบางและระบบสลับหลายอุปกรณ์ของซีรีส์ MX',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด MX Mechanical, ตัวรับ Logi Bolt, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-mx-mechanical.jpg',
+    image: '/images/catalog/logitech-mx-mechanical.jpg',
   },
   {
     id: 'logitech-mx-mechanical-mini',
@@ -1146,7 +1146,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'เวอร์ชันตัด Numpad ของ MX Mechanical ให้พื้นที่ขยับเมาส์มากขึ้น พกไปทำงานร้านกาแฟหรือออฟฟิศได้คล่องตัว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด MX Mechanical Mini, Logi Bolt Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-mx-mechanical-mini.jpg',
+    image: '/images/catalog/logitech-mx-mechanical-mini.jpg',
   },
   {
     id: 'logitech-ergo-k860',
@@ -1161,7 +1161,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเพื่อสุขภาพที่ช่วยจัดท่าทางการวางมือและท่อนแขนให้เป็นธรรมชาติ ลดอาการออฟฟิศซินโดรม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Ergo K860, Unifying USB Receiver, ถ่าน AAA 2 ก้อน',
-    image: '/src/assets/images/catalog/logitech-ergo-k860.jpg',
+    image: '/images/catalog/logitech-ergo-k860.jpg',
   },
   {
     id: 'logitech-wave-keys',
@@ -1176,7 +1176,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Ergonomic ขนาดกะทัดรัดที่ปรับตัวใช้งานได้ทันทีไม่ต้องฝึกพิมพ์ใหม่ เหมาะกับทั้งนักศึกษาและคนทำงาน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Wave Keys, Logi Bolt Receiver, ถ่าน AAA 2 ก้อน',
-    image: '/src/assets/images/catalog/logitech-wave-keys.jpg',
+    image: '/images/catalog/logitech-wave-keys.jpg',
   },
   {
     id: 'logitech-pebble-keys-2-k380s',
@@ -1191,7 +1191,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดบลูทูธพกพายอดนิยมของนักศึกษา ใช้สลับพิมพ์ระหว่างแท็บเล็ต โน้ตบุ๊ก และมือถือได้ในปุ่มเดียว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Pebble Keys 2 K380s, ถ่าน AAA 2 ก้อน',
-    image: '/src/assets/images/catalog/logitech-pebble-keys-2-k380s.jpg',
+    image: '/images/catalog/logitech-pebble-keys-2-k380s.jpg',
   },
   {
     id: 'logitech-k780-multi-device',
@@ -1206,7 +1206,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดที่มีร่องวาง iPad และมือถือได้พร้อมกัน เปลี่ยนโต๊ะเรียนให้กลายเป็นชุดทำงาน Multi-Screen ได้ทันที',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด K780, Unifying Receiver, ถ่าน AAA 2 ก้อน',
-    image: '/src/assets/images/catalog/logitech-k780-multi-device.jpg',
+    image: '/images/catalog/logitech-k780-multi-device.jpg',
   },
   {
     id: 'logitech-signature-k650',
@@ -1221,7 +1221,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สายประจำโต๊ะทำงานที่ให้ความสบายตลอด 8 ชั่วโมง พร้อมปุ่มลัดประชุมออนไลน์ Mic Mute ในปุ่มเดียว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด Signature K650, Logi Bolt Receiver, ถ่าน AA 2 ก้อน',
-    image: '/src/assets/images/catalog/logitech-signature-k650.jpg',
+    image: '/images/catalog/logitech-signature-k650.jpg',
   },
   {
     id: 'logitech-k580-slim',
@@ -1236,7 +1236,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดไร้สายทรงสลิมประหยัดพื้นที่ ใช้งานได้ทั้งคอมตั้งโต๊ะและสมาร์ทโฟนอย่างเรียบร้อยสวยงาม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ตัวคีย์บอร์ด K580, USB Receiver (เก็บในช่องถ่าน), ถ่าน AAA 2 ก้อน',
-    image: '/src/assets/images/catalog/logitech-k580-slim.jpg',
+    image: '/images/catalog/logitech-k580-slim.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -1255,7 +1255,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเมคานิคอลขนาด 65% กรอบอะลูมิเนียมแข็งแรง สวิตช์ลูปจากโรงงานกดลื่น พร้อมถอดเปลี่ยนสวิตช์ได้ทันที',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Glorious GMMK 2 65%, สายถัก USB-C, ที่ดึงคีย์แคปและสวิตช์',
-    image: '/src/assets/images/catalog/glorious-gmmk-2-compact-65.jpg',
+    image: '/images/catalog/glorious-gmmk-2-compact-65.jpg',
   },
   {
     id: 'glorious-gmmk-2-full-96',
@@ -1270,7 +1270,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'เวอร์ชัน 96% ของ GMMK 2 ที่รวมชุดตัวเลข Numpad มาให้ครบในขนาดที่สั้นกว่า Full-Size ทั่วไป',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด GMMK 2 96%, สายถัก USB-C, ตัวถอดคีย์แคปและสวิตช์',
-    image: '/src/assets/images/catalog/glorious-gmmk-2-full-96.jpg',
+    image: '/images/catalog/glorious-gmmk-2-full-96.jpg',
   },
   {
     id: 'glorious-gmmk-pro-75',
@@ -1285,7 +1285,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Custom 75% บอดี้อะลูมิเนียมระดับตำนานของ Glorious เหมาะสำหรับผู้ที่ชอบปรับแต่งเสียงและสัมผัสเอง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'GMMK PRO 75%, สายถัก Coiled/Straight USB-C, ตัวถอดคีย์แคป/สวิตช์',
-    image: '/src/assets/images/catalog/glorious-gmmk-pro-75.jpg',
+    image: '/images/catalog/glorious-gmmk-pro-75.jpg',
   },
   {
     id: 'glorious-gmmk-3-75',
@@ -1300,7 +1300,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Modular รุ่นใหม่ GMMK 3 ที่ให้คุณปรับแต่งทั้งเพลต กาสเก็ต เคส และสวิตช์ได้อย่างอิสระ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด GMMK 3 75%, สายถัก USB-C, อะไหล่ Gasket, ตัวถอดสวิตช์',
-    image: '/src/assets/images/catalog/glorious-gmmk-3-75.jpg',
+    image: '/images/catalog/glorious-gmmk-3-75.jpg',
   },
   {
     id: 'glorious-gmmk-3-he-65',
@@ -1315,7 +1315,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 65% Hall Effect ความเร็ว 8,000Hz ที่แต่งฟีลลิ่งการกดได้ละเอียดระดับคีย์บอร์ดคัสตอม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด GMMK 3 HE 65%, สาย USB-C, สวิตช์สำรอง',
-    image: '/src/assets/images/catalog/glorious-gmmk-3-he-65.jpg',
+    image: '/images/catalog/glorious-gmmk-3-he-65.jpg',
   },
   {
     id: 'glorious-gmmk-3-pro-75',
@@ -1330,7 +1330,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'เรือธงไร้สายตัวท็อปของ Glorious บอดี้อะลูมิเนียม CNC ทั้งชิ้นปรับแต่งได้กว่าพันล้านรูปแบบ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'GMMK 3 PRO 75% Wireless, 2.4GHz Dongle, สาย USB-C, ชุดสวิตช์ทดสอบ',
-    image: '/src/assets/images/catalog/glorious-gmmk-3-pro-75.jpg',
+    image: '/images/catalog/glorious-gmmk-3-pro-75.jpg',
   },
   {
     id: 'glorious-gmmk-numpad',
@@ -1345,7 +1345,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'แป้นตัวเลขและ Macro Pad อะลูมิเนียมไร้สายสำหรับคู่กับคีย์บอร์ด 65%/75% เพิ่มความสะดวกทั้งงานบัญชีและตัดต่อวิดีโอ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'GMMK Numpad, สายถัก USB-C, ตัวถอดคีย์แคปและสวิตช์',
-    image: '/src/assets/images/catalog/glorious-gmmk-numpad.jpg',
+    image: '/images/catalog/glorious-gmmk-numpad.jpg',
   },
   {
     id: 'glorious-gpbt-black-ash',
@@ -1360,7 +1360,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคป PBT สีดำเทา Black Ash ยอดนิยมของ Glorious ให้ความรู้สึกสัมผัสสากมือและเสียงพิมพ์ทุ้มแน่น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ชุดคีย์แคป GPBT Black Ash 114 ปุ่มในกล่องถาดจัดเก็บ',
-    image: '/src/assets/images/catalog/glorious-gpbt-black-ash.jpg',
+    image: '/images/catalog/glorious-gpbt-black-ash.jpg',
   },
   {
     id: 'glorious-gpbt-celestial-ice',
@@ -1375,7 +1375,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคปไล่โทนสีฟ้า-ขาว Celestial Ice ช่วยเปลี่ยนลุคคีย์บอร์ดให้ดูสดใสสะอาดตา',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ชุดคีย์แคป GPBT Celestial Ice 114 ปุ่ม',
-    image: '/src/assets/images/catalog/glorious-gpbt-celestial-ice.jpg',
+    image: '/images/catalog/glorious-gpbt-celestial-ice.jpg',
   },
   {
     id: 'glorious-aura-keycaps-v2',
@@ -1390,7 +1390,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคป Pudding รุ่นอัปเกรด V2 ที่มีปุ่มเสริมขนาด 1.75u Shift และ 1u Alt/Fn/Ctrl สำหรับบอร์ด 65% และ 75% ครบครัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ชุดคีย์แคป Aura V2 145 ปุ่ม',
-    image: '/src/assets/images/catalog/glorious-aura-keycaps-v2.jpg',
+    image: '/images/catalog/glorious-aura-keycaps-v2.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -1409,7 +1409,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดคีย์แคปสไตล์ Pudding ช่วยกระจายแสงไฟ RGB ให้สว่างโดดเด่นทั่วทั้งแป้น สัมผัสสากนิ้วกำลังดีไม่มันเงา',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ชุดคีย์แคป 104 ปุ่ม และที่ถอดคีย์แคป HyperX',
-    image: '/src/assets/images/catalog/hyperx-pudding-keycaps-pbt.jpg',
+    image: '/images/catalog/hyperx-pudding-keycaps-pbt.jpg',
   },
   {
     id: 'hyperx-alloy-origins-core-tkl',
@@ -1424,7 +1424,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด TKL ยอดฮิตของ HyperX ตัวบอดี้อะลูมิเนียมหนักแน่นไม่เลื่อนหลุดและไฟ RGB สว่างคมชัดเจนมาก',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Alloy Origins Core, สายถัก USB-C',
-    image: '/src/assets/images/catalog/hyperx-alloy-origins-core-tkl.jpg',
+    image: '/images/catalog/hyperx-alloy-origins-core-tkl.jpg',
   },
   {
     id: 'hyperx-alloy-origins-65',
@@ -1439,7 +1439,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 65% ที่มีปุ่มลูกศรครบและอัปเกรดมาเป็นคีย์แคป PBT ตั้งแต่โรงงาน พกไปแข่งหรือใช้โต๊ะเล็กได้คล่องตัว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Alloy Origins 65, สาย USB-C, คีย์แคปเสริม HyperX, ที่ดึงปุ่ม',
-    image: '/src/assets/images/catalog/hyperx-alloy-origins-65.jpg',
+    image: '/images/catalog/hyperx-alloy-origins-65.jpg',
   },
   {
     id: 'hyperx-alloy-origins-60',
@@ -1454,7 +1454,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด 60% สุดทนทาน เหมาะกับสายเกม FPS ที่ชอบวางคีย์บอร์ดเอียง 45 องศาเพื่อลากเมาส์กว้างๆ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Alloy Origins 60, สาย USB-C, คีย์แคปเสริม HX Esc & Spacebar, ที่ถอดปุ่ม',
-    image: '/src/assets/images/catalog/hyperx-alloy-origins-60.jpg',
+    image: '/images/catalog/hyperx-alloy-origins-60.jpg',
   },
   {
     id: 'hyperx-alloy-origins-full',
@@ -1469,7 +1469,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดขนาดมาตรฐาน 104 ปุ่มที่ทนทานงานหนัก ใช้งานได้ทั้งพิมพ์รายงานและเล่นเกมทุกแนว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Alloy Origins, สายถัก USB-C',
-    image: '/src/assets/images/catalog/hyperx-alloy-origins-full.jpg',
+    image: '/images/catalog/hyperx-alloy-origins-full.jpg',
   },
   {
     id: 'hyperx-alloy-rise-75',
@@ -1484,7 +1484,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ด Custom 75% รุ่นใหม่จาก HyperX ที่ถอดเปลี่ยนกรอบบนและปุ่มหมุนแม่เหล็กได้ทันทีโดยไม่ต้องใช้เครื่องมือ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Alloy Rise 75, สายถัก USB-C, ตัวถอดสวิตช์/คีย์แคป',
-    image: '/src/assets/images/catalog/hyperx-alloy-rise-75.jpg',
+    image: '/images/catalog/hyperx-alloy-rise-75.jpg',
   },
   {
     id: 'hyperx-alloy-rise-full',
@@ -1499,7 +1499,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดขนาดเต็มที่นำระบบ Gasket Mount, Hot-Swap และโครงสร้างแม่เหล็กถอดแต่งง่ายมาสู่เลย์เอาต์มี Numpad',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Alloy Rise, สาย USB-C, เครื่องมือถอดสวิตช์',
-    image: '/src/assets/images/catalog/hyperx-alloy-rise-full.jpg',
+    image: '/images/catalog/hyperx-alloy-rise-full.jpg',
   },
   {
     id: 'hyperx-alloy-mkw100',
@@ -1514,7 +1514,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเมคานิคอล Full-Size สุดประหยัด แถมที่รองข้อมือในกล่องพร้อมสวิตช์กันฝุ่นทนทาน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด Alloy MKW100, ที่รองข้อมือถอดได้',
-    image: '/src/assets/images/catalog/hyperx-alloy-mkw100.jpg',
+    image: '/images/catalog/hyperx-alloy-mkw100.jpg',
   },
   {
     id: 'hyperx-alloy-core-rgb',
@@ -1529,7 +1529,7 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'คีย์บอร์ดเล่นเกมราคาประหยัดเสียงเงียบ กันน้ำหกได้ 120ml เหมาะกับมือใหม่และหอพัก',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวคีย์บอร์ด HyperX Alloy Core RGB',
-    image: '/src/assets/images/catalog/hyperx-alloy-core-rgb.jpg',
+    image: '/images/catalog/hyperx-alloy-core-rgb.jpg',
   },
   {
     id: 'hyperx-rubber-keycaps-kit',
@@ -1544,6 +1544,6 @@ export const KEYBOARDS_AND_CAPS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดปุ่มกดผิวยางกันลื่นสำหรับปุ่มเดินและสกิลสำคัญ ช่วยให้นิ้วสัมผัสแยกปุ่มได้โดยไม่ต้องก้มมองคีย์บอร์ด',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ชุดปุ่มยาง 19 ปุ่ม และตัวถอดคีย์แคป HyperX',
-    image: '/src/assets/images/catalog/hyperx-rubber-keycaps-kit.jpg',
+    image: '/images/catalog/hyperx-rubber-keycaps-kit.jpg',
   },
 ];

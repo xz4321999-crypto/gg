@@ -47,7 +47,8 @@ export const ContactPage: React.FC = () => {
             <img
               src={STORE_ASSETS.storefront}
               alt="หน้าร้าน GEAR PRO STORE ที่วิทยาลัยอาชีวศึกษาเอเซีย"
-              referrerPolicy="no-referrer"
+              loading="eager"
+              decoding="async"
               className="h-64 w-full object-cover sm:h-80 lg:h-full"
             />
           </div>

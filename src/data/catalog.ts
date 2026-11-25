@@ -12,13 +12,13 @@ import { KEYBOARDS_AND_CAPS_PRODUCTS } from './products/keyboardsAndCaps';
 import { MICE_AND_PADS_PRODUCTS } from './products/miceAndPads';
 
 export const STORE_ASSETS = {
-  logo: '/assets/aistudio/e5037935-0db5-4e12-8f39-1c2b3d0ff569_d4b77cf1.jfif',
-  hero: '/src/assets/images/hero_gaming_peripherals_1794897192355.jpg',
-  micePads: '/src/assets/images/cat_mice_mousepads_1794897193667.jpg',
-  keyboardsCaps: '/src/assets/images/cat_keyboards_keycaps_1794897193563.jpg',
-  headsetsAudio: '/src/assets/images/cat_headsets_audio_1794897193940.jpg',
-  deskSetupHubs: '/src/assets/images/cat_desk_setup_hubs_1794897194411.jpg',
-  storefront: '/src/assets/images/storefront_gear_pro_v2_1794897211506.jpg',
+  logo: '/images/logo.jpg',
+  hero: '/images/store/hero.jpg',
+  micePads: '/images/store/cat-mice-pads.jpg',
+  keyboardsCaps: '/images/store/cat-keyboards-caps.jpg',
+  headsetsAudio: '/images/store/cat-headsets-audio.jpg',
+  deskSetupHubs: '/images/store/cat-desk-hubs.jpg',
+  storefront: '/images/store/storefront.jpg',
 };
 
 export const PRODUCTS: Product[] = [

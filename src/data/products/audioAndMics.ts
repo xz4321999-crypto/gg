@@ -22,7 +22,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังเกมมิ่งที่ขึ้นชื่อเรื่องความใส่สบายตลอดวัน โครงอะลูมิเนียมแข็งแรง เสียงฝีเท้าในเกมคมชัด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวหูฟัง, ไมโครโฟนถอดได้, อะแดปเตอร์ USB-C / USB-A',
-    image: '/src/assets/images/catalog/hyperx-cloud-iii-wired.jpg',
+    image: '/images/catalog/hyperx-cloud-iii-wired.jpg',
     isBestseller: true,
   },
   {
@@ -38,7 +38,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'เวอร์ชันไร้สายของ Cloud III แบตเตอรี่อึดระดับ 120 ชม. ชาร์จครั้งเดียวใช้เล่นเกมได้หลายสัปดาห์',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟังไร้สาย, ไมค์ถอดได้, Dongle USB-C + ตัวแปลง USB-A, สายชาร์จ',
-    image: '/src/assets/images/catalog/hyperx-cloud-iii-wireless.jpg',
+    image: '/images/catalog/hyperx-cloud-iii-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -54,7 +54,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายระดับตำนานที่ใช้งานต่อเนื่องได้ยาวนานถึง 300 ชั่วโมงต่อการชาร์จเพียงครั้งเดียว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Cloud Alpha Wireless, ไมค์ถอดได้, USB Adapter, สาย USB-C',
-    image: '/src/assets/images/catalog/hyperx-cloud-alpha-wireless.jpg',
+    image: '/images/catalog/hyperx-cloud-alpha-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -70,7 +70,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังเกมมิ่งแบบมีสายที่ให้มิติเสียงชัดใสแยกเบสจากเสียงแหลมได้ดีเยี่ยม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Cloud Alpha, ไมโครโฟนถอดได้, สายถัก 3.5 มม. + Splitter PC',
-    image: '/src/assets/images/catalog/hyperx-cloud-alpha-wired.jpg',
+    image: '/images/catalog/hyperx-cloud-alpha-wired.jpg',
   },
   {
     id: 'hyperx-cloud-ii-core-wireless',
@@ -85,7 +85,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นไร้สายสุดคุ้มของตระกูล Cloud II ให้ความนุ่มสบายและเสียงคมชัดในราคาเข้าถึงง่าย',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง, ไมค์ถอดได้, Wireless USB Dongle, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/hyperx-cloud-ii-core-wireless.jpg',
+    image: '/images/catalog/hyperx-cloud-ii-core-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -101,7 +101,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายน้ำหนักเบาพร้อมฟีเจอร์ยกก้านไมค์ขึ้นเพื่อปิดเสียงอัตโนมัติ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง, Wireless USB Adapter, สายชาร์จ USB',
-    image: '/src/assets/images/catalog/hyperx-cloud-stinger-2-wireless.jpg',
+    image: '/images/catalog/hyperx-cloud-stinger-2-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -117,7 +117,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟนคอนเดนเซอร์สำหรับสตรีมเมอร์และงานพากย์เสียง มาพร้อม Pop Filter และขาตั้งกันสั่นครบในชุด',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมโครโฟน QuadCast S, ขาตั้งโต๊ะ, อะแดปเตอร์ขาแขนบูม, สาย USB-C',
-    image: '/src/assets/images/catalog/hyperx-quadcast-s.jpg',
+    image: '/images/catalog/hyperx-quadcast-s.jpg',
   },
   {
     id: 'hyperx-quadcast-2',
@@ -132,7 +132,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'เจเนอเรชันใหม่ของไมค์ QuadCast อัปเกรดเสียงระดับ 24-bit/96kHz พร้อมปุ่มควบคุมมัลติฟังก์ชันบนตัวไมค์',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมค์ QuadCast 2, ขาตั้งโต๊ะ, Shock Mount ถอดได้, สาย USB-C',
-    image: '/src/assets/images/catalog/hyperx-quadcast-2.jpg',
+    image: '/images/catalog/hyperx-quadcast-2.jpg',
   },
   {
     id: 'hyperx-duocast-rgb',
@@ -147,7 +147,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟน USB ขนาดกะทัดรัดกว่า QuadCast แต่รองรับความละเอียดระดับสตูดิโอ 24-bit/96kHz',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมค์ DuoCast, ขาตั้งโต๊ะ, Mount Adapter, สาย USB-C',
-    image: '/src/assets/images/catalog/hyperx-duocast-rgb.jpg',
+    image: '/images/catalog/hyperx-duocast-rgb.jpg',
   },
   {
     id: 'hyperx-solocast',
@@ -162,7 +162,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟนคอนเดนเซอร์ราคาประหยัดยอดนิยมสำหรับนักศึกษา เรียนออนไลน์ และสตรีมเมอร์เริ่มต้น',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมค์ HyperX SoloCast, ขาตั้งหมุนปรับได้, สาย USB-C',
-    image: '/src/assets/images/catalog/hyperx-solocast.jpg',
+    image: '/images/catalog/hyperx-solocast.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -181,7 +181,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายไดรเวอร์กราฟีนตัวท็อปของ Logitech G แยกทิศทางเสียงในเกมได้ละเอียดยิบ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวหูฟัง, ฟองน้ำสำรองผ้า Velour, LIGHTSPEED Adapter, ถุงผ้าพกพา, สาย 3.5 มม.',
-    image: '/src/assets/images/catalog/logitech-g-pro-x-2-lightspeed.jpg',
+    image: '/images/catalog/logitech-g-pro-x-2-lightspeed.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -197,7 +197,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังมีสายระดับแข่งขันของ Logitech G มาพร้อม USB DAC และฟิลเตอร์ไมโครโฟน Blue VO!CE',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง, USB Sound Card, ฟองน้ำสำรองผ้า, สาย PC/Mobile, ถุงผ้า',
-    image: '/src/assets/images/catalog/logitech-g-pro-x-wired.jpg',
+    image: '/images/catalog/logitech-g-pro-x-wired.jpg',
   },
   {
     id: 'logitech-g733-lightspeed',
@@ -212,7 +212,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายสีสันสดใสน้ำหนักเบา ใส่เล่นเกมได้ทั้งวันโดยไม่ปวดหัว พร้อมไฟ RGB ด้านหน้า',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง G733, ไมค์ถอดได้, Wireless Receiver, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-g733-lightspeed.jpg',
+    image: '/images/catalog/logitech-g733-lightspeed.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -228,7 +228,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายสีขาว White Mist จาก Aurora Collection สวมใส่สบายแม้ใส่แว่นหรือต่างหู',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง G735, ไมค์ถอดได้, LIGHTSPEED Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g735-aurora.jpg',
+    image: '/images/catalog/logitech-g735-aurora.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -244,7 +244,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายน้ำหนักเบา 165 กรัม พกพาง่ายใช้ต่อกับมือถือ iPad และ PC ได้ครบในตัวเดียว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง G435, LIGHTSPEED USB-A Receiver, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/logitech-g435-lightspeed.jpg',
+    image: '/images/catalog/logitech-g435-lightspeed.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -260,7 +260,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายเรียบง่ายน้ำหนักเบา เน้นความคล่องตัวและการใช้งาน Plug & Play ที่เสถียร',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง G535, LIGHTSPEED Receiver, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g535-lightspeed.jpg',
+    image: '/images/catalog/logitech-g535-lightspeed.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -276,7 +276,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังเกมมิ่งแบบมีสายน้ำหนักเบาสีทูโทน เสียบสาย 3.5 มม. ใช้งานได้ทุกเครื่องทันที',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง G335, สายแยกไมค์/หูฟัง Y-Splitter สำหรับ PC',
-    image: '/src/assets/images/catalog/logitech-g335-wired.jpg',
+    image: '/images/catalog/logitech-g335-wired.jpg',
   },
   {
     id: 'logitech-g560-lightsync',
@@ -291,7 +291,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดลำโพงเกมมิ่ง 2.1 กำลังขับกระหึ่ม 240W พร้อมระบบ Screen Sampler ส่องไฟ RGB สะท้อนผนังตามสีในเกม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพงซ้าย-ขวา, ซับวูฟเฟอร์, สาย USB, สายไฟ',
-    image: '/src/assets/images/catalog/logitech-g560-lightsync.jpg',
+    image: '/images/catalog/logitech-g560-lightsync.jpg',
   },
   {
     id: 'logitech-g-yeti-gx',
@@ -306,7 +306,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟน Dynamic รุ่นใหม่ของ Logitech G ที่ออกแบบมาเพื่อลดเสียงคลิกเมาส์และสวิตช์คีย์บอร์ดโดยเฉพาะ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมค์ Yeti GX, ขาตั้งโต๊ะถอดได้, อะแดปเตอร์แขนบูม, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g-yeti-gx.jpg',
+    image: '/images/catalog/logitech-g-yeti-gx.jpg',
   },
   {
     id: 'logitech-g-yeti-orb',
@@ -321,7 +321,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟน Condenser ทรงกลมขนาดกะทัดรัด เสียบสาย USB แล้วเสียงชัดทันทีในราคาคุ้มค่า',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมค์ Yeti Orb, ขาตั้งโต๊ะถอดได้, สาย USB-C',
-    image: '/src/assets/images/catalog/logitech-g-yeti-orb.jpg',
+    image: '/images/catalog/logitech-g-yeti-orb.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -340,7 +340,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายที่โปรเพลเยอร์เกม FPS เลือกใช้มากที่สุดรุ่นหนึ่ง ไมโครโฟนพูดเสียงใสเป็นธรรมชาติเหมือนไมค์ตั้งโต๊ะ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวหูฟัง, ไมค์ถอดได้, USB Wireless Dongle, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/razer-blackshark-v2-pro.jpg',
+    image: '/images/catalog/razer-blackshark-v2-pro.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -356,7 +356,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นเบา 280 กรัมของ BlackShark V2 Wireless ได้ไมโครโฟนระดับโปรและแบต 70 ชม. ในราคาประหยัดลง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง, HyperSpeed Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-blackshark-v2-hyperspeed.jpg',
+    image: '/images/catalog/razer-blackshark-v2-hyperspeed.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -372,7 +372,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังเกมมิ่งแบบมีสายรุ่นยอดฮิต ราคาเข้าถึงง่าย น้ำหนักเบา ใส่เล่นเกมได้นานไม่บีบหู',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง BlackShark V2 X, สาย Splitter PC, ถุงผ้า',
-    image: '/src/assets/images/catalog/razer-blackshark-v2-x.jpg',
+    image: '/images/catalog/razer-blackshark-v2-x.jpg',
   },
   {
     id: 'razer-barracuda-x-2022',
@@ -387,7 +387,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายอเนกประสงค์ใส่เดินนอกบ้านได้ ดีไซน์เรียบเท่ไม่มีไฟ RGB พร้อม Dongle USB-C',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Barracuda X, ไมค์ถอดได้, USB-C Dongle + ตัวแปลง USB-A, สายชาร์จ',
-    image: '/src/assets/images/catalog/razer-barracuda-x-2022.jpg',
+    image: '/images/catalog/razer-barracuda-x-2022.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -403,7 +403,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายเรือธงพร้อมกล่องควบคุมหน้าจอ OLED และระบบสั่น Haptics เพิ่มอรรถรสเกมแอ็กชันและภาพยนตร์',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Kraken V4 Pro, OLED Control Hub, สาย USB-C และ 3.5mm',
-    image: '/src/assets/images/catalog/razer-kraken-v4-pro.jpg',
+    image: '/images/catalog/razer-kraken-v4-pro.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -419,7 +419,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ซาวด์บาร์เกมมิ่งวางใต้จอคอม ช่วยให้โต๊ะดูโล่งสะอาด ใช้สาย USB-C เส้นเดียวพร้อมสลับบลูทูธมือถือได้ทันที',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ซาวด์บาร์ Razer Leviathan V2 X, สาย USB-C to USB-C',
-    image: '/src/assets/images/catalog/razer-leviathan-v2-x.jpg',
+    image: '/images/catalog/razer-leviathan-v2-x.jpg',
   },
   {
     id: 'razer-leviathan-v2',
@@ -434,7 +434,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดซาวด์บาร์พร้อมซับวูฟเฟอร์แยกชิ้น เบสลงลึกสะใจและให้มิติเสียงรอบทิศทาง THX Spatial Audio',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ซาวด์บาร์ Leviathan V2, ตู้ Subwoofer, สาย USB-C, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/razer-leviathan-v2.jpg',
+    image: '/images/catalog/razer-leviathan-v2.jpg',
   },
   {
     id: 'razer-nommo-v2-x',
@@ -449,7 +449,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงตั้งโต๊ะ 2.0 ทรงกระบอกสุดเอกลักษณ์ของ Razer ให้มิติเสียงกว้างและเบสแน่นโดยไม่ต้องมีซับวูฟเฟอร์แยก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Nommo V2 X 1 คู่, สาย USB-C to USB-A, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/razer-nommo-v2-x.jpg',
+    image: '/images/catalog/razer-nommo-v2-x.jpg',
   },
   {
     id: 'razer-seiren-v3-chroma',
@@ -464,7 +464,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟนสตรีมมิ่งไฟ Chroma RGB สว่างทั้งตัวไมค์ พร้อมปรับแต่ง Digital Gain Limiter ใน Razer Synapse',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ไมค์ Seiren V3 Chroma, ขาตั้งโต๊ะ, สาย USB-C to USB-A',
-    image: '/src/assets/images/catalog/razer-seiren-v3-chroma.jpg',
+    image: '/images/catalog/razer-seiren-v3-chroma.jpg',
   },
   {
     id: 'razer-seiren-v3-mini',
@@ -479,7 +479,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟน USB ขนาดเล็กกะทัดรัด เสียบใช้คุย Discord และอัดพอดแคสต์ได้เสียงใสเกินราคา',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ไมค์ Seiren V3 Mini, ขาตั้งโต๊ะ, สาย USB-C',
-    image: '/src/assets/images/catalog/razer-seiren-v3-mini.jpg',
+    image: '/images/catalog/razer-seiren-v3-mini.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -498,7 +498,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'สุดยอดหูฟังไร้สายระดับไฮเอนด์ สลับแบตเตอรี่ได้แบบไม่ต้องเสียบสายชาร์จ เชื่อมต่อคอมพิวเตอร์ 2 เครื่องพร้อมกันได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ตัวหูฟัง, Wireless Base Station, แบตเตอรี่ 2 ก้อน, สาย USB-C 2 เส้น, ถุงผ้า',
-    image: '/src/assets/images/catalog/steelseries-arctis-nova-pro-wireless.jpg',
+    image: '/images/catalog/steelseries-arctis-nova-pro-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -514,7 +514,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังมีสายระดับ Audiophile สำหรับเกมเมอร์ที่ต้องการรายละเอียดเสียงความละเอียดสูง 24-bit/96kHz',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Arctis Nova Pro, GameDAC Gen 2, สาย USB-C 2 เส้น, สาย 3.5mm',
-    image: '/src/assets/images/catalog/steelseries-arctis-nova-pro-wired.jpg',
+    image: '/images/catalog/steelseries-arctis-nova-pro-wired.jpg',
   },
   {
     id: 'steelseries-arctis-nova-7-wireless',
@@ -529,7 +529,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายยอดนิยมที่สุดของ SteelSeries เชื่อมต่อ 2 อุปกรณ์พร้อมกันและมีปุ่มปรับบาลานซ์เสียงแชท',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Nova 7, USB-C Compact Dongle, สาย USB-C, สาย 3.5mm',
-    image: '/src/assets/images/catalog/steelseries-arctis-nova-7-wireless.jpg',
+    image: '/images/catalog/steelseries-arctis-nova-7-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -545,7 +545,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายรุ่นใหม่ที่ควบคุม EQ เฉพาะแต่ละเกมได้จากแอปมือถือ พร้อมแบตเตอรี่ยาวนาน 60 ชั่วโมง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Nova 5, USB-C Dongle + ตัวแปลง USB-A, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/steelseries-arctis-nova-5-wireless.jpg',
+    image: '/images/catalog/steelseries-arctis-nova-5-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -561,7 +561,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังมีสายดีไซน์สปอร์ตพร้อมวงแหวนไฟ RGB ใช้งานได้ทั้งคอมพิวเตอร์ มือถือ และเครื่องเกมพกพา',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Nova 3, สาย USB-C, สายแปลง USB-A, สาย 3.5mm',
-    image: '/src/assets/images/catalog/steelseries-arctis-nova-3-wired.jpg',
+    image: '/images/catalog/steelseries-arctis-nova-3-wired.jpg',
   },
   {
     id: 'steelseries-arctis-nova-1-wired',
@@ -576,7 +576,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังมีสายรุ่นเริ่มต้นที่ให้คุณภาพเสียงระดับตระกูล Nova และฟองน้ำผ้านุ่มใส่สบายไม่อับชื้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Nova 1, สาย 3.5mm + PC Splitter',
-    image: '/src/assets/images/catalog/steelseries-arctis-nova-1-wired.jpg',
+    image: '/images/catalog/steelseries-arctis-nova-1-wired.jpg',
   },
   {
     id: 'steelseries-arena-3-speakers',
@@ -591,7 +591,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงเกมมิ่ง 2.0 ไดรเวอร์ขนาด 4 นิ้ว ให้เสียงใสชัดเจนและเบสอิ่มโดยไม่กินพื้นที่วางซับวูฟเฟอร์',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Arena 3 1 คู่, สาย 3.5mm, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/steelseries-arena-3-speakers.jpg',
+    image: '/images/catalog/steelseries-arena-3-speakers.jpg',
   },
   {
     id: 'steelseries-arena-7-speakers',
@@ -606,7 +606,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพง 2.1 ระบบเสียงแยกชิ้น 2 ทางพร้อมซับวูฟเฟอร์ 6.5 นิ้วและไฟ Ambient RGB สวยงามบนโต๊ะคอม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Arena 7 1 คู่, ซับวูฟเฟอร์, สาย USB-C to USB-A, สายไฟ',
-    image: '/src/assets/images/catalog/steelseries-arena-7-speakers.jpg',
+    image: '/images/catalog/steelseries-arena-7-speakers.jpg',
   },
   {
     id: 'steelseries-alias-usb-mic',
@@ -621,7 +621,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟนคอนเดนเซอร์สำหรับสตรีมเมอร์ แคปซูลใหญ่เก็บเนื้อเสียงอุ่นหนา พร้อมไฟ LED บอกระดับเสียงชัดเจน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ไมค์ Alias, ขาตั้งโต๊ะ, อะแดปเตอร์แขนบูม, สาย USB-C',
-    image: '/src/assets/images/catalog/steelseries-alias-usb-mic.jpg',
+    image: '/images/catalog/steelseries-alias-usb-mic.jpg',
   },
   {
     id: 'steelseries-alias-pro-xlr',
@@ -636,7 +636,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดไมโครโฟน XLR พร้อมมิกเซอร์เสียงครบชุดสำหรับสตรีมเมอร์มืออาชีพที่ต้องการควบคุมเสียงทุกแชนแนล',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ไมค์ Alias Pro XLR, Stream Mixer, สาย XLR, สาย USB-C 2 เส้น',
-    image: '/src/assets/images/catalog/steelseries-alias-pro-xlr.jpg',
+    image: '/images/catalog/steelseries-alias-pro-xlr.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -655,7 +655,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงคอมมินิมอลยอดนิยม ใช้สาย USB-C เส้นเดียวทั้งไฟและเสียง ประหยัดพื้นที่โต๊ะแต่ให้มิติเสียงเกินตัว',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพงซ้าย-ขวา, ตัวแปลง USB-C เป็น USB-A, คู่มือ',
-    image: '/src/assets/images/catalog/creative-pebble-v3.jpg',
+    image: '/images/catalog/creative-pebble-v3.jpg',
   },
   {
     id: 'creative-pebble-pro',
@@ -670,7 +670,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพง Pebble รุ่นอัปเกรดเพิ่มไฟ RGB รอบฐานและกำลังขับ 30W RMS ให้เบสลึกกว่าเดิมอย่างชัดเจน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Pebble Pro 1 คู่, สาย USB-C 2 เส้น, สาย AUX',
-    image: '/src/assets/images/catalog/creative-pebble-pro.jpg',
+    image: '/images/catalog/creative-pebble-pro.jpg',
   },
   {
     id: 'creative-pebble-x',
@@ -685,7 +685,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'รุ่นใหม่ล่าสุดของตระกูล Pebble ขยายขนาดไดรเวอร์เป็น 2.75 นิ้ว ให้เวทีเสียงกว้างและเบสแน่นขึ้น',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Pebble X 1 คู่, สาย USB-C 2 เส้น, สาย AUX',
-    image: '/src/assets/images/catalog/creative-pebble-x.jpg',
+    image: '/images/catalog/creative-pebble-x.jpg',
   },
   {
     id: 'creative-pebble-plus-21',
@@ -700,7 +700,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงคู่เล็กพร้อมตู้ซับแยกในงบพันกลาง ได้เสียงเบสลงลึกสำหรับการดูหนังและเล่นเกมบนโต๊ะคอม',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพงซ้าย-ขวา, ตู้ Subwoofer, คู่มือ',
-    image: '/src/assets/images/catalog/creative-pebble-plus-21.jpg',
+    image: '/images/catalog/creative-pebble-plus-21.jpg',
   },
   {
     id: 'creative-pebble-x-plus',
@@ -715,7 +715,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดลำโพง 2.1 RGB รุ่นใหม่ที่ออกแบบซับวูฟเฟอร์ขนาดกะทัดรัดวางข้างจอหรือใต้แท่นวางจอได้พอดี',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Pebble X Plus, Compact Subwoofer, สาย USB-C, สาย AUX',
-    image: '/src/assets/images/catalog/creative-pebble-x-plus.jpg',
+    image: '/images/catalog/creative-pebble-x-plus.jpg',
   },
   {
     id: 'creative-stage-se',
@@ -730,7 +730,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ซาวด์บาร์วางใต้จอคอมพิวเตอร์ที่ให้พลังเสียง 48W Peak พร้อมรีโมทไร้สายในกล่อง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ซาวด์บาร์ Stage SE, รีโมทคอนโทรล, อะแดปเตอร์ไฟ, สาย USB-C',
-    image: '/src/assets/images/catalog/creative-stage-se.jpg',
+    image: '/images/catalog/creative-stage-se.jpg',
   },
   {
     id: 'creative-stage-air-v2',
@@ -745,7 +745,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ซาวด์บาร์ขนาดกะทัดรัดที่มีแบตเตอรี่ในตัว ใช้ได้ทั้งวางหน้าจอคอมและยกไปใช้งานนอกสถานที่',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ซาวด์บาร์ Stage Air V2, สาย USB-C, สาย AUX',
-    image: '/src/assets/images/catalog/creative-stage-air-v2.jpg',
+    image: '/images/catalog/creative-stage-air-v2.jpg',
   },
   {
     id: 'creative-sound-blaster-gs3',
@@ -760,7 +760,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ซาวด์บาร์เกมมิ่งซีรีส์ Sound Blaster มาพร้อมโหมด SuperWide ที่ช่วยให้เสียงโอบล้อมกว้างขึ้นทันที',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ซาวด์บาร์ GS3, สาย USB-C to USB-C',
-    image: '/src/assets/images/catalog/creative-sound-blaster-gs3.jpg',
+    image: '/images/catalog/creative-sound-blaster-gs3.jpg',
   },
   {
     id: 'creative-sound-blaster-katana-v2x',
@@ -775,7 +775,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ซาวด์บาร์เกมมิ่งตัวท็อป 5 ไดรเวอร์พร้อมแอมป์แยกอิสระ 3 ชุดและช่องต่อ HDMI ARC สำหรับจอและคอนโซล',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ซาวด์บาร์ Katana V2X, ตู้ Subwoofer, รีโมท, สาย HDMI/USB-C',
-    image: '/src/assets/images/catalog/creative-sound-blaster-katana-v2x.jpg',
+    image: '/images/catalog/creative-sound-blaster-katana-v2x.jpg',
   },
   {
     id: 'creative-zen-hybrid-pro',
@@ -790,7 +790,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สาย Hybrid ANC ที่รองรับมาตรฐาน Bluetooth LE Audio ความหน่วงต่ำ ใช้ได้ทั้งเกมมิ่งและฟังเพลง',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Zen Hybrid Pro, ก้านไมค์ถอดได้, BT-L3 Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/creative-zen-hybrid-pro.jpg',
+    image: '/images/catalog/creative-zen-hybrid-pro.jpg',
     isWirelessHeadset: true,
   },
 
@@ -810,7 +810,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงเกมมิ่งขนาดกะทัดรัด เบสแน่นกระชับ รองรับซับวูฟเฟอร์เพิ่มได้ พร้อมไฟ RGB แต่งโต๊ะคอมสวยสะดุดตา',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง Edifier G2000 1 คู่, อะแดปเตอร์ไฟ, สาย USB และสาย AUX',
-    image: '/src/assets/images/catalog/edifier-g2000.jpg',
+    image: '/images/catalog/edifier-g2000.jpg',
   },
   {
     id: 'edifier-mr4-studio-monitors',
@@ -825,7 +825,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงมอนิเตอร์สตูดิโอ 2.0 ยอดนิยมอันดับ 1 สำหรับสายตัดต่อวิดีโอ มิกซ์เสียง และฟังเพลงความเที่ยงตรงสูง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง MR4 1 คู่, สายลำโพง, สาย AUX-RCA, สาย AUX-AUX',
-    image: '/src/assets/images/catalog/edifier-mr4-studio-monitors.jpg',
+    image: '/images/catalog/edifier-mr4-studio-monitors.jpg',
   },
   {
     id: 'edifier-r1280dbs',
@@ -840,7 +840,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพง Bookshelf สุดคลาสสิกที่อัปเกรด Bluetooth 5.0 และพอร์ต Sub-Out ต่อเพิ่มซับวูฟเฟอร์ได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง R1280DBs 1 คู่, รีโมท, สาย Optical, สาย RCA-3.5mm',
-    image: '/src/assets/images/catalog/edifier-r1280dbs.jpg',
+    image: '/images/catalog/edifier-r1280dbs.jpg',
   },
   {
     id: 'edifier-r1700bts',
@@ -855,7 +855,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงตั้งโต๊ะ 66W RMS รองรับ aptX HD ให้เสียงร้องชัดใสและเบสนุ่มลึกเหมาะทั้งฟังเพลงและเล่นเกม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง R1700BTs 1 คู่, รีโมทไร้สาย, สายลำโพง, สาย RCA-3.5mm',
-    image: '/src/assets/images/catalog/edifier-r1700bts.jpg',
+    image: '/images/catalog/edifier-r1700bts.jpg',
   },
   {
     id: 'edifier-g1500-max',
@@ -870,7 +870,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงเกมมิ่ง 2.1 ดีไซน์ล้ำยุคพร้อมซับวูฟเฟอร์แยกให้เบสหนักแน่นเกินตัวในราคาคุ้มค่า',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง G1500 Max 1 คู่, Subwoofer, สาย USB และ AUX',
-    image: '/src/assets/images/catalog/edifier-g1500-max.jpg',
+    image: '/images/catalog/edifier-g1500-max.jpg',
   },
   {
     id: 'edifier-g5000',
@@ -885,7 +885,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงเกมมิ่งระดับ Flagship ของ Edifier HECATE ได้รับรอง Hi-Res Audio และกำลังขับ 88W RMS',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง G5000 1 คู่, สายเชื่อมต่อครบชุด, คู่มือ',
-    image: '/src/assets/images/catalog/edifier-g5000.jpg',
+    image: '/images/catalog/edifier-g5000.jpg',
   },
   {
     id: 'edifier-m60',
@@ -900,7 +900,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงตั้งโต๊ะไซส์มินิมอลแต่สเปก Hi-Res เต็มพิกัด ทั้ง LDAC และกำลังขับ 66W RMS พร้อมขาตั้งในกล่อง',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง M60 1 คู่, ขาตั้งอะลูมิเนียม 1 คู่, สาย USB-C, สาย AUX',
-    image: '/src/assets/images/catalog/edifier-m60.jpg',
+    image: '/images/catalog/edifier-m60.jpg',
   },
   {
     id: 'edifier-qr65',
@@ -915,7 +915,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงตั้งโต๊ะที่รวมไฟกระจก Infinity Mirror สุดล้ำและแท่นชาร์จเร็ว 65W GaN ไว้ในตัวเดียว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง QR65 1 คู่, ขาตั้งลำโพง, สาย USB/RCA',
-    image: '/src/assets/images/catalog/edifier-qr65.jpg',
+    image: '/images/catalog/edifier-qr65.jpg',
   },
   {
     id: 'edifier-w820nb-plus',
@@ -930,7 +930,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายครอบหูตัดเสียงรบกวนยอดนิยม ใช้ได้ทั้งต่อสาย USB-C เล่นเกมและต่อบลูทูธฟังเพลง Hi-Res',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง W820NB Plus, สายชาร์จ/ต่อเสียง USB-C',
-    image: '/src/assets/images/catalog/edifier-w820nb-plus.jpg',
+    image: '/images/catalog/edifier-w820nb-plus.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -946,7 +946,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังเกมมิ่งไร้สายดีไซน์พับเก็บได้ เหมาะทั้งเล่นเกมบน PC/มือถือและพกพาไปเรียน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง HECATE G5BT, สาย 3.5mm, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/edifier-hecate-g5bt.jpg',
+    image: '/images/catalog/edifier-hecate-g5bt.jpg',
     isWirelessHeadset: true,
   },
 
@@ -966,7 +966,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายตัวท็อปของ JBL มาพร้อมระบบ Head-Tracking 360 องศาและตัดเสียงรบกวน ANC',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Quantum 910, ไมค์วัดเสียงปรับจูน, USB Dongle, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/jbl-quantum-910-wireless.jpg',
+    image: '/images/catalog/jbl-quantum-910-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -982,7 +982,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สาย ANC ที่เชื่อมต่อ 2.4GHz และ Bluetooth ได้พร้อมกัน พร้อมเสียงเบสและมิติจาก JBL QuantumSOUND',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Quantum 810, USB Wireless Dongle, สาย USB-C, สาย 3.5mm',
-    image: '/src/assets/images/catalog/jbl-quantum-810-wireless.jpg',
+    image: '/images/catalog/jbl-quantum-810-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -998,7 +998,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สาย 2.4GHz เสียงรอบทิศทางทรงพลัง ฟองน้ำ Memory Foam หุ้มหนังใส่สบาย',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Quantum 610, USB Wireless Adapter, สาย USB-C, สาย 3.5mm',
-    image: '/src/assets/images/catalog/jbl-quantum-610-wireless.jpg',
+    image: '/images/catalog/jbl-quantum-610-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1014,7 +1014,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สาย Dual Wireless ราคาคุ้มค่า ฟองน้ำผ้าโปร่งสบายไม่ร้อนหูแม้ไม่เปิดแอร์',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Quantum 360, ไมค์ถอดได้, USB Dongle, สาย USB-C',
-    image: '/src/assets/images/catalog/jbl-quantum-360-wireless.jpg',
+    image: '/images/catalog/jbl-quantum-360-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1030,7 +1030,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังมีสายที่ครบเครื่องเรื่องมิติเสียงเซอร์ราวด์และการปรับเสียงแชท Discord กับเสียงเกมแยกกัน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Quantum 400, สาย USB-C to USB-A, สาย 3.5mm',
-    image: '/src/assets/images/catalog/jbl-quantum-400-wired.jpg',
+    image: '/images/catalog/jbl-quantum-400-wired.jpg',
   },
   {
     id: 'jbl-quantum-100m2',
@@ -1045,7 +1045,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังเกมมิ่งมีสายรุ่นเริ่มต้นของ JBL อัปเกรดฟองน้ำผ้า M2 ใส่สบายไม่อับหูและถอดไมค์ออกได้',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Quantum 100 M2, ไมค์ถอดได้, ฟองน้ำกันลม',
-    image: '/src/assets/images/catalog/jbl-quantum-100m2.jpg',
+    image: '/images/catalog/jbl-quantum-100m2.jpg',
   },
   {
     id: 'jbl-quantum-duo-speakers',
@@ -1060,7 +1060,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงเกมมิ่ง 2.0 ระดับพรีเมียมของ JBL แยกทวีตเตอร์และวูฟเฟอร์ให้รายละเอียดเสียงเกมและเพลงคมชัดมาก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Quantum Duo 1 คู่, สาย USB, สาย AUX, สายไฟ',
-    image: '/src/assets/images/catalog/jbl-quantum-duo-speakers.jpg',
+    image: '/images/catalog/jbl-quantum-duo-speakers.jpg',
   },
   {
     id: 'jbl-quantum-stream-usb',
@@ -1075,7 +1075,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟน USB ดีไซน์โลหะพรีเมียม สลับรับเสียงคนเดียวหรือรอบวงประชุม/พอดแคสต์ได้ทันที',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ไมค์ Quantum Stream, ขาตั้งโลหะ, สาย USB-C to USB-A',
-    image: '/src/assets/images/catalog/jbl-quantum-stream-usb.jpg',
+    image: '/images/catalog/jbl-quantum-stream-usb.jpg',
   },
   {
     id: 'jbl-quantum-stream-studio',
@@ -1090,7 +1090,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมค์สตรีมมิ่งรุ่นเรือธงจาก JBL รองรับสูงสุดถึง 192kHz/24-bit พร้อม 3 แคปซูลปรับรูปแบบเสียงได้ 4 โหมด',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ไมค์ Quantum Stream Studio, ขาตั้งโต๊ะ, สาย USB-C',
-    image: '/src/assets/images/catalog/jbl-quantum-stream-studio.jpg',
+    image: '/images/catalog/jbl-quantum-stream-studio.jpg',
   },
   {
     id: 'jbl-quantum-stream-talk',
@@ -1105,7 +1105,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟน USB รุ่นประหยัดขนาดเล็ก น้ำหนักเบา เสียงใสคมชัดสำหรับคุยเกมและเรียนออนไลน์',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ไมค์ Quantum Stream Talk, สาย USB-C',
-    image: '/src/assets/images/catalog/jbl-quantum-stream-talk.jpg',
+    image: '/images/catalog/jbl-quantum-stream-talk.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -1124,7 +1124,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายเรือธงรุ่นใหม่จาก ROG ที่ฟังเสียงเกมและรับสายมือถือพร้อมกันได้ แบตเตอรี่อึดถึง 110 ชม.',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง ROG Delta II, ไมค์ถอดได้, ฟองน้ำผ้า+หนัง, USB-C Dongle, สายชาร์จ',
-    image: '/src/assets/images/catalog/asus-rog-delta-ii.jpg',
+    image: '/images/catalog/asus-rog-delta-ii.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1140,7 +1140,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายทรงตัว D กระชับใบหูพร้อมไมค์ AI ซ่อนในตัว ใส่เล่นเกมหรือออกไปฟังเพลงข้างนอกก็ดูเรียบเท่',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง ROG Delta S Wireless, ฟองน้ำสำรอง ROG Hybrid, USB-C Dongle + Adapter',
-    image: '/src/assets/images/catalog/asus-rog-delta-s-wireless.jpg',
+    image: '/images/catalog/asus-rog-delta-s-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1156,7 +1156,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟัง USB-C ระดับ Audiophile มีชิป Quad DAC ในตัวพร้อมจอ LED AniMe Matrix ปรับแต่งภาพกราฟิกข้างหูฟังได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง ROG Delta S Animate, ไมค์ถอดได้, ฟองน้ำสำรอง, อะแดปเตอร์ USB-C to USB-A',
-    image: '/src/assets/images/catalog/asus-rog-delta-s-animate.jpg',
+    image: '/images/catalog/asus-rog-delta-s-animate.jpg',
   },
   {
     id: 'asus-rog-pelta',
@@ -1171,7 +1171,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายน้ำหนักเบาใส่สบายหัวไม่บีบ พร้อมไมค์ Super-Wideband พูดเสียงใสเหมือนคุยใกล้ๆ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง ROG Pelta, ไมค์ถอดได้, ROG Receiver, สายชาร์จ USB-C',
-    image: '/src/assets/images/catalog/asus-rog-pelta.jpg',
+    image: '/images/catalog/asus-rog-pelta.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1187,7 +1187,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังเกมมิ่ง In-Ear ไร้สายที่เชื่อม 2.4GHz ความหน่วงต่ำกับ PC/PS5/มือถือ และต่อ Bluetooth รับสายพร้อมกันได้',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง ROG Cetra SpeedNova + เคสชาร์จ, USB-C Dongle, จุกยาง 3 ขนาด, สาย USB-C',
-    image: '/src/assets/images/catalog/asus-rog-cetra-tws-speednova.jpg',
+    image: '/images/catalog/asus-rog-cetra-tws-speednova.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1203,7 +1203,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สาย TWS สำหรับเกมเมอร์มือถือและพกพาไปเรียน พร้อมระบบตัดเสียงรบกวน ANC และไฟโลโก้ ROG',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง ROG Cetra TWS, เคสชาร์จ, จุกยางสำรอง, สาย USB-C',
-    image: '/src/assets/images/catalog/asus-rog-cetra-true-wireless.jpg',
+    image: '/images/catalog/asus-rog-cetra-true-wireless.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1219,7 +1219,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังระดับไฮไฟที่มีชิป ESS Quad DAC และตัวคุม Game-Chat Balance ใช้งานได้ตั้งแต่ PC ยันเครื่องเกมพกพา',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Fusion II 500, ฟองน้ำสำรอง ROG Hybrid, สาย 3.5mm, อะแดปเตอร์ USB-C to A',
-    image: '/src/assets/images/catalog/asus-rog-fusion-ii-500.jpg',
+    image: '/images/catalog/asus-rog-fusion-ii-500.jpg',
   },
   {
     id: 'asus-rog-strix-go-24',
@@ -1234,7 +1234,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายแบบพับได้พร้อมกระเป๋าพกพา เชื่อมต่อ 2.4GHz USB-C ได้ทั้งคอมพิวเตอร์และมือถือ/Switch',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Strix Go 2.4, เคสพกพาแข็ง, ไมค์ถอดได้, USB-C Dongle, สาย 3.5mm',
-    image: '/src/assets/images/catalog/asus-rog-strix-go-24.jpg',
+    image: '/images/catalog/asus-rog-strix-go-24.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1250,7 +1250,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟนสตูดิโอตัวท็อปของ ROG แคปซูลใหญ่ 25 มม. ให้เสียงพูดนุ่มลึกเป็นมืออาชีพพร้อม Pop Filter ในตัว',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมค์ ROG Carnyx, ขาตั้ง Shock Mount, สาย USB-C ยาว 3 เมตร',
-    image: '/src/assets/images/catalog/asus-rog-carnyx.jpg',
+    image: '/images/catalog/asus-rog-carnyx.jpg',
   },
   {
     id: 'asus-rog-strix-magnus',
@@ -1265,7 +1265,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ไมโครโฟนดีไซน์เฉพาะตัวจาก ROG ที่ตัดเสียงกดคีย์บอร์ดเมคานิคอลด้วยระบบ ENC และไม่บังหน้าจอขณะเล่นเกม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ไมค์ ROG Strix Magnus, กระเป๋าพกพา, สาย USB 3.0',
-    image: '/src/assets/images/catalog/asus-rog-strix-magnus.jpg',
+    image: '/images/catalog/asus-rog-strix-magnus.jpg',
   },
 
   // -------------------------------------------------------------------------
@@ -1284,7 +1284,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ชุดลำโพง 5.1 เซอร์ราวด์ระดับตำนานมาตรฐาน THX ให้เสียงโอบล้อมสมจริงทั้งดูหนัง ฟังเพลง และเล่นเกม',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพง 5 ตัว, Subwoofer, Control Console, รีโมทไร้สาย, สายลำโพงครบชุด',
-    image: '/src/assets/images/catalog/logitech-z906.jpg',
+    image: '/images/catalog/logitech-z906.jpg',
   },
   {
     id: 'logitech-z623',
@@ -1299,7 +1299,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพง 2.1 พลังเสียงทรงพลังระดับ THX เบสกระหึ่มเต็มห้องแต่ตั้งโต๊ะได้ไม่เกะกะ',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'ลำโพงซ้าย-ขวา, ซับวูฟเฟอร์ Z623, สายสัญญาณ 3.5mm',
-    image: '/src/assets/images/catalog/logitech-z623.jpg',
+    image: '/images/catalog/logitech-z623.jpg',
   },
   {
     id: 'logitech-z407',
@@ -1314,7 +1314,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพง 2.1 ดีไซน์โมเดิร์นวางได้ทั้งแนวตั้งและแนวนอน พร้อมแป้นหมุนไร้สายวางคุมเสียงและเบสบนโต๊ะได้สะดวกมาก',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Satellite 2 ตัว, ซับวูฟเฟอร์, แป้นหมุนไร้สาย Dial, สาย AUX, ถ่าน AAA',
-    image: '/src/assets/images/catalog/logitech-z407.jpg',
+    image: '/images/catalog/logitech-z407.jpg',
   },
   {
     id: 'logitech-z313',
@@ -1329,7 +1329,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพง 2.1 รุ่นยอดฮิตราคาประหยัด ให้เสียงเบสนุ่มฟังสนุกกว่าลำโพง 2.0 ทั่วไป พร้อม Pod ปรับเสียงบนโต๊ะ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง 2 ตัว, ซับวูฟเฟอร์พร้อมสาย Pod ควบคุม',
-    image: '/src/assets/images/catalog/logitech-z313.jpg',
+    image: '/images/catalog/logitech-z313.jpg',
   },
   {
     id: 'logitech-z207',
@@ -1344,7 +1344,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงตั้งโต๊ะ 2.0 สลับฟังเพลงจากมือถือและเสียงเกมจากคอมพิวเตอร์ได้ไร้รอยต่อด้วย Easy-Switch',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Logitech Z207 1 คู่, สาย 3.5mm, อะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/logitech-z207.jpg',
+    image: '/images/catalog/logitech-z207.jpg',
   },
   {
     id: 'logitech-z150',
@@ -1359,7 +1359,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'ลำโพงตั้งโต๊ะไซส์เล็กราคาประหยัดจาก Logitech ให้เสียงพูดและเสียงเรียนออนไลน์ชัดเจนไม่แตกพร่า',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'ลำโพง Logitech Z150 1 คู่ พร้อมอะแดปเตอร์ไฟ',
-    image: '/src/assets/images/catalog/logitech-z150.jpg',
+    image: '/images/catalog/logitech-z150.jpg',
   },
   {
     id: 'logitech-h390',
@@ -1374,7 +1374,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟัง USB มาตรฐานยอดนิยมสำหรับการเรียนออนไลน์ ประชุม Zoom และทำงานคอลเซ็นเตอร์ ใช้งานง่ายทนทาน',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Logitech H390 USB',
-    image: '/src/assets/images/catalog/logitech-h390.jpg',
+    image: '/images/catalog/logitech-h390.jpg',
   },
   {
     id: 'logitech-h540',
@@ -1389,7 +1389,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟัง USB อัปเกรดคุณภาพเสียง HD ทั้งการฟังเพลงและประชุมออนไลน์ พร้อมปุ่มควบคุมบนตัวครอบหู',
     warranty: 'รับประกันศูนย์ไทย 2 ปี',
     boxContents: 'หูฟัง Logitech H540 USB',
-    image: '/src/assets/images/catalog/logitech-h540.jpg',
+    image: '/images/catalog/logitech-h540.jpg',
   },
   {
     id: 'logitech-zone-vibe-100',
@@ -1404,7 +1404,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังบลูทูธไร้สายน้ำหนักเบา 185 กรัม ออกแบบให้ดูสวยสไตล์ไลฟ์สไตล์แต่มีไมค์ก้านพับซ่อนได้สำหรับประชุมงาน',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Zone Vibe 100, สายชาร์จ USB-C, ถุงผ้าพกพา',
-    image: '/src/assets/images/catalog/logitech-zone-vibe-100.jpg',
+    image: '/images/catalog/logitech-zone-vibe-100.jpg',
     isWirelessHeadset: true,
   },
   {
@@ -1420,7 +1420,7 @@ export const AUDIO_AND_MICS_PRODUCTS: Product[] = [
     descriptionTh: 'หูฟังไร้สายน้ำหนักเบา 122 กรัมสำหรับสาย Work From Anywhere และนักศึกษา คุยชัดเจนแม้ทำงานในร้านกาแฟ',
     warranty: 'รับประกันศูนย์ไทย 1 ปี',
     boxContents: 'หูฟัง Logitech Zone 300, สายชาร์จ USB-C to USB-C',
-    image: '/src/assets/images/catalog/logitech-zone-300.jpg',
+    image: '/images/catalog/logitech-zone-300.jpg',
     isWirelessHeadset: true,
   },
 ];

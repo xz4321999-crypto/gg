@@ -111,6 +111,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                       src={item.product.image}
                       alt={item.product.name}
                       category={item.product.category}
+                      loading="eager"
                       className="h-full w-full object-cover"
                     />
                   </div>

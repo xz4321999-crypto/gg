@@ -126,13 +126,13 @@ const DESK_SETUPS = [
     title: 'Night Coder & Designer Studio',
     owner: 'ผลงานจัดโต๊ะทำงานและเรียนออนไลน์ถนอมสายตา',
     gearSummary: 'BenQ ScreenBar Halo 2 + Ergotron LX Arm + Logitech MX Master 3S',
-    image: '/src/assets/images/prod_monitor_light_bar_1794897706346.jpg',
+    image: '/images/store/setup-lightbar.jpg',
   },
   {
     title: 'Creator & Streaming Command Station',
     owner: 'ผลงานจัดชุดสตรีมมิ่งเสียงใสระดับสตูดิโอ',
     gearSummary: 'Elgato Stream Deck MK.2 + HyperX QuadCast S + HyperX Cloud III',
-    image: '/src/assets/images/prod_stream_deck_mk2_1794897707453.jpg',
+    image: '/images/store/setup-streamdeck.jpg',
   },
 ];
 
@@ -221,7 +221,8 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <img
                     src={STORE_ASSETS.logo}
                     alt="GEAR PRO STORE Logo"
-                    referrerPolicy="no-referrer"
+                    loading="eager"
+                    decoding="async"
                     className="h-20 w-20 shrink-0 rounded-xl border-2 border-[#D6B45A] object-cover shadow-[0_0_22px_rgba(214,180,90,0.3)] sm:h-24 sm:w-24"
                   />
                   <div>
@@ -294,7 +295,8 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <img
                     src={STORE_ASSETS.hero}
                     alt="โปรโมชั่นอุปกรณ์เกมมิ่งเกียร์และอุปกรณ์จัดโต๊ะคอม GEAR PRO STORE"
-                    referrerPolicy="no-referrer"
+                    loading="eager"
+                    decoding="async"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -324,6 +326,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                         src={product.image}
                         alt={product.name}
                         category={product.category}
+                        loading="eager"
                         className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
                       />
                     </div>
@@ -462,7 +465,8 @@ export const HomePage: React.FC<HomePageProps> = ({
                       <img
                         src={cat.image}
                         alt={cat.titleTh}
-                        referrerPolicy="no-referrer"
+                        loading="lazy"
+                        decoding="async"
                         className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
                       />
                     </div>
@@ -576,7 +580,8 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <img
                       src={setup.image}
                       alt={setup.title}
-                      referrerPolicy="no-referrer"
+                      loading="lazy"
+                      decoding="async"
                       className="h-full w-full object-cover"
                     />
                   </div>
@@ -804,7 +809,8 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <img
                   src={STORE_ASSETS.storefront}
                   alt="หน้าร้าน GEAR PRO STORE วิทยาลัยอาชีวศึกษาเอเซีย"
-                  referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                   className="h-full w-full object-cover"
                 />
                 <div className="absolute right-3 bottom-3 left-3 rounded-lg border border-[#D6B45A] bg-[#0B192C]/90 px-4 py-2.5 backdrop-blur-sm">

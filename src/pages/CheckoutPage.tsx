@@ -226,7 +226,8 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
           <img
             src={STORE_ASSETS.logo}
             alt="GEAR PRO STORE"
-            referrerPolicy="no-referrer"
+            loading="eager"
+            decoding="async"
             className="h-20 w-20 shrink-0 rounded-xl border-2 border-[#D6B45A] object-cover"
           />
           <div>
@@ -301,6 +302,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                           src={item.product.image}
                           alt={item.product.name}
                           category={item.product.category}
+                          loading="eager"
                           className="h-full w-full object-cover"
                         />
                       </div>
