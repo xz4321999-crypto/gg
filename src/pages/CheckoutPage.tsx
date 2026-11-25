@@ -269,7 +269,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
               <div className="py-8 text-center">
                 <p className="text-sm font-medium text-white">ตะกร้าสินค้าของคุณยังว่างอยู่</p>
                 <p className="mt-1 text-xs text-[#CBD5E1]">
-                  กดเพิ่มอุปกรณ์ขายดีด้านล่าง หรือเลือกชมสินค้าทั้ง 40 รุ่น
+                  กดเพิ่มอุปกรณ์ขายดีด้านล่าง หรือเลือกชมสินค้าทั้ง {PRODUCTS.length} รุ่น
                 </p>
 
                 <div className="mt-5 grid grid-cols-1 gap-2.5 text-left sm:grid-cols-2">

@@ -36,7 +36,7 @@ const USAGE_PROFILES = [
   {
     id: 'stream',
     label: 'สตรีมมิ่ง และทำคอนเทนต์',
-    recommendedIds: ['elgato-stream-deck-mk2', 'hyperx-quadcast-s', 'elgato-wave-3'],
+    recommendedIds: ['elgato-stream-deck-mk2', 'hyperx-quadcast-s', 'jbl-quantum-stream-studio'],
   },
   {
     id: 'desk',
@@ -433,7 +433,7 @@ export const QuotationModal: React.FC<QuotationModalProps> = ({
           {/* Add Product Selector */}
           <div className="rounded-lg border border-[#D6B45A]/45 bg-[#0B192C] p-4">
             <label htmlFor="quote-product-select" className="block text-xs font-semibold text-[#D6B45A]">
-              เลือกเพิ่มอุปกรณ์ลงในรายการใบเสนอราคา (40 รุ่นแท้)
+              เลือกเพิ่มอุปกรณ์ลงในรายการใบเสนอราคา ({PRODUCTS.length} รุ่นแท้)
             </label>
             <div className="mt-2 flex flex-col gap-2 sm:flex-row">
               <select

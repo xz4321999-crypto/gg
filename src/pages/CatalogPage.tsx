@@ -30,8 +30,17 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
   onNavigate,
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedBrand, setSelectedBrand] = useState<string>('ALL');
   const [sortBy, setSortBy] = useState<'default' | 'price-asc' | 'price-desc'>('default');
   const [addedMap, setAddedMap] = useState<Record<string, boolean>>({});
+
+  const availableBrands = useMemo(() => {
+    const scoped =
+      selectedCategory === CategoryId.All
+        ? PRODUCTS
+        : PRODUCTS.filter((p) => p.category === selectedCategory);
+    return Array.from(new Set(scoped.map((p) => p.brand)));
+  }, [selectedCategory]);
 
   const handleQuickAdd = (product: Product) => {
     onAddToCart(product, 1);
@@ -45,13 +54,14 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
     const q = searchQuery.trim().toLowerCase();
     let list = PRODUCTS.filter((p) => {
       const matchCategory = selectedCategory === CategoryId.All || p.category === selectedCategory;
+      const matchBrand = selectedBrand === 'ALL' || p.brand === selectedBrand;
       const matchQuery =
         !q ||
         p.name.toLowerCase().includes(q) ||
         p.brand.toLowerCase().includes(q) ||
         p.descriptionTh.toLowerCase().includes(q) ||
         p.specs.some((s) => s.toLowerCase().includes(q));
-      return matchCategory && matchQuery;
+      return matchCategory && matchBrand && matchQuery;
     });
 
     if (sortBy === 'price-asc') {
@@ -60,7 +70,7 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
       list = [...list].sort((a, b) => b.price - a.price);
     }
     return list;
-  }, [selectedCategory, searchQuery, sortBy]);
+  }, [selectedCategory, selectedBrand, searchQuery, sortBy]);
 
   const activeCategoryMeta = CATEGORIES.find((c) => c.id === selectedCategory) ?? CATEGORIES[0];
 
@@ -90,7 +100,7 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
 
                 <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#CBD5E1] sm:text-base">
                   คัดสรรเฉพาะอุปกรณ์ต่อพ่วงคอมพิวเตอร์ของแท้ 100% ทั้งเมาส์ไร้สาย คีย์บอร์ดเมคานิคอล
-                  หูฟัง ไมโครโฟนสตูดิโอ และอุปกรณ์จัดโต๊ะคอม ครบ 4 หมวดหมู่ 40 รุ่นพร้อมรับประกันศูนย์ไทย
+                  หูฟัง ไมโครโฟนสตูดิโอ และอุปกรณ์จัดโต๊ะคอม ครบ 4 หมวดหมู่ {PRODUCTS.length} รุ่นพร้อมรับประกันศูนย์ไทย
                 </p>
               </div>
 
@@ -100,7 +110,7 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
                   onClick={scrollToCatalog}
                   className="inline-flex min-h-[44px] items-center gap-2 rounded-lg border border-[#D6B45A] bg-gradient-to-r from-[#2196F3] to-[#D946EF] px-6 py-2.5 text-sm font-semibold text-white transition-all hover:brightness-110"
                 >
-                  <span>เลือกชมสินค้าทั้งหมด (40 รุ่น)</span>
+                  <span>เลือกชมสินค้าทั้งหมด ({PRODUCTS.length} รุ่น)</span>
                   <ArrowRight className="h-4 w-4" />
                 </button>
                 <button
@@ -125,7 +135,7 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
           {/* 4-Column Store Highlights Strip */}
           <div className="mt-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
             <div className="rounded-lg border border-[#D6B45A]/45 bg-[#152A42] px-4 py-3.5">
-              <p className="font-mono-num text-lg font-bold text-[#D6B45A]">40 รุ่นแท้</p>
+              <p className="font-mono-num text-lg font-bold text-[#D6B45A]">{PRODUCTS.length} รุ่นแท้</p>
               <p className="mt-0.5 text-xs text-[#CBD5E1]">อุปกรณ์ต่อพ่วงและจัดโต๊ะคอม 4 หมวด</p>
             </div>
             <div className="rounded-lg border border-[#D6B45A]/45 bg-[#152A42] px-4 py-3.5">
@@ -151,7 +161,7 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
         onSelectProduct={onSelectProduct}
       />
 
-      {/* Full Catalog Section (4 Sub-Categories, 10 items each = 40 items) */}
+      {/* Full Catalog Section (4 Sub-Categories, 10 real items per brand) */}
       <section id="catalog-browser" className="py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-between gap-4 md:flex-row md:items-end">
@@ -179,6 +189,22 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
                   aria-label="ค้นหาสินค้า"
                   className="h-10 w-full rounded-lg border border-[#D6B45A]/50 bg-[#152A42] pr-3 pl-9 text-sm text-white placeholder-[#CBD5E1]/70 focus:border-[#00E5FF] focus:outline-none"
                 />
+              </div>
+
+              <div className="flex items-center gap-2 rounded-lg border border-[#D6B45A]/50 bg-[#152A42] px-3 h-10">
+                <select
+                  value={selectedBrand}
+                  onChange={(e) => setSelectedBrand(e.target.value)}
+                  aria-label="กรองตามยี่ห้อ"
+                  className="bg-transparent text-xs font-medium text-white focus:outline-none"
+                >
+                  <option value="ALL" className="bg-[#0B192C]">ทุกยี่ห้อ ({availableBrands.length})</option>
+                  {availableBrands.map((brand) => (
+                    <option key={brand} value={brand} className="bg-[#0B192C]">
+                      {brand}
+                    </option>
+                  ))}
+                </select>
               </div>
 
               <div className="flex items-center gap-2 rounded-lg border border-[#D6B45A]/50 bg-[#152A42] px-3 h-10">
@@ -213,7 +239,10 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
                   role="tab"
                   aria-selected={isSelected}
                   type="button"
-                  onClick={() => onSelectCategory(cat.id)}
+                  onClick={() => {
+                    setSelectedBrand('ALL');
+                    onSelectCategory(cat.id);
+                  }}
                   className={`min-h-[40px] rounded-lg px-4 py-2 text-xs font-semibold whitespace-nowrap transition-all duration-150 sm:text-sm ${
                     isSelected
                       ? 'border border-[#D6B45A] bg-[#0B192C] text-[#D6B45A] shadow-[0_0_12px_rgba(214,180,90,0.2)]'
@@ -238,11 +267,12 @@ export const CatalogPage: React.FC<CatalogPageProps> = ({
                 type="button"
                 onClick={() => {
                   setSearchQuery('');
+                  setSelectedBrand('ALL');
                   onSelectCategory(CategoryId.All);
                 }}
                 className="mt-5 rounded-lg border border-[#D6B45A] bg-[#0B192C] px-5 py-2 text-sm font-semibold text-[#D6B45A] hover:border-[#00E5FF] hover:text-white"
               >
-                แสดงสินค้าทั้งหมด 40 รุ่น
+                แสดงสินค้าทั้งหมด {PRODUCTS.length} รุ่น
               </button>
             </div>
           ) : (

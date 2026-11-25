@@ -11,6 +11,7 @@ import { PrivacyPolicyModal } from './components/PrivacyPolicyModal';
 import { ProductModal } from './components/ProductModal';
 import { PRODUCTS } from './data/catalog';
 import { CatalogPage } from './pages/CatalogPage';
+import { CategoriesBrandsPage } from './pages/CategoriesBrandsPage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { ContactPage } from './pages/ContactPage';
 import { HomePage } from './pages/HomePage';
@@ -131,6 +132,19 @@ export default function App() {
           <CatalogPage
             selectedCategory={selectedCategory}
             onSelectCategory={setSelectedCategory}
+            onAddToCart={handleAddToCart}
+            onSelectProduct={setModalProduct}
+            onNavigate={setActivePage}
+          />
+        )}
+
+        {activePage === PageId.CategoriesBrands && (
+          <CategoriesBrandsPage
+            initialCategory={
+              selectedCategory === CategoryId.All
+                ? CategoryId.MiceAndPads
+                : selectedCategory
+            }
             onAddToCart={handleAddToCart}
             onSelectProduct={setModalProduct}
             onNavigate={setActivePage}

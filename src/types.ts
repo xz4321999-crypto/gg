@@ -1,6 +1,7 @@
 export enum PageId {
   Home = 'home',
   Catalog = 'catalog',
+  CategoriesBrands = 'categories-brands',
   Promotions = 'promotions',
   Checkout = 'checkout',
   Contact = 'contact',

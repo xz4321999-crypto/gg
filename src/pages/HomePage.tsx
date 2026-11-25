@@ -23,7 +23,7 @@ import {
   Star,
   Truck,
 } from 'lucide-react';
-import { PRODUCTS, STORE_ASSETS, STORE_CONTACT } from '../data/catalog';
+import { CATEGORIES, PRODUCTS, STORE_ASSETS, STORE_CONTACT } from '../data/catalog';
 import { CartItem, CategoryId, PageId, Product } from '../types';
 import { formatThb } from '../utils/promotions';
 import { ConsultationModal, QuotationModal } from '../components/HomepageModals';
@@ -55,7 +55,7 @@ const FEATURED_CATEGORIES = [
     titleTh: 'คีย์บอร์ดและปุ่มกด',
     titleEn: 'Mechanical Keyboards & Keycaps',
     description:
-      'คีย์บอร์ดไร้สาย 65% / 75% / TKL รองรับ QMK/VIA และคีย์แคป PBT สีคมชัดพร้อมสายถัก Aviator',
+      'คีย์บอร์ดไร้สาย 65% / 75% / TKL รองรับ QMK/VIA และชุดคีย์แคป Double-Shot PBT สีคมชัด',
     image: STORE_ASSETS.keyboardsCaps,
     icon: Keyboard,
     accent: '#D6B45A',
@@ -75,7 +75,7 @@ const FEATURED_CATEGORIES = [
     titleTh: 'อุปกรณ์จัดโต๊ะคอมและสายเชื่อมต่อ',
     titleEn: 'Desk Setup, Hubs & Cables',
     description:
-      'แขนจับจอ Monitor Arm โคมไฟติดหน้าจอถนอมสายตา USB-C Hub 100W และสาย HDMI 2.1 / LAN Cat 8',
+      'แขนจับจอ Monitor Arm โคมไฟติดหน้าจอถนอมสายตา USB-C Hub 100W แท่นชาร์จ GaN และสาย HDMI 2.1 / DisplayPort 1.4 / LAN Cat 8',
     image: STORE_ASSETS.deskSetupHubs,
     icon: MonitorCog,
     accent: '#2196F3',
@@ -150,7 +150,7 @@ const BRAND_PARTNERS = [
 const PROCESS_STEPS = [
   {
     step: '01',
-    title: 'เลือกสินค้าจาก 40 รุ่นแท้',
+    title: `เลือกสินค้าจาก ${PRODUCTS.length} รุ่นแท้`,
     detail: 'คัดกรองจาก 4 หมวดหมู่อุปกรณ์เสริมและเกมมิ่งเกียร์ เปรียบเทียบสเปกและราคาชัดเจน',
     icon: ShoppingBag,
   },
@@ -248,7 +248,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <div className="mt-6 grid grid-cols-3 gap-3 border-t border-white/10 pt-5">
                   <div>
                     <p className="font-mono-num text-lg font-bold text-[#D6B45A] sm:text-xl">
-                      40 รุ่น
+                      {PRODUCTS.length} รุ่น
                     </p>
                     <p className="text-xs text-[#CBD5E1]">อุปกรณ์ต่อพ่วงแท้</p>
                   </div>
@@ -436,7 +436,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               onClick={() => onBrowseCategory(CategoryId.All)}
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#00E5FF] hover:text-white"
             >
-              <span>ดูสินค้าทั้งหมด 40 รุ่น</span>
+              <span>ดูสินค้าทั้งหมด {PRODUCTS.length} รุ่น</span>
               <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -455,7 +455,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   key={cat.id}
                   type="button"
                   onClick={() => onBrowseCategory(cat.id)}
-                  className="group flex flex-col justify-between overflow-hidden rounded-xl border border-[#D6B45A]/80 bg-[#152A42] text-left transition-all duration-150 hover:-translate-y-1 hover:border-[#00E5FF] hover:shadow-[0_12px_28px_rgba(33,150,243,0.2)]"
+                  className="group flex cursor-pointer flex-col justify-between overflow-hidden rounded-xl border border-[#D6B45A]/80 bg-[#152A42] text-left transition-all duration-150 hover:-translate-y-1 hover:border-[#00E5FF] hover:shadow-[0_12px_28px_rgba(33,150,243,0.2)]"
                 >
                   <div>
                     <div className="aspect-[4/3] w-full overflow-hidden border-b border-[#D6B45A]/35 bg-[#0B192C]">
@@ -475,7 +475,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                           <Icon className="h-5 w-5" />
                         </div>
                         <span className="font-mono-num text-xs font-semibold text-[#D6B45A]">
-                          10 รุ่นแท้
+                          {CATEGORIES.find((c) => c.id === cat.id)?.count ?? 0} รุ่นแท้
                         </span>
                       </div>
                       <h3 className="mt-3 font-display text-base font-bold text-white group-hover:text-[#00E5FF]">

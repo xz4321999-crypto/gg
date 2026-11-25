@@ -71,6 +71,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPrivacyPolicy 
               <li>
                 <button
                   type="button"
+                  onClick={() => handleNav(PageId.CategoriesBrands)}
+                  className="hover:text-white transition-colors"
+                >
+                  หมวดหมู่ &amp; ยี่ห้อ
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
                   onClick={() => handleNav(PageId.Promotions)}
                   className="hover:text-white transition-colors"
                 >

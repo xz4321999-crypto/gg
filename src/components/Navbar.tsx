@@ -13,6 +13,7 @@ interface NavbarProps {
 const NAV_ITEMS: { id: PageId; label: string }[] = [
   { id: PageId.Home, label: 'หน้าแรก' },
   { id: PageId.Catalog, label: 'สินค้าทั้งหมด' },
+  { id: PageId.CategoriesBrands, label: 'หมวดหมู่ & ยี่ห้อ' },
   { id: PageId.Promotions, label: 'โปรโมชั่นมาแรง' },
   { id: PageId.Checkout, label: 'คำสั่งซื้อ' },
   { id: PageId.Contact, label: 'ติดต่อเรา' },
@@ -52,10 +53,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           </span>
         </button>
 
-        {/* Zone 2: 4 Clean Single-line Nav Links */}
+        {/* Zone 2: Single-line Nav Links */}
         <nav
           aria-label="เมนูหลัก"
-          className="hidden md:flex items-center gap-7"
+          className="hidden lg:flex items-center gap-5 xl:gap-7"
         >
           {NAV_ITEMS.map((item) => {
             const isActive = activePage === item.id;
@@ -99,7 +100,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setMobileMenuOpen((prev) => !prev)}
             aria-label={mobileMenuOpen ? 'ปิดเมนู' : 'เปิดเมนู'}
             aria-expanded={mobileMenuOpen}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-[#D6B45A]/40 bg-[#152A42] text-white md:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-[#D6B45A]/40 bg-[#152A42] text-white lg:hidden"
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
@@ -110,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       {mobileMenuOpen && (
         <nav
           aria-label="เมนูมือถือ"
-          className="border-t border-[#D6B45A]/30 bg-[#0B192C] px-4 py-3 md:hidden"
+          className="border-t border-[#D6B45A]/30 bg-[#0B192C] px-4 py-3 lg:hidden"
         >
           <div className="flex flex-col gap-1">
             {NAV_ITEMS.map((item) => {
